@@ -7,6 +7,7 @@ namespace Overview
         public Form1()
         {
             InitializeComponent();
+
             var arrd = panel1.Back.DarkColors(3, 40);
             var arrl = panel1.Back.LightColors(3, 40);
             label2.BackColor = arrd[0];
