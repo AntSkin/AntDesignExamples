@@ -1,0 +1,3 @@
+[submodule "AntDesign"]
+	path = AntDesign
+	url = https://github.com/oxdragon/AntDesign.git
