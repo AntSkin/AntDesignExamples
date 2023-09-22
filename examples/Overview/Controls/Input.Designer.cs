@@ -35,45 +35,63 @@
             input5 = new AntDesign.Input();
             input6 = new AntDesign.Input();
             header1 = new AntDesign.Header();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            flowLayoutPanel1.SuspendLayout();
+            panel1 = new System.Windows.Forms.Panel();
+            panel3 = new System.Windows.Forms.Panel();
+            panel5 = new AntDesign.Panel();
+            input8 = new AntDesign.Input();
+            button1 = new AntDesign.Button();
+            panel6 = new System.Windows.Forms.Panel();
+            input9 = new AntDesign.Input();
+            button2 = new AntDesign.Button();
+            panel4 = new AntDesign.Panel();
+            input7 = new AntDesign.Input();
+            button3 = new AntDesign.Button();
+            divider2 = new AntDesign.Divider();
+            panel2 = new System.Windows.Forms.Panel();
+            divider1 = new AntDesign.Divider();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
+            panel4.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // input1
             // 
-            input1.Location = new Point(3, 3);
+            input1.Location = new Point(18, 6);
             input1.Name = "input1";
-            input1.Size = new Size(220, 60);
+            input1.Size = new Size(220, 40);
             input1.TabIndex = 0;
             input1.Text = "input1";
             // 
             // input2
             // 
             input2.AutoSize = true;
-            input2.Location = new Point(3, 69);
+            input2.Location = new Point(18, 52);
             input2.Name = "input2";
-            input2.Size = new Size(226, 48);
+            input2.Size = new Size(220, 41);
             input2.TabIndex = 0;
             input2.Text = "input1";
             // 
             // input3
             // 
-            input3.Location = new Point(229, 3);
+            input3.Location = new Point(244, 6);
             input3.Name = "input3";
             input3.PlaceholderText = "请输入账号";
             input3.Round = true;
-            input3.Size = new Size(220, 50);
+            input3.Size = new Size(220, 40);
             input3.TabIndex = 0;
             input3.Text = "";
             // 
             // input4
             // 
             input4.AutoSize = true;
-            input4.Location = new Point(267, 187);
+            input4.Location = new Point(244, 52);
             input4.Name = "input4";
             input4.PasswordChar = '●';
             input4.Radius = 20;
-            input4.Size = new Size(226, 50);
+            input4.Size = new Size(220, 41);
             input4.TabIndex = 0;
             input4.Text = "321";
             // 
@@ -81,10 +99,10 @@
             // 
             input5.AutoSize = true;
             input5.Image = Properties.Resources.close;
-            input5.Location = new Point(235, 69);
+            input5.Location = new Point(18, 99);
             input5.Name = "input5";
             input5.Radius = 20;
-            input5.Size = new Size(226, 48);
+            input5.Size = new Size(220, 41);
             input5.TabIndex = 0;
             input5.Text = "321";
             // 
@@ -93,11 +111,11 @@
             input6.BackColor = Color.Black;
             input6.BorderColor = Color.FromArgb(76, 76, 76);
             input6.BorderWidth = 4F;
-            input6.Mode = AntDesign.TMode.Dark;
             input6.ForeColor = Color.White;
-            input6.Location = new Point(3, 123);
+            input6.Location = new Point(244, 100);
+            input6.Mode = AntDesign.TMode.Dark;
             input6.Name = "input6";
-            input6.Size = new Size(226, 55);
+            input6.Size = new Size(220, 40);
             input6.TabIndex = 0;
             input6.Text = "input1";
             // 
@@ -108,37 +126,198 @@
             header1.Location = new Point(0, 0);
             header1.Name = "header1";
             header1.Padding = new Padding(6);
-            header1.Size = new Size(543, 79);
+            header1.Size = new Size(555, 79);
             header1.TabIndex = 4;
             header1.Text = "Input 输入框";
             header1.TextDesc = "通过鼠标或键盘输入内容，是最基础的表单域的包装。";
             // 
-            // flowLayoutPanel1
+            // panel1
             // 
-            flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.Controls.Add(input1);
-            flowLayoutPanel1.Controls.Add(input3);
-            flowLayoutPanel1.Controls.Add(input2);
-            flowLayoutPanel1.Controls.Add(input4);
-            flowLayoutPanel1.Controls.Add(input5);
-            flowLayoutPanel1.Controls.Add(input6);
-            flowLayoutPanel1.Dock = DockStyle.Fill;
-            flowLayoutPanel1.Location = new Point(0, 79);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(543, 196);
-            flowLayoutPanel1.TabIndex = 5;
+            panel1.AutoScroll = true;
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(divider2);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(divider1);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(0, 79);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(555, 355);
+            panel1.TabIndex = 6;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(panel5);
+            panel3.Controls.Add(panel6);
+            panel3.Controls.Add(panel4);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(0, 206);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(555, 139);
+            panel3.TabIndex = 5;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(input8);
+            panel5.Controls.Add(button1);
+            panel5.Location = new Point(253, 16);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(220, 50);
+            panel5.TabIndex = 11;
+            panel5.Text = "panel4";
+            // 
+            // input8
+            // 
+            input8.Dock = DockStyle.Fill;
+            input8.JoinLeft = true;
+            input8.Location = new Point(63, 0);
+            input8.Margins = 6;
+            input8.Name = "input8";
+            input8.PlaceholderText = "输入点什么搜索";
+            input8.Size = new Size(157, 50);
+            input8.TabIndex = 1;
+            input8.Text = "";
+            // 
+            // button1
+            // 
+            button1.AutoSize = true;
+            button1.BackColor = Color.Transparent;
+            button1.Dock = DockStyle.Left;
+            button1.ForeColor = Color.White;
+            button1.JoinRight = true;
+            button1.Location = new Point(0, 0);
+            button1.Margins = 6;
+            button1.Name = "button1";
+            button1.Size = new Size(63, 49);
+            button1.TabIndex = 0;
+            button1.Text = "搜索";
+            button1.Click += Btn;
+            // 
+            // panel6
+            // 
+            panel6.Controls.Add(input9);
+            panel6.Controls.Add(button2);
+            panel6.Location = new Point(18, 76);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(220, 46);
+            panel6.TabIndex = 11;
+            panel6.Text = "panel4";
+            // 
+            // input9
+            // 
+            input9.Dock = DockStyle.Fill;
+            input9.JoinRight = true;
+            input9.Location = new Point(0, 0);
+            input9.Margins = 6;
+            input9.Name = "input9";
+            input9.PlaceholderText = "输入点什么搜索";
+            input9.Size = new Size(170, 46);
+            input9.TabIndex = 1;
+            input9.Text = "";
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Transparent;
+            button2.Dock = DockStyle.Right;
+            button2.ForeColor = Color.White;
+            button2.Image = Properties.Resources.search;
+            button2.JoinLeft = true;
+            button2.Location = new Point(170, 0);
+            button2.Margins = 6;
+            button2.Name = "button2";
+            button2.Size = new Size(50, 46);
+            button2.TabIndex = 0;
+            button2.Click += Btn;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(input7);
+            panel4.Controls.Add(button3);
+            panel4.Location = new Point(18, 16);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(220, 50);
+            panel4.TabIndex = 11;
+            panel4.Text = "panel4";
+            // 
+            // input7
+            // 
+            input7.Dock = DockStyle.Fill;
+            input7.JoinRight = true;
+            input7.Location = new Point(0, 0);
+            input7.Margins = 6;
+            input7.Name = "input7";
+            input7.PlaceholderText = "输入点什么搜索";
+            input7.Size = new Size(157, 50);
+            input7.TabIndex = 1;
+            input7.Text = "";
+            // 
+            // button3
+            // 
+            button3.AutoSize = true;
+            button3.BackColor = Color.Transparent;
+            button3.Dock = DockStyle.Right;
+            button3.ForeColor = Color.White;
+            button3.JoinLeft = true;
+            button3.Location = new Point(157, 0);
+            button3.Margins = 6;
+            button3.Name = "button3";
+            button3.Size = new Size(63, 49);
+            button3.TabIndex = 0;
+            button3.Text = "搜索";
+            button3.Click += Btn;
+            // 
+            // divider2
+            // 
+            divider2.Dock = DockStyle.Top;
+            divider2.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            divider2.Location = new Point(0, 184);
+            divider2.Name = "divider2";
+            divider2.Orientation = AntDesign.TOrientation.Left;
+            divider2.Size = new Size(555, 22);
+            divider2.TabIndex = 4;
+            divider2.Text = "组合";
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(input6);
+            panel2.Controls.Add(input5);
+            panel2.Controls.Add(input4);
+            panel2.Controls.Add(input2);
+            panel2.Controls.Add(input3);
+            panel2.Controls.Add(input1);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 22);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(555, 162);
+            panel2.TabIndex = 3;
+            // 
+            // divider1
+            // 
+            divider1.Dock = DockStyle.Top;
+            divider1.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            divider1.Location = new Point(0, 0);
+            divider1.Name = "divider1";
+            divider1.Orientation = AntDesign.TOrientation.Left;
+            divider1.Size = new Size(555, 22);
+            divider1.TabIndex = 2;
+            divider1.Text = "常规";
             // 
             // Input
             // 
-            Controls.Add(flowLayoutPanel1);
+            Controls.Add(panel1);
             Controls.Add(header1);
-            Font = new Font("Microsoft YaHei UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "Input";
-            Size = new Size(543, 275);
-            flowLayoutPanel1.ResumeLayout(false);
-            flowLayoutPanel1.PerformLayout();
+            Size = new Size(555, 434);
+            panel1.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            panel6.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -150,6 +329,19 @@
         private AntDesign.Input input5;
         private AntDesign.Input input6;
         private AntDesign.Header header1;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private AntDesign.Divider divider1;
+        private AntDesign.Divider divider2;
+        private System.Windows.Forms.Panel panel3;
+        private AntDesign.Panel panel5;
+        private AntDesign.Input input8;
+        private AntDesign.Button button1;
+        private System.Windows.Forms.Panel panel6;
+        private AntDesign.Input input9;
+        private AntDesign.Button button2;
+        private AntDesign.Panel panel4;
+        private AntDesign.Input input7;
+        private AntDesign.Button button3;
     }
 }

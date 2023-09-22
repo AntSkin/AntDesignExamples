@@ -42,6 +42,8 @@ https://ant-design.antgroup.com/components/overview-cn
 ![全局提示](screenshot/Message.gif?raw=true)
 ### 通知提醒框
 ![通知提醒框](screenshot/Notification.gif?raw=true)
+### 导航菜单
+![导航菜单](screenshot/Menu.gif?raw=true)
 ### 分割线
 ![分割线](screenshot/Divider.gif?raw=true)
 ### 滑动条
