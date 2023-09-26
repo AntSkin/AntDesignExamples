@@ -36,6 +36,10 @@
             input6 = new AntDesign.Input();
             header1 = new AntDesign.Header();
             panel1 = new System.Windows.Forms.Panel();
+            panel7 = new System.Windows.Forms.Panel();
+            select2 = new AntDesign.Select();
+            select1 = new AntDesign.Select();
+            divider3 = new AntDesign.Divider();
             panel3 = new System.Windows.Forms.Panel();
             panel5 = new AntDesign.Panel();
             input8 = new AntDesign.Input();
@@ -49,12 +53,17 @@
             divider2 = new AntDesign.Divider();
             panel2 = new System.Windows.Forms.Panel();
             divider1 = new AntDesign.Divider();
+            panel8 = new System.Windows.Forms.Panel();
+            button4 = new AntDesign.Button();
+            select3 = new AntDesign.Select();
             panel1.SuspendLayout();
+            panel7.SuspendLayout();
             panel3.SuspendLayout();
             panel5.SuspendLayout();
             panel6.SuspendLayout();
             panel4.SuspendLayout();
             panel2.SuspendLayout();
+            panel8.SuspendLayout();
             SuspendLayout();
             // 
             // input1
@@ -134,6 +143,8 @@
             // panel1
             // 
             panel1.AutoScroll = true;
+            panel1.Controls.Add(panel7);
+            panel1.Controls.Add(divider3);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(divider2);
             panel1.Controls.Add(panel2);
@@ -141,8 +152,54 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 79);
             panel1.Name = "panel1";
-            panel1.Size = new Size(555, 355);
+            panel1.Size = new Size(555, 475);
             panel1.TabIndex = 6;
+            // 
+            // panel7
+            // 
+            panel7.Controls.Add(panel8);
+            panel7.Controls.Add(select2);
+            panel7.Controls.Add(select1);
+            panel7.Dock = DockStyle.Top;
+            panel7.Location = new Point(0, 367);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(555, 100);
+            panel7.TabIndex = 7;
+            // 
+            // select2
+            // 
+            select2.AutoSize = true;
+            select2.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi", "HUAWEI", "XIAOMI" });
+            select2.List = true;
+            select2.Location = new Point(160, 19);
+            select2.Margin = new Padding(2, 3, 2, 3);
+            select2.Name = "select2";
+            select2.Size = new Size(126, 41);
+            select2.TabIndex = 11;
+            select2.Text = "（选择）";
+            // 
+            // select1
+            // 
+            select1.AllowClear = true;
+            select1.AutoSize = true;
+            select1.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi", "HUAWEI", "XIAOMI" });
+            select1.Location = new Point(18, 19);
+            select1.Margin = new Padding(2, 3, 2, 3);
+            select1.Name = "select1";
+            select1.Size = new Size(120, 41);
+            select1.TabIndex = 11;
+            select1.Text = "";
+            // 
+            // divider3
+            // 
+            divider3.Dock = DockStyle.Top;
+            divider3.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            divider3.Location = new Point(0, 345);
+            divider3.Name = "divider3";
+            divider3.Orientation = AntDesign.TOrientation.Left;
+            divider3.Size = new Size(555, 22);
+            divider3.TabIndex = 6;
+            divider3.Text = "选择器";
             // 
             // panel3
             // 
@@ -301,14 +358,52 @@
             divider1.TabIndex = 2;
             divider1.Text = "常规";
             // 
+            // panel8
+            // 
+            panel8.Controls.Add(select3);
+            panel8.Controls.Add(button4);
+            panel8.Location = new Point(306, 16);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(220, 46);
+            panel8.TabIndex = 12;
+            panel8.Text = "panel4";
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Transparent;
+            button4.Dock = DockStyle.Right;
+            button4.ForeColor = Color.White;
+            button4.Image = Properties.Resources.search;
+            button4.JoinLeft = true;
+            button4.Location = new Point(170, 0);
+            button4.Margins = 6;
+            button4.Name = "button4";
+            button4.Size = new Size(50, 46);
+            button4.TabIndex = 0;
+            // 
+            // select3
+            // 
+            select3.Dock = DockStyle.Fill;
+            select3.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi", "HUAWEI", "XIAOMI" });
+            select3.JoinRight = true;
+            select3.Location = new Point(0, 0);
+            select3.Margins = 6;
+            select3.Name = "select3";
+            select3.PlaceholderText = "输入点什么搜索";
+            select3.Size = new Size(170, 46);
+            select3.TabIndex = 11;
+            select3.Text = "";
+            // 
             // Input
             // 
             Controls.Add(panel1);
             Controls.Add(header1);
             Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "Input";
-            Size = new Size(555, 434);
+            Size = new Size(555, 554);
             panel1.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
             panel3.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
@@ -317,6 +412,7 @@
             panel4.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel8.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -343,5 +439,12 @@
         private AntDesign.Panel panel4;
         private AntDesign.Input input7;
         private AntDesign.Button button3;
+        private System.Windows.Forms.Panel panel7;
+        private AntDesign.Divider divider3;
+        private AntDesign.Select select1;
+        private AntDesign.Select select2;
+        private System.Windows.Forms.Panel panel8;
+        private AntDesign.Select select3;
+        private AntDesign.Button button4;
     }
 }

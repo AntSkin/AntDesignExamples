@@ -15,7 +15,7 @@ https://ant-design.antgroup.com/components/overview-cn
 
 ## 截图
 ### 按钮
-![按钮](screenshot/Button.gif?raw=true)
+![按钮](screenshot/Button.gif?raw=true#pic_left)
 ### 徽标数
 ![徽标数](screenshot/Badge.gif?raw=true)
 ### 轮播图

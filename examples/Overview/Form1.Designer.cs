@@ -36,6 +36,11 @@
             AntDesign.MenuItem menuItem6 = new AntDesign.MenuItem();
             AntDesign.MenuItem menuItem7 = new AntDesign.MenuItem();
             AntDesign.MenuItem menuItem8 = new AntDesign.MenuItem();
+            AntDesign.SegmentedItem segmentedItem1 = new AntDesign.SegmentedItem();
+            AntDesign.SegmentedItem segmentedItem2 = new AntDesign.SegmentedItem();
+            AntDesign.SegmentedItem segmentedItem3 = new AntDesign.SegmentedItem();
+            AntDesign.SegmentedItem segmentedItem4 = new AntDesign.SegmentedItem();
+            AntDesign.SegmentedItem segmentedItem5 = new AntDesign.SegmentedItem();
             panel1 = new AntDesign.Panel();
             label7 = new Label();
             label6 = new Label();
@@ -57,10 +62,15 @@
             alert2 = new AntDesign.Alert();
             alert1 = new AntDesign.Alert();
             menu1 = new AntDesign.Menu();
+            buttonDown1 = new AntDesign.Select();
+            select1 = new AntDesign.Select();
+            segmented1 = new AntDesign.Segmented();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             label1.SuspendLayout();
             panel2.SuspendLayout();
             label15.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -323,11 +333,71 @@
             menu1.TabIndex = 9;
             menu1.Text = "menu1";
             // 
+            // buttonDown1
+            // 
+            buttonDown1.AllowClear = true;
+            buttonDown1.AutoSize = true;
+            buttonDown1.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonDown1.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi" });
+            buttonDown1.Location = new Point(85, 371);
+            buttonDown1.Margin = new Padding(2, 3, 2, 3);
+            buttonDown1.Name = "buttonDown1";
+            buttonDown1.SelectedIndex = 1;
+            buttonDown1.SelectedValue = "Tom";
+            buttonDown1.Size = new Size(134, 45);
+            buttonDown1.TabIndex = 10;
+            buttonDown1.Text = "Tom";
+            // 
+            // select1
+            // 
+            select1.AutoSize = true;
+            select1.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            select1.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi" });
+            select1.List = true;
+            select1.Location = new Point(85, 422);
+            select1.Margin = new Padding(2, 3, 2, 3);
+            select1.Name = "select1";
+            select1.Size = new Size(134, 45);
+            select1.TabIndex = 10;
+            select1.Text = "";
+            // 
+            // segmented1
+            // 
+            segmentedItem1.Img = null;
+            segmentedItem1.Text = "Daily";
+            segmentedItem2.Img = null;
+            segmentedItem2.Text = "Weekly";
+            segmentedItem3.Img = null;
+            segmentedItem3.Text = "Monthly";
+            segmentedItem4.Img = null;
+            segmentedItem4.Text = "Quarterly";
+            segmentedItem5.Img = null;
+            segmentedItem5.Text = "Yearly";
+            segmented1.Items.AddRange(new AntDesign.SegmentedItem[] { segmentedItem1, segmentedItem2, segmentedItem3, segmentedItem4, segmentedItem5 });
+            segmented1.Location = new Point(6, 19);
+            segmented1.Name = "segmented1";
+            segmented1.Padding = new Padding(2);
+            segmented1.Size = new Size(347, 51);
+            segmented1.TabIndex = 11;
+            segmented1.Text = "segmented1";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.Controls.Add(segmented1);
+            panel3.Location = new Point(2, 475);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(371, 91);
+            panel3.TabIndex = 12;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(622, 586);
+            Controls.Add(panel3);
+            Controls.Add(select1);
+            Controls.Add(buttonDown1);
             Controls.Add(menu1);
             Controls.Add(alert1);
             Controls.Add(alert2);
@@ -347,6 +417,7 @@
             label1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             label15.ResumeLayout(false);
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -374,5 +445,9 @@
         private AntDesign.Alert alert2;
         private AntDesign.Alert alert1;
         private AntDesign.Menu menu1;
+        private AntDesign.Select buttonDown1;
+        private AntDesign.Select select1;
+        private AntDesign.Segmented segmented1;
+        private Panel panel3;
     }
 }
