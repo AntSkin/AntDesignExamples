@@ -39,7 +39,7 @@
             // 
             // checkbox1
             // 
-            checkbox1.AutoSize = true;
+            checkbox1.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox1.Location = new Point(3, 3);
             checkbox1.Name = "checkbox1";
             checkbox1.Size = new Size(114, 50);
@@ -49,7 +49,7 @@
             // 
             // checkbox2
             // 
-            checkbox2.AutoSize = true;
+            checkbox2.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox2.Enabled = false;
             checkbox2.Location = new Point(123, 3);
             checkbox2.Name = "checkbox2";
@@ -60,7 +60,7 @@
             // 
             // checkbox3
             // 
-            checkbox3.AutoSize = true;
+            checkbox3.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox3.Checked = true;
             checkbox3.Color = Color.Red;
             checkbox3.Location = new Point(331, 3);
@@ -98,7 +98,7 @@
             // 
             // checkbox4
             // 
-            checkbox4.AutoSize = true;
+            checkbox4.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox4.Checked = true;
             checkbox4.Enabled = false;
             checkbox4.Location = new Point(3, 59);

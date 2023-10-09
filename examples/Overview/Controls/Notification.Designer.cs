@@ -91,7 +91,7 @@
             // 
             // button4
             // 
-            button4.AutoSize = true;
+            button4.AutoSize = AntDesign.TAutoSize.Auto;
             button4.Image = Properties.Resources.BR;
             button4.Location = new Point(169, 58);
             button4.Name = "button4";
@@ -102,7 +102,7 @@
             // 
             // button6
             // 
-            button6.AutoSize = true;
+            button6.AutoSize = AntDesign.TAutoSize.Auto;
             button6.Image = Properties.Resources.Bottom;
             button6.Location = new Point(169, 107);
             button6.Name = "button6";
@@ -113,7 +113,7 @@
             // 
             // button2
             // 
-            button2.AutoSize = true;
+            button2.AutoSize = AntDesign.TAutoSize.Auto;
             button2.Image = Properties.Resources.TR;
             button2.Location = new Point(169, 9);
             button2.Name = "button2";
@@ -124,7 +124,7 @@
             // 
             // button5
             // 
-            button5.AutoSize = true;
+            button5.AutoSize = AntDesign.TAutoSize.Auto;
             button5.Image = Properties.Resources.Top;
             button5.Location = new Point(14, 107);
             button5.Name = "button5";
@@ -135,7 +135,7 @@
             // 
             // button3
             // 
-            button3.AutoSize = true;
+            button3.AutoSize = AntDesign.TAutoSize.Auto;
             button3.Image = Properties.Resources.BL;
             button3.Location = new Point(14, 58);
             button3.Name = "button3";
@@ -146,7 +146,7 @@
             // 
             // button1
             // 
-            button1.AutoSize = true;
+            button1.AutoSize = AntDesign.TAutoSize.Auto;
             button1.Image = Properties.Resources.TL;
             button1.Location = new Point(14, 9);
             button1.Name = "button1";

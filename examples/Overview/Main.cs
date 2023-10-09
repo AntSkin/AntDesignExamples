@@ -28,7 +28,7 @@ namespace Overview
             base.OnMouseDown(e);
         }
 
-        private void Btn(object sender, EventArgs e)
+        private void Btn(object? sender, EventArgs e)
         {
             if (sender is Control control && control.Tag is string code)
             {
@@ -90,25 +90,30 @@ namespace Overview
                 if (control_add != null)
                 {
                     btn_back.Tag = control_add;
-                    control_add.Dock = DockStyle.Fill;
-                    SuspendLayout();
-                    Controls.Add(control_add);
-                    control_add.BringToFront();
-                    ResumeLayout();
-                    btn_back.Visible = true;
+                    BeginInvoke(() =>
+                    {
+                        flowPanel.Visible = false;
+                        foreach (AntDesign.Panel c in flowPanel.Controls)
+                        {
+                            c.ExtraMouseHover = false;
+                        }
+                        control_add.Dock = DockStyle.Fill;
+                        Controls.Add(control_add);
+                        control_add.BringToFront();
+                        btn_back.Visible = true;
+                    });
                 }
             }
         }
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-            if (btn_back.Tag is Control control)
+            BeginInvoke(() =>
             {
-                SuspendLayout();
-                Controls.Remove(control);
-                ResumeLayout();
-            }
-            btn_back.Visible = false;
+                if (btn_back.Tag is Control control) Controls.Remove(control);
+                btn_back.Visible = false;
+                flowPanel.Visible = true;
+            });
         }
 
         private void btn_close_Click(object? sender, EventArgs e)
@@ -138,5 +143,101 @@ namespace Overview
         {
             MaxRestore();
         }
+
+        #region 加载列表
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            var dir = new List<IList>
+            {
+                new IList("Button","按钮",Properties.Resources.Button),
+                new IList("Avatar","头像",Properties.Resources.Avatar),
+                new IList("Carousel","走马灯",Properties.Resources.Carousel),
+                new IList("Checkbox","多选框",Properties.Resources.Checkbox),
+                new IList("Radio","单选框",Properties.Resources.Radio),
+                new IList("Input","输入框",Properties.Resources.Input),
+                new IList("Divider","分割线",Properties.Resources.Divider),
+                new IList("Panel","面板",Properties.Resources.Panel),
+                new IList("Progress","进度条",Properties.Resources.Progress),
+                new IList("Slider","滑动输入条",Properties.Resources.Slider),
+                new IList("Switch","开关",Properties.Resources.Switch),
+                new IList("Tabs","标签页",Properties.Resources.Tabs),
+                new IList("Badge","徽标数",Properties.Resources.Badge),
+                new IList("Alert","警告提示",Properties.Resources.Alert),
+                new IList("Message","全局提示",Properties.Resources.Message),
+                new IList("Notification","通知提醒框",Properties.Resources.Notification),
+                new IList("Tooltip","文字提示",Properties.Resources.Tooltip),
+            };
+            BeginInvoke(() =>
+            {
+                flowPanel.SuspendLayout();
+                flowPanel.Controls.Clear();
+                foreach (var item in dir)
+                {
+                    var panel = new AntDesign.Panel
+                    {
+                        BorderWidth = 1F,
+                        Location = new Point(0, 0),
+                        Margin = new Padding(0),
+                        Padding = new Padding(20),
+                        Shadow = 20,
+                        Size = new Size(229, 233),
+                        Tag = item.id
+                    };
+                    var pic = new PictureBox
+                    {
+                        BackColor = Color.Transparent,
+                        Dock = DockStyle.Fill,
+                        Image = item.img,
+                        SizeMode = PictureBoxSizeMode.Zoom,
+                        Tag = item.id
+                    };
+
+                    var divider = new AntDesign.Divider
+                    {
+                        Color = Color.FromArgb(20, 0, 0, 0),
+                        Dock = DockStyle.Top,
+                        Margin = new Padding(10),
+                        Size = new Size(0, 1),
+                        Tag = item.id
+                    };
+                    var label = new Label
+                    {
+                        BackColor = Color.Transparent,
+                        Dock = DockStyle.Top,
+                        Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Bold, GraphicsUnit.Point),
+                        Padding = new Padding(10, 0, 0, 0),
+                        Size = new Size(0, 34),
+                        Text = item.id + " " + item.key,
+                        TextAlign = ContentAlignment.MiddleLeft,
+                        Tag = item.id
+                    };
+                    panel.Controls.Add(pic);
+                    panel.Controls.Add(divider);
+                    panel.Controls.Add(label);
+                    pic.Click += Btn;
+                    label.Click += Btn;
+                    flowPanel.Controls.Add(panel);
+                }
+                flowPanel.ResumeLayout();
+            });
+        }
+
+        class IList
+        {
+            public IList(string _id, string _key, Image _img)
+            {
+                id = _id;
+                key = _key;
+                img = _img;
+            }
+            public string id { get; set; }
+            public string key { get; set; }
+            public Image img { get; set; }
+        }
+
+        #endregion
     }
 }

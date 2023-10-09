@@ -73,7 +73,7 @@
             // 
             // button3
             // 
-            button3.AutoSize = true;
+            button3.AutoSize = AntDesign.TAutoSize.Auto;
             button3.Enabled = false;
             button3.ForeColor = Color.White;
             button3.Location = new Point(3, 56);
@@ -85,7 +85,7 @@
             // 
             // button5
             // 
-            button5.AutoSize = true;
+            button5.AutoSize = AntDesign.TAutoSize.Auto;
             button5.Back = Color.FromArgb(220, 68, 70);
             button5.BackActive = Color.FromArgb(217, 54, 62);
             button5.BackHover = Color.FromArgb(255, 120, 117);
@@ -101,7 +101,7 @@
             // 
             // button16
             // 
-            button16.AutoSize = true;
+            button16.AutoSize = AntDesign.TAutoSize.Auto;
             button16.Back = Color.FromArgb(220, 68, 70);
             button16.BackActive = Color.FromArgb(217, 54, 62);
             button16.BackHover = Color.FromArgb(255, 120, 117);
@@ -116,7 +116,7 @@
             // 
             // button9
             // 
-            button9.AutoSize = true;
+            button9.AutoSize = AntDesign.TAutoSize.Auto;
             button9.ForeColor = Color.White;
             button9.Image = Properties.Resources.search;
             button9.Location = new Point(341, 56);
@@ -128,7 +128,7 @@
             // 
             // button7
             // 
-            button7.AutoSize = true;
+            button7.AutoSize = AntDesign.TAutoSize.Auto;
             button7.ForeColor = Color.White;
             button7.Image = Properties.Resources.close;
             button7.Location = new Point(448, 3);
@@ -157,7 +157,7 @@
             // 
             // button13
             // 
-            button13.AutoSize = true;
+            button13.AutoSize = AntDesign.TAutoSize.Auto;
             button13.ForeColor = Color.White;
             button13.Location = new Point(3, 3);
             button13.Mode = AntDesign.TMode.Dark;
@@ -169,7 +169,7 @@
             // 
             // button11
             // 
-            button11.AutoSize = true;
+            button11.AutoSize = AntDesign.TAutoSize.Auto;
             button11.Enabled = false;
             button11.ForeColor = Color.White;
             button11.Location = new Point(103, 3);
@@ -182,7 +182,7 @@
             // 
             // button12
             // 
-            button12.AutoSize = true;
+            button12.AutoSize = AntDesign.TAutoSize.Auto;
             button12.Back = Color.FromArgb(66, 66, 66);
             button12.BackHover = Color.FromArgb(60, 137, 232);
             button12.BorderWidth = 2F;
@@ -196,7 +196,7 @@
             // 
             // button14
             // 
-            button14.AutoSize = true;
+            button14.AutoSize = AntDesign.TAutoSize.Auto;
             button14.Back = Color.FromArgb(66, 66, 66);
             button14.BackHover = Color.FromArgb(60, 137, 232);
             button14.BorderWidth = 2F;
@@ -211,7 +211,7 @@
             // 
             // button4
             // 
-            button4.AutoSize = true;
+            button4.AutoSize = AntDesign.TAutoSize.Auto;
             button4.Back = Color.FromArgb(220, 68, 70);
             button4.BackActive = Color.FromArgb(173, 57, 58);
             button4.BackHover = Color.FromArgb(232, 110, 107);
@@ -227,7 +227,7 @@
             // 
             // button6
             // 
-            button6.AutoSize = true;
+            button6.AutoSize = AntDesign.TAutoSize.Auto;
             button6.Back = Color.FromArgb(220, 68, 70);
             button6.BackActive = Color.FromArgb(173, 57, 58);
             button6.BackHover = Color.FromArgb(232, 110, 107);
@@ -295,7 +295,7 @@
             // 
             // button10
             // 
-            button10.AutoSize = true;
+            button10.AutoSize = AntDesign.TAutoSize.Auto;
             button10.Back = Color.FromArgb(217, 217, 217);
             button10.BackColor = Color.Transparent;
             button10.BorderBack = Color.White;
@@ -311,7 +311,7 @@
             // 
             // button15
             // 
-            button15.AutoSize = true;
+            button15.AutoSize = AntDesign.TAutoSize.Auto;
             button15.Back = Color.FromArgb(217, 217, 217);
             button15.BackColor = Color.Transparent;
             button15.BorderBack = Color.White;
@@ -328,7 +328,7 @@
             // 
             // button2
             // 
-            button2.AutoSize = true;
+            button2.AutoSize = AntDesign.TAutoSize.Auto;
             button2.Back = Color.FromArgb(217, 217, 217);
             button2.BackColor = Color.Transparent;
             button2.BorderBack = Color.White;
@@ -382,7 +382,7 @@
             // 
             // button17
             // 
-            button17.AutoSize = true;
+            button17.AutoSize = AntDesign.TAutoSize.Auto;
             button17.ForeColor = Color.White;
             button17.Location = new Point(3, 3);
             button17.Name = "button17";
@@ -393,7 +393,7 @@
             // 
             // button18
             // 
-            button18.AutoSize = true;
+            button18.AutoSize = AntDesign.TAutoSize.Auto;
             button18.Back = Color.FromArgb(217, 217, 217);
             button18.BorderBack = Color.White;
             button18.BorderWidth = 2F;
@@ -406,7 +406,7 @@
             // 
             // button19
             // 
-            button19.AutoSize = true;
+            button19.AutoSize = AntDesign.TAutoSize.Auto;
             button19.Back = Color.Transparent;
             button19.BackActive = Color.FromArgb(38, 0, 0, 0);
             button19.BackHover = Color.FromArgb(15, 0, 0, 0);
@@ -436,13 +436,10 @@
             Name = "Button";
             Size = new Size(543, 638);
             flowLayoutPanel2.ResumeLayout(false);
-            flowLayoutPanel2.PerformLayout();
             panel3.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             panel4.ResumeLayout(false);
-            panel4.PerformLayout();
             ResumeLayout(false);
         }
 

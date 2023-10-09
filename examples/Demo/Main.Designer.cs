@@ -117,7 +117,7 @@
             // 
             // button1
             // 
-            button1.AutoSize = true;
+            button1.AutoSize = AntDesign.TAutoSize.Auto;
             button1.ForeColor = Color.White;
             button1.Location = new Point(40, 78);
             button1.Margin = new Padding(4);
@@ -129,7 +129,7 @@
             // 
             // button2
             // 
-            button2.AutoSize = true;
+            button2.AutoSize = AntDesign.TAutoSize.Auto;
             button2.Back = Color.FromArgb(224, 224, 224);
             button2.BorderWidth = 2F;
             button2.Location = new Point(210, 78);
@@ -142,7 +142,7 @@
             // 
             // button3
             // 
-            button3.AutoSize = true;
+            button3.AutoSize = AntDesign.TAutoSize.Auto;
             button3.Back = Color.FromArgb(255, 79, 87);
             button3.BackActive = Color.FromArgb(217, 54, 62);
             button3.BackHover = Color.FromArgb(255, 163, 158);
@@ -158,7 +158,7 @@
             // 
             // radio1
             // 
-            radio1.AutoSize = true;
+            radio1.AutoSize = AntDesign.TAutoSize.Auto;
             radio1.Location = new Point(40, 168);
             radio1.Name = "radio1";
             radio1.Size = new Size(117, 43);
@@ -167,7 +167,7 @@
             // 
             // radio2
             // 
-            radio2.AutoSize = true;
+            radio2.AutoSize = AntDesign.TAutoSize.Auto;
             radio2.Location = new Point(210, 168);
             radio2.Name = "radio2";
             radio2.Size = new Size(115, 43);
@@ -176,7 +176,7 @@
             // 
             // radio3
             // 
-            radio3.AutoSize = true;
+            radio3.AutoSize = AntDesign.TAutoSize.Auto;
             radio3.Checked = true;
             radio3.Location = new Point(380, 168);
             radio3.Name = "radio3";
@@ -186,7 +186,7 @@
             // 
             // radio4
             // 
-            radio4.AutoSize = true;
+            radio4.AutoSize = AntDesign.TAutoSize.Auto;
             radio4.Enabled = false;
             radio4.Location = new Point(550, 168);
             radio4.Name = "radio4";
@@ -196,7 +196,7 @@
             // 
             // radio5
             // 
-            radio5.AutoSize = true;
+            radio5.AutoSize = AntDesign.TAutoSize.Auto;
             radio5.Enabled = false;
             radio5.Location = new Point(720, 168);
             radio5.Name = "radio5";
@@ -206,7 +206,7 @@
             // 
             // checkbox1
             // 
-            checkbox1.AutoSize = true;
+            checkbox1.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox1.Location = new Point(40, 239);
             checkbox1.Name = "checkbox1";
             checkbox1.Size = new Size(117, 43);
@@ -215,7 +215,7 @@
             // 
             // checkbox2
             // 
-            checkbox2.AutoSize = true;
+            checkbox2.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox2.Location = new Point(210, 239);
             checkbox2.Name = "checkbox2";
             checkbox2.Size = new Size(115, 43);
@@ -224,7 +224,7 @@
             // 
             // checkbox3
             // 
-            checkbox3.AutoSize = true;
+            checkbox3.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox3.Checked = true;
             checkbox3.Location = new Point(380, 239);
             checkbox3.Name = "checkbox3";
@@ -234,7 +234,7 @@
             // 
             // checkbox4
             // 
-            checkbox4.AutoSize = true;
+            checkbox4.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox4.Enabled = false;
             checkbox4.Location = new Point(550, 239);
             checkbox4.Name = "checkbox4";
@@ -244,7 +244,7 @@
             // 
             // checkbox5
             // 
-            checkbox5.AutoSize = true;
+            checkbox5.AutoSize = AntDesign.TAutoSize.Auto;
             checkbox5.Enabled = false;
             checkbox5.Location = new Point(720, 239);
             checkbox5.Name = "checkbox5";
@@ -318,7 +318,7 @@
             // 
             // button4
             // 
-            button4.AutoSize = true;
+            button4.AutoSize = AntDesign.TAutoSize.Auto;
             button4.ForeColor = Color.White;
             button4.Location = new Point(550, 78);
             button4.Margin = new Padding(4);
@@ -839,7 +839,7 @@
             // 
             // button5
             // 
-            button5.AutoSize = true;
+            button5.AutoSize = AntDesign.TAutoSize.Auto;
             button5.Back = Color.FromArgb(100, 22, 119, 255);
             button5.BackgroundImage = Properties.Resources.bg3;
             button5.BackgroundImageLayout = AntDesign.TFit.Cover;
@@ -856,7 +856,7 @@
             // 
             // button6
             // 
-            button6.AutoSize = true;
+            button6.AutoSize = AntDesign.TAutoSize.Auto;
             button6.Back = Color.FromArgb(100, 22, 119, 255);
             button6.BackgroundImage = Properties.Resources.bg2;
             button6.BackgroundImageLayout = AntDesign.TFit.Cover;

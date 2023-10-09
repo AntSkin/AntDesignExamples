@@ -39,7 +39,7 @@
             // 
             // radio1
             // 
-            radio1.AutoSize = true;
+            radio1.AutoSize = AntDesign.TAutoSize.Auto;
             radio1.Location = new Point(3, 3);
             radio1.Name = "radio1";
             radio1.Size = new Size(114, 50);
@@ -49,7 +49,7 @@
             // 
             // radio2
             // 
-            radio2.AutoSize = true;
+            radio2.AutoSize = AntDesign.TAutoSize.Auto;
             radio2.Enabled = false;
             radio2.Location = new Point(123, 3);
             radio2.Name = "radio2";
@@ -60,7 +60,7 @@
             // 
             // radio3
             // 
-            radio3.AutoSize = true;
+            radio3.AutoSize = AntDesign.TAutoSize.Auto;
             radio3.Checked = true;
             radio3.Color = Color.Red;
             radio3.Location = new Point(331, 3);
@@ -98,7 +98,7 @@
             // 
             // radio4
             // 
-            radio4.AutoSize = true;
+            radio4.AutoSize = AntDesign.TAutoSize.Auto;
             radio4.Checked = true;
             radio4.Enabled = false;
             radio4.Location = new Point(3, 59);
