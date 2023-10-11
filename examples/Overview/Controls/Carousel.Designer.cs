@@ -113,7 +113,7 @@
             carousel1.Image.AddRange(new AntDesign.CarouselItem[] { carouselItem5, carouselItem6, carouselItem7 });
             carousel1.Location = new Point(0, 0);
             carousel1.Name = "carousel1";
-            carousel1.Radius = 120;
+            carousel1.Radius = 60;
             carousel1.Size = new Size(225, 215);
             carousel1.TabIndex = 4;
             // 

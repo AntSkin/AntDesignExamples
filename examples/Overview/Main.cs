@@ -95,7 +95,7 @@ namespace Overview
                         flowPanel.Visible = false;
                         foreach (AntDesign.Panel c in flowPanel.Controls)
                         {
-                            c.ExtraMouseHover = false;
+                            c.SetMouseHover( false);
                         }
                         control_add.Dock = DockStyle.Fill;
                         Controls.Add(control_add);

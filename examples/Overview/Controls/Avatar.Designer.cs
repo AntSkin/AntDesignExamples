@@ -68,7 +68,7 @@
             avatar1.Image = Properties.Resources.img1;
             avatar1.Location = new Point(68, 6);
             avatar1.Name = "avatar1";
-            avatar1.Radius = 20;
+            avatar1.Radius = 10;
             avatar1.Size = new Size(54, 54);
             avatar1.TabIndex = 8;
             // 
@@ -104,7 +104,7 @@
             avatar10.ForeColor = Color.White;
             avatar10.Location = new Point(248, 6);
             avatar10.Name = "avatar10";
-            avatar10.Radius = 20;
+            avatar10.Radius = 10;
             avatar10.Size = new Size(54, 54);
             avatar10.TabIndex = 10;
             avatar10.Text = "名";
@@ -114,7 +114,7 @@
             avatar3.Image = Properties.Resources.img1;
             avatar3.Location = new Point(8, 75);
             avatar3.Name = "avatar3";
-            avatar3.Radius = 20;
+            avatar3.Radius = 10;
             avatar3.Size = new Size(155, 60);
             avatar3.TabIndex = 2;
             // 
@@ -123,7 +123,7 @@
             avatar2.Image = Properties.Resources.img1;
             avatar2.Location = new Point(169, 75);
             avatar2.Name = "avatar2";
-            avatar2.Radius = 20;
+            avatar2.Radius = 10;
             avatar2.Size = new Size(73, 126);
             avatar2.TabIndex = 4;
             // 
@@ -133,7 +133,7 @@
             avatar11.ForeColor = Color.White;
             avatar11.Location = new Point(248, 75);
             avatar11.Name = "avatar11";
-            avatar11.Radius = 10;
+            avatar11.Radius = 6;
             avatar11.Size = new Size(73, 126);
             avatar11.TabIndex = 11;
             avatar11.Text = "U";
@@ -163,7 +163,7 @@
             avatar12.ForeColor = Color.White;
             avatar12.Location = new Point(8, 141);
             avatar12.Name = "avatar12";
-            avatar12.Radius = 20;
+            avatar12.Radius = 10;
             avatar12.Size = new Size(155, 60);
             avatar12.TabIndex = 9;
             avatar12.Text = "U";

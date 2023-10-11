@@ -87,7 +87,6 @@
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.ExtraMouseHover = false;
             panel1.ForeColor = Color.White;
             panel1.Location = new Point(9, 17);
             panel1.Name = "panel1";
@@ -173,7 +172,6 @@
             panel2.Back = Color.FromArgb(24, 144, 255);
             panel2.BackColor = Color.Transparent;
             panel2.Controls.Add(label15);
-            panel2.ExtraMouseHover = false;
             panel2.ForeColor = Color.White;
             panel2.Location = new Point(9, 146);
             panel2.Name = "panel2";

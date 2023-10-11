@@ -70,15 +70,15 @@
             // 
             input1.Location = new Point(18, 6);
             input1.Name = "input1";
-            input1.Size = new Size(220, 40);
+            input1.Size = new Size(220, 44);
             input1.TabIndex = 0;
             input1.Text = "input1";
             // 
             // input2
             // 
-            input2.Location = new Point(18, 52);
+            input2.Location = new Point(18, 54);
             input2.Name = "input2";
-            input2.Size = new Size(220, 41);
+            input2.Size = new Size(220, 44);
             input2.TabIndex = 0;
             input2.Text = "input1";
             // 
@@ -88,27 +88,27 @@
             input3.Name = "input3";
             input3.PlaceholderText = "请输入账号";
             input3.Round = true;
-            input3.Size = new Size(220, 40);
+            input3.Size = new Size(220, 44);
             input3.TabIndex = 0;
             input3.Text = "";
             // 
             // input4
             // 
-            input4.Location = new Point(244, 52);
+            input4.Location = new Point(244, 54);
             input4.Name = "input4";
             input4.PasswordChar = '●';
-            input4.Radius = 20;
-            input4.Size = new Size(220, 41);
+            input4.Round = true;
+            input4.Size = new Size(220, 44);
             input4.TabIndex = 0;
             input4.Text = "321";
             // 
             // input5
             // 
             input5.Image = Properties.Resources.close;
-            input5.Location = new Point(18, 99);
+            input5.Location = new Point(18, 101);
             input5.Name = "input5";
-            input5.Radius = 20;
-            input5.Size = new Size(220, 41);
+            input5.Radius = 10;
+            input5.Size = new Size(220, 44);
             input5.TabIndex = 0;
             input5.Text = "321";
             // 
@@ -118,10 +118,10 @@
             input6.BorderColor = Color.FromArgb(76, 76, 76);
             input6.BorderWidth = 4F;
             input6.ForeColor = Color.White;
-            input6.Location = new Point(244, 100);
+            input6.Location = new Point(244, 102);
             input6.Mode = AntDesign.TMode.Dark;
             input6.Name = "input6";
-            input6.Size = new Size(220, 40);
+            input6.Size = new Size(220, 44);
             input6.TabIndex = 0;
             input6.Text = "input1";
             // 

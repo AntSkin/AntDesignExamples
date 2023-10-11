@@ -344,7 +344,7 @@
             avatar1.Image = Properties.Resources.img1;
             avatar1.Location = new Point(710, 79);
             avatar1.Name = "avatar1";
-            avatar1.Radius = 20;
+            avatar1.Radius = 10;
             avatar1.Size = new Size(40, 40);
             avatar1.TabIndex = 8;
             tooltipComponent1.SetTip(avatar1, "圆角头像");
@@ -663,7 +663,7 @@
             avatar2.Image.AddRange(new AntDesign.CarouselItem[] { carouselItem5, carouselItem6, carouselItem7, carouselItem8 });
             avatar2.Location = new Point(38, 38);
             avatar2.Name = "avatar2";
-            avatar2.Radius = 10;
+            avatar2.Radius = 6;
             avatar2.Size = new Size(327, 150);
             avatar2.TabIndex = 9;
             tooltipComponent2.SetTip(avatar2, "宽横幅图片");
@@ -678,7 +678,7 @@
             panel8.Location = new Point(550, 319);
             panel8.Name = "panel8";
             panel8.Padding = new Padding(24);
-            panel8.Radius = 20;
+            panel8.Radius = 10;
             panel8.Shadow = 24;
             panel8.ShadowOpacity = 0.18F;
             panel8.Size = new Size(285, 228);
@@ -732,7 +732,7 @@
             panel9.Name = "panel9";
             panel9.Padding = new Padding(38);
             panel9.PaddingWidth = -12;
-            panel9.Radius = 20;
+            panel9.Radius = 10;
             panel9.Shadow = 24;
             panel9.ShadowOpacity = 0.18F;
             panel9.Size = new Size(403, 304);
@@ -824,7 +824,7 @@
             avatar3.ForeColor = Color.White;
             avatar3.Location = new Point(795, 79);
             avatar3.Name = "avatar3";
-            avatar3.Radius = 20;
+            avatar3.Radius = 10;
             avatar3.Size = new Size(40, 40);
             avatar3.TabIndex = 8;
             avatar3.Text = "U";

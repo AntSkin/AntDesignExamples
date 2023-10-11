@@ -98,7 +98,7 @@
             panel8.Location = new Point(3, 3);
             panel8.Name = "panel8";
             panel8.Padding = new Padding(24);
-            panel8.Radius = 20;
+            panel8.Radius = 10;
             panel8.Shadow = 24;
             panel8.ShadowOpacity = 0.18F;
             panel8.Size = new Size(269, 221);
@@ -255,7 +255,7 @@
             panel9.Name = "panel9";
             panel9.Padding = new Padding(38);
             panel9.PaddingWidth = -12;
-            panel9.Radius = 20;
+            panel9.Radius = 10;
             panel9.Shadow = 24;
             panel9.ShadowOpacity = 0.18F;
             panel9.Size = new Size(320, 258);
@@ -292,7 +292,7 @@
             avatar2.Image = Properties.Resources.img1;
             avatar2.Location = new Point(38, 38);
             avatar2.Name = "avatar2";
-            avatar2.Radius = 10;
+            avatar2.Radius = 6;
             avatar2.Size = new Size(244, 110);
             avatar2.TabIndex = 9;
             // 
@@ -308,7 +308,7 @@
             panel4.Name = "panel4";
             panel4.Padding = new Padding(38);
             panel4.PaddingWidth = -12;
-            panel4.Radius = 20;
+            panel4.Radius = 10;
             panel4.Shadow = 24;
             panel4.Size = new Size(320, 299);
             panel4.TabIndex = 19;
@@ -344,7 +344,7 @@
             avatar1.Image = Properties.Resources.img1;
             avatar1.Location = new Point(38, 38);
             avatar1.Name = "avatar1";
-            avatar1.Radius = 10;
+            avatar1.Radius = 6;
             avatar1.Size = new Size(244, 110);
             avatar1.TabIndex = 9;
             // 
