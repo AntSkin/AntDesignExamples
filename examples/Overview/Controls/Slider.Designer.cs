@@ -64,7 +64,7 @@
             // 
             slider1.Location = new Point(3, 3);
             slider1.Name = "slider1";
-            slider1.Size = new Size(212, 60);
+            slider1.Size = new Size(212, 38);
             slider1.TabIndex = 4;
             slider1.Text = "slider1";
             // 
@@ -76,7 +76,7 @@
             slider3.Location = new Point(221, 3);
             slider3.Name = "slider3";
             slider3.ShowValue = true;
-            slider3.Size = new Size(485, 132);
+            slider3.Size = new Size(485, 38);
             slider3.TabIndex = 2;
             // 
             // slider2
@@ -84,10 +84,10 @@
             slider2.Dots = new int[] { 20, 50, 70, 80 };
             slider2.DotSize = 18;
             slider2.DotSizeActive = 24;
-            slider2.Location = new Point(3, 141);
+            slider2.Location = new Point(712, 3);
             slider2.Name = "slider2";
             slider2.ShowValue = true;
-            slider2.Size = new Size(140, 406);
+            slider2.Size = new Size(40, 406);
             slider2.TabIndex = 3;
             slider2.Vertical = true;
             // 

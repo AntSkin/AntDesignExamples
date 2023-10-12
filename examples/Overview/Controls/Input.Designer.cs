@@ -249,6 +249,7 @@
             panel5.Controls.Add(button1);
             panel5.Location = new Point(253, 16);
             panel5.Name = "panel5";
+            panel5.Shadow = 0;
             panel5.Size = new Size(220, 50);
             panel5.TabIndex = 11;
             panel5.Text = "panel4";
@@ -322,6 +323,7 @@
             panel4.Controls.Add(button3);
             panel4.Location = new Point(18, 16);
             panel4.Name = "panel4";
+            panel4.Shadow = 0;
             panel4.Size = new Size(220, 50);
             panel4.TabIndex = 11;
             panel4.Text = "panel4";

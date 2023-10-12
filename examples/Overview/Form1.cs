@@ -13,7 +13,6 @@ namespace Overview
             label2.BackColor = arrd[0];
             label3.BackColor = arrd[1];
             label4.BackColor = arrd[2];
-
             label5.BackColor = arrl[0];
             label6.BackColor = arrl[1];
             label7.BackColor = arrl[2];
