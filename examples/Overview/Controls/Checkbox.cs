@@ -6,9 +6,5 @@ namespace Overview.Controls
         {
             InitializeComponent();
         }
-
-        void Checkbox_CheckedChanged(object sender, EventArgs e)
-        {
-        }
     }
 }

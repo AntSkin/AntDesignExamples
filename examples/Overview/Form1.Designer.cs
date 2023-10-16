@@ -28,23 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            AntDesign.MenuItem menuItem1 = new AntDesign.MenuItem();
-            AntDesign.MenuItem menuItem2 = new AntDesign.MenuItem();
-            AntDesign.MenuItem menuItem3 = new AntDesign.MenuItem();
-            AntDesign.MenuItem menuItem4 = new AntDesign.MenuItem();
-            AntDesign.MenuItem menuItem5 = new AntDesign.MenuItem();
-            AntDesign.MenuItem menuItem6 = new AntDesign.MenuItem();
-            AntDesign.MenuItem menuItem7 = new AntDesign.MenuItem();
-            AntDesign.MenuItem menuItem8 = new AntDesign.MenuItem();
-            AntDesign.SegmentedItem segmentedItem1 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem2 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem3 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem4 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem5 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem6 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem7 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem8 = new AntDesign.SegmentedItem();
-            AntDesign.SegmentedItem segmentedItem9 = new AntDesign.SegmentedItem();
             panel1 = new AntDesign.Panel();
             label7 = new Label();
             label6 = new Label();
@@ -63,15 +46,8 @@
             iconError1 = new AntDesign.Icon.IconError();
             iconComplete1 = new AntDesign.Icon.IconComplete();
             iconInfo1 = new AntDesign.Icon.IconInfo();
-            menu1 = new AntDesign.Menu();
             buttonDown1 = new AntDesign.Select();
             select1 = new AntDesign.Select();
-            segmented1 = new AntDesign.Segmented();
-            segmented2 = new AntDesign.Segmented();
-            image3d1 = new AntDesign.Image3D();
-            image3d2 = new AntDesign.Image3D();
-            avatar4 = new AntDesign.Avatar();
-            avatar6 = new AntDesign.Avatar();
             panel1.SuspendLayout();
             label1.SuspendLayout();
             panel2.SuspendLayout();
@@ -231,7 +207,6 @@
             button2.Size = new Size(97, 41);
             button2.TabIndex = 2;
             button2.Text = "button2";
-            button2.Click += button2_Click;
             // 
             // iconWarn1
             // 
@@ -269,39 +244,6 @@
             iconInfo1.TabIndex = 6;
             iconInfo1.Text = "iconInfo1";
             // 
-            // menu1
-            // 
-            menu1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            menu1.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            menuItem1.Expand = true;
-            menuItem2.Expand = true;
-            menuItem2.Icon = Properties.Resources.bg1;
-            menuItem2.Text = "Option 1";
-            menuItem3.Expand = true;
-            menuItem3.Icon = Properties.Resources.bg6;
-            menuItem4.Expand = true;
-            menuItem4.Icon = Properties.Resources.bg4;
-            menuItem4.Text = "Sub2 1";
-            menuItem5.Expand = true;
-            menuItem5.Text = "Sub2 2";
-            menuItem6.Expand = true;
-            menuItem6.Text = "Sub2 3";
-            menuItem3.Sub.AddRange(new AntDesign.MenuItem[] { menuItem4, menuItem5, menuItem6 });
-            menuItem3.Text = "Option 2";
-            menuItem7.Expand = true;
-            menuItem7.Text = "Option 3";
-            menuItem1.Sub.AddRange(new AntDesign.MenuItem[] { menuItem2, menuItem3, menuItem7 });
-            menuItem1.Text = "Navigation One";
-            menuItem8.Expand = true;
-            menuItem8.Text = "Navigation Two";
-            menu1.Items.AddRange(new AntDesign.MenuItem[] { menuItem1, menuItem8 });
-            menu1.Location = new Point(325, 116);
-            menu1.Margin = new Padding(2);
-            menu1.Name = "menu1";
-            menu1.Size = new Size(278, 459);
-            menu1.TabIndex = 9;
-            menu1.Text = "menu1";
-            // 
             // buttonDown1
             // 
             buttonDown1.AllowClear = true;
@@ -328,107 +270,13 @@
             select1.TabIndex = 10;
             select1.Text = "";
             // 
-            // segmented1
-            // 
-            segmented1.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            segmentedItem1.Text = "Daily";
-            segmentedItem2.Text = "Weekly";
-            segmentedItem3.Text = "Monthly";
-            segmentedItem4.Text = "Quarterly";
-            segmentedItem5.Text = "Yearly";
-            segmented1.Items.AddRange(new AntDesign.SegmentedItem[] { segmentedItem1, segmentedItem2, segmentedItem3, segmentedItem4, segmentedItem5 });
-            segmented1.Location = new Point(243, 4);
-            segmented1.Name = "segmented1";
-            segmented1.Size = new Size(377, 36);
-            segmented1.TabIndex = 11;
-            segmented1.Text = "segmented1";
-            // 
-            // segmented2
-            // 
-            segmented2.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            segmentedItem6.Img = Properties.Resources.img1;
-            segmentedItem6.Text = "Daily";
-            segmentedItem7.Img = Properties.Resources.bg7;
-            segmentedItem7.Text = "Weekly";
-            segmentedItem8.Img = Properties.Resources.bg1;
-            segmentedItem8.Text = "Monthly";
-            segmentedItem9.Img = Properties.Resources.bg5;
-            segmentedItem9.Text = "Quarterly";
-            segmented2.Items.AddRange(new AntDesign.SegmentedItem[] { segmentedItem6, segmentedItem7, segmentedItem8, segmentedItem9 });
-            segmented2.Location = new Point(5, 282);
-            segmented2.Margin = new Padding(1);
-            segmented2.Name = "segmented2";
-            segmented2.SelectIndex = 0;
-            segmented2.Size = new Size(307, 73);
-            segmented2.TabIndex = 11;
-            // 
-            // image3d1
-            // 
-            image3d1.Image = Properties.Resources.bg7;
-            image3d1.Location = new Point(8, 372);
-            image3d1.Name = "image3d1";
-            image3d1.Padding = new Padding(10);
-            image3d1.Radius = 10;
-            image3d1.Shadow = 10;
-            image3d1.Size = new Size(145, 78);
-            image3d1.TabIndex = 12;
-            image3d1.Click += image3d1_Click;
-            // 
-            // image3d2
-            // 
-            image3d2.Duration = 200;
-            image3d2.Image = Properties.Resources.bg1;
-            image3d2.Location = new Point(159, 371);
-            image3d2.Name = "image3d2";
-            image3d2.Padding = new Padding(10);
-            image3d2.Radius = 10;
-            image3d2.Size = new Size(145, 78);
-            image3d2.TabIndex = 12;
-            image3d2.Vertical = true;
-            image3d2.Click += image3d2_Click;
-            // 
-            // avatar4
-            // 
-            avatar4.Image = Properties.Resources.img1;
-            avatar4.Location = new Point(58, 479);
-            avatar4.Margin = new Padding(2, 3, 2, 3);
-            avatar4.Name = "avatar4";
-            avatar4.Padding = new Padding(8);
-            avatar4.Round = true;
-            avatar4.Shadow = 8;
-            avatar4.Size = new Size(60, 60);
-            avatar4.TabIndex = 13;
-            // 
-            // avatar6
-            // 
-            avatar6.Back = Color.FromArgb(253, 227, 207);
-            avatar6.Badge = "1";
-            avatar6.ForeColor = Color.FromArgb(245, 106, 0);
-            avatar6.Location = new Point(152, 479);
-            avatar6.Margin = new Padding(2, 3, 2, 3);
-            avatar6.Name = "avatar6";
-            avatar6.Padding = new Padding(8);
-            avatar6.Round = true;
-            avatar6.Shadow = 8;
-            avatar6.ShadowOffsetY = 4;
-            avatar6.Size = new Size(60, 60);
-            avatar6.TabIndex = 14;
-            avatar6.Text = "U";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(622, 586);
-            Controls.Add(avatar4);
-            Controls.Add(avatar6);
-            Controls.Add(image3d2);
-            Controls.Add(image3d1);
-            Controls.Add(segmented2);
-            Controls.Add(segmented1);
             Controls.Add(select1);
             Controls.Add(buttonDown1);
-            Controls.Add(menu1);
             Controls.Add(iconInfo1);
             Controls.Add(iconComplete1);
             Controls.Add(iconError1);
@@ -468,14 +316,7 @@
         private AntDesign.Icon.IconError iconError1;
         private AntDesign.Icon.IconComplete iconComplete1;
         private AntDesign.Icon.IconInfo iconInfo1;
-        private AntDesign.Menu menu1;
         private AntDesign.Select buttonDown1;
         private AntDesign.Select select1;
-        private AntDesign.Segmented segmented1;
-        private AntDesign.Segmented segmented2;
-        private AntDesign.Image3D image3d1;
-        private AntDesign.Image3D image3d2;
-        private AntDesign.Avatar avatar4;
-        private AntDesign.Avatar avatar6;
     }
 }

@@ -201,8 +201,9 @@
             // 
             // select2
             // 
-            select2.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi", "HUAWEI", "XIAOMI" });
+            select2.Items.AddRange(new AntDesign.ISelectItem[] { new AntDesign.SelectItem(0, "Lucy"), new AntDesign.SelectItem(1, "Tom"), new AntDesign.SelectItem(1, "AduSkin"), new AntDesign.DividerSelectItem(), new AntDesign.SelectItem(0, "WangLi"), new AntDesign.SelectItem(0, "HUAWEI"), new AntDesign.SelectItem(0, "XIAOMI") });
             select2.List = true;
+            select2.ListAutoWidth = true;
             select2.Location = new Point(160, 19);
             select2.Margin = new Padding(2, 3, 2, 3);
             select2.Name = "select2";

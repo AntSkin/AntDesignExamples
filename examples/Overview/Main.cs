@@ -86,6 +86,12 @@ namespace Overview
                     case "Notification":
                         control_add = new Controls.Notification();
                         break;
+                    case "Menu":
+                        control_add = new Controls.Menu();
+                        break;
+                    case "Segmented":
+                        control_add = new Controls.Segmented();
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -154,12 +160,14 @@ namespace Overview
             {
                 new IList("Button","按钮",Properties.Resources.Button),
                 new IList("Avatar","头像",Properties.Resources.Avatar),
-                new IList("Carousel","走马灯",Properties.Resources.Carousel),
                 new IList("Checkbox","多选框",Properties.Resources.Checkbox),
                 new IList("Radio","单选框",Properties.Resources.Radio),
                 new IList("Input","输入框",Properties.Resources.Input),
+                new IList("Menu","导航菜单",Properties.Resources.Menu),
                 new IList("Divider","分割线",Properties.Resources.Divider),
                 new IList("Panel","面板",Properties.Resources.Panel),
+                new IList("Carousel","走马灯",Properties.Resources.Carousel),
+                new IList("Segmented","分段控制器",Properties.Resources.Segmented),
                 new IList("Progress","进度条",Properties.Resources.Progress),
                 new IList("Slider","滑动输入条",Properties.Resources.Slider),
                 new IList("Switch","开关",Properties.Resources.Switch),
@@ -183,7 +191,7 @@ namespace Overview
                         Margin = new Padding(0),
                         Padding = new Padding(20),
                         Shadow = 20,
-                        Size = new Size(229, 233),
+                        Size = new Size(254, 258),
                         Tag = item.id
                     };
                     var pic = new PictureBox
@@ -209,7 +217,7 @@ namespace Overview
                         Dock = DockStyle.Top,
                         Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Bold, GraphicsUnit.Point),
                         Padding = new Padding(10, 0, 0, 0),
-                        Size = new Size(0, 34),
+                        Size = new Size(0, 44),
                         Text = item.id + " " + item.key,
                         TextAlign = ContentAlignment.MiddleLeft,
                         Tag = item.id

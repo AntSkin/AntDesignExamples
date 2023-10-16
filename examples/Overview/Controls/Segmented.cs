@@ -1,8 +1,8 @@
 namespace Overview.Controls
 {
-    public partial class Radio : UserControl
+    public partial class Segmented : UserControl
     {
-        public Radio()
+        public Segmented()
         {
             InitializeComponent();
         }

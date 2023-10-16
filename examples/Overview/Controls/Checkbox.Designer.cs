@@ -28,48 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            checkbox1 = new AntDesign.Checkbox();
-            checkbox2 = new AntDesign.Checkbox();
-            checkbox3 = new AntDesign.Checkbox();
             header1 = new AntDesign.Header();
-            flowLayoutPanel1 = new FlowLayoutPanel();
+            panel1 = new System.Windows.Forms.Panel();
+            panel3 = new System.Windows.Forms.Panel();
+            checkbox8 = new AntDesign.Checkbox();
+            checkbox7 = new AntDesign.Checkbox();
+            checkbox6 = new AntDesign.Checkbox();
+            checkbox5 = new AntDesign.Checkbox();
+            panel2 = new System.Windows.Forms.Panel();
             checkbox4 = new AntDesign.Checkbox();
-            flowLayoutPanel1.SuspendLayout();
+            checkbox3 = new AntDesign.Checkbox();
+            checkbox2 = new AntDesign.Checkbox();
+            checkbox1 = new AntDesign.Checkbox();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
-            // 
-            // checkbox1
-            // 
-            checkbox1.AutoSize = AntDesign.TAutoSize.Auto;
-            checkbox1.Location = new Point(3, 3);
-            checkbox1.Name = "checkbox1";
-            checkbox1.Size = new Size(114, 50);
-            checkbox1.TabIndex = 0;
-            checkbox1.Text = "选项1";
-            checkbox1.CheckedChanged += Checkbox_CheckedChanged;
-            // 
-            // checkbox2
-            // 
-            checkbox2.AutoSize = AntDesign.TAutoSize.Auto;
-            checkbox2.Enabled = false;
-            checkbox2.Location = new Point(123, 3);
-            checkbox2.Name = "checkbox2";
-            checkbox2.Size = new Size(202, 50);
-            checkbox2.TabIndex = 0;
-            checkbox2.Text = "选项2（禁用）";
-            checkbox2.CheckedChanged += Checkbox_CheckedChanged;
-            // 
-            // checkbox3
-            // 
-            checkbox3.AutoSize = AntDesign.TAutoSize.Auto;
-            checkbox3.Checked = true;
-            checkbox3.Color = Color.Red;
-            checkbox3.Location = new Point(331, 3);
-            checkbox3.Name = "checkbox3";
-            checkbox3.RightToLeft = RightToLeft.Yes;
-            checkbox3.Size = new Size(114, 50);
-            checkbox3.TabIndex = 0;
-            checkbox3.Text = "选项3";
-            checkbox3.CheckedChanged += Checkbox_CheckedChanged;
             // 
             // header1
             // 
@@ -78,55 +52,156 @@
             header1.Location = new Point(0, 0);
             header1.Name = "header1";
             header1.Padding = new Padding(6);
-            header1.Size = new Size(543, 79);
+            header1.Size = new Size(1300, 79);
             header1.TabIndex = 5;
             header1.Text = "Checkbox 多选框";
             header1.TextDesc = "多选框。";
             // 
-            // flowLayoutPanel1
+            // panel1
             // 
-            flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.Controls.Add(checkbox1);
-            flowLayoutPanel1.Controls.Add(checkbox2);
-            flowLayoutPanel1.Controls.Add(checkbox3);
-            flowLayoutPanel1.Controls.Add(checkbox4);
-            flowLayoutPanel1.Dock = DockStyle.Fill;
-            flowLayoutPanel1.Location = new Point(0, 79);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(543, 136);
-            flowLayoutPanel1.TabIndex = 6;
+            panel1.AutoScroll = true;
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(panel2);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(0, 79);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1300, 597);
+            panel1.TabIndex = 7;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(checkbox8);
+            panel3.Controls.Add(checkbox7);
+            panel3.Controls.Add(checkbox6);
+            panel3.Controls.Add(checkbox5);
+            panel3.Location = new Point(0, 56);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(622, 50);
+            panel3.TabIndex = 0;
+            // 
+            // checkbox8
+            // 
+            checkbox8.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox8.Checked = true;
+            checkbox8.Color = Color.FromArgb(100, 0, 0);
+            checkbox8.Dock = DockStyle.Left;
+            checkbox8.Enabled = false;
+            checkbox8.Location = new Point(456, 0);
+            checkbox8.Name = "checkbox8";
+            checkbox8.Size = new Size(154, 50);
+            checkbox8.TabIndex = 3;
+            checkbox8.Text = "Option D";
+            // 
+            // checkbox7
+            // 
+            checkbox7.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox7.Color = Color.FromArgb(150, 0, 0);
+            checkbox7.Dock = DockStyle.Left;
+            checkbox7.Location = new Point(304, 0);
+            checkbox7.Name = "checkbox7";
+            checkbox7.Size = new Size(152, 50);
+            checkbox7.TabIndex = 2;
+            checkbox7.Text = "Option C";
+            // 
+            // checkbox6
+            // 
+            checkbox6.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox6.Color = Color.FromArgb(200, 0, 0);
+            checkbox6.Dock = DockStyle.Left;
+            checkbox6.Location = new Point(153, 0);
+            checkbox6.Name = "checkbox6";
+            checkbox6.Size = new Size(151, 50);
+            checkbox6.TabIndex = 1;
+            checkbox6.Text = "Option B";
+            // 
+            // checkbox5
+            // 
+            checkbox5.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox5.Color = Color.FromArgb(250, 0, 0);
+            checkbox5.Dock = DockStyle.Left;
+            checkbox5.Location = new Point(0, 0);
+            checkbox5.Name = "checkbox5";
+            checkbox5.Size = new Size(153, 50);
+            checkbox5.TabIndex = 0;
+            checkbox5.Text = "Option A";
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(checkbox4);
+            panel2.Controls.Add(checkbox3);
+            panel2.Controls.Add(checkbox2);
+            panel2.Controls.Add(checkbox1);
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(622, 50);
+            panel2.TabIndex = 0;
             // 
             // checkbox4
             // 
-            checkbox4.AutoSize = AntDesign.TAutoSize.Auto;
-            checkbox4.Checked = true;
+            checkbox4.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox4.Dock = DockStyle.Left;
             checkbox4.Enabled = false;
-            checkbox4.Location = new Point(3, 59);
+            checkbox4.Location = new Point(450, 0);
             checkbox4.Name = "checkbox4";
-            checkbox4.Size = new Size(202, 50);
-            checkbox4.TabIndex = 0;
-            checkbox4.Text = "选项4（禁用）";
-            checkbox4.CheckedChanged += Checkbox_CheckedChanged;
+            checkbox4.Size = new Size(150, 50);
+            checkbox4.TabIndex = 4;
+            checkbox4.Text = "Option 4";
+            // 
+            // checkbox3
+            // 
+            checkbox3.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox3.Dock = DockStyle.Left;
+            checkbox3.Location = new Point(300, 0);
+            checkbox3.Name = "checkbox3";
+            checkbox3.Size = new Size(150, 50);
+            checkbox3.TabIndex = 3;
+            checkbox3.Text = "Option 3";
+            // 
+            // checkbox2
+            // 
+            checkbox2.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox2.Dock = DockStyle.Left;
+            checkbox2.Location = new Point(150, 0);
+            checkbox2.Name = "checkbox2";
+            checkbox2.Size = new Size(150, 50);
+            checkbox2.TabIndex = 2;
+            checkbox2.Text = "Option 2";
+            // 
+            // checkbox1
+            // 
+            checkbox1.AutoSize = AntDesign.TAutoSize.Width;
+            checkbox1.Dock = DockStyle.Left;
+            checkbox1.Location = new Point(0, 0);
+            checkbox1.Name = "checkbox1";
+            checkbox1.Size = new Size(150, 50);
+            checkbox1.TabIndex = 0;
+            checkbox1.Text = "Option 1";
             // 
             // Checkbox
             // 
-            Controls.Add(flowLayoutPanel1);
+            Controls.Add(panel1);
             Controls.Add(header1);
             Font = new Font("Microsoft YaHei UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "Checkbox";
-            Size = new Size(543, 215);
-            flowLayoutPanel1.ResumeLayout(false);
-            flowLayoutPanel1.PerformLayout();
+            Size = new Size(1300, 676);
+            panel1.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
-        private AntDesign.Checkbox checkbox1;
-        private AntDesign.Checkbox checkbox2;
-        private AntDesign.Checkbox checkbox3;
         private AntDesign.Header header1;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel3;
+        private AntDesign.Checkbox checkbox8;
+        private AntDesign.Checkbox checkbox7;
+        private AntDesign.Checkbox checkbox6;
+        private AntDesign.Checkbox checkbox5;
+        private System.Windows.Forms.Panel panel2;
         private AntDesign.Checkbox checkbox4;
+        private AntDesign.Checkbox checkbox3;
+        private AntDesign.Checkbox checkbox2;
+        private AntDesign.Checkbox checkbox1;
     }
 }

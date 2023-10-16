@@ -147,7 +147,7 @@
             // Main
             // 
             BackColor = Color.White;
-            ClientSize = new Size(934, 588);
+            ClientSize = new Size(1300, 720);
             Controls.Add(flowPanel);
             Controls.Add(divider2);
             Controls.Add(panel_top);

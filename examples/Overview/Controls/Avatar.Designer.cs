@@ -39,6 +39,8 @@
             avatar11 = new AntDesign.Avatar();
             panel1 = new System.Windows.Forms.Panel();
             avatar12 = new AntDesign.Avatar();
+            avatar5 = new AntDesign.Avatar();
+            avatar7 = new AntDesign.Avatar();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -141,6 +143,8 @@
             // panel1
             // 
             panel1.AutoScroll = true;
+            panel1.Controls.Add(avatar5);
+            panel1.Controls.Add(avatar7);
             panel1.Controls.Add(avatar4);
             panel1.Controls.Add(avatar1);
             panel1.Controls.Add(avatar11);
@@ -168,6 +172,34 @@
             avatar12.TabIndex = 9;
             avatar12.Text = "U";
             // 
+            // avatar5
+            // 
+            avatar5.Image = Properties.Resources.img1;
+            avatar5.Location = new Point(333, 6);
+            avatar5.Margin = new Padding(2, 3, 2, 3);
+            avatar5.Name = "avatar5";
+            avatar5.Padding = new Padding(8);
+            avatar5.Round = true;
+            avatar5.Shadow = 8;
+            avatar5.Size = new Size(60, 60);
+            avatar5.TabIndex = 15;
+            // 
+            // avatar7
+            // 
+            avatar7.Back = Color.FromArgb(253, 227, 207);
+            avatar7.Badge = "1";
+            avatar7.ForeColor = Color.FromArgb(245, 106, 0);
+            avatar7.Location = new Point(415, 6);
+            avatar7.Margin = new Padding(2, 3, 2, 3);
+            avatar7.Name = "avatar7";
+            avatar7.Padding = new Padding(8);
+            avatar7.Round = true;
+            avatar7.Shadow = 8;
+            avatar7.ShadowOffsetY = 4;
+            avatar7.Size = new Size(60, 60);
+            avatar7.TabIndex = 16;
+            avatar7.Text = "U";
+            // 
             // Avatar
             // 
             Controls.Add(panel1);
@@ -191,5 +223,7 @@
         private AntDesign.Avatar avatar11;
         private System.Windows.Forms.Panel panel1;
         private AntDesign.Avatar avatar12;
+        private AntDesign.Avatar avatar5;
+        private AntDesign.Avatar avatar7;
     }
 }
