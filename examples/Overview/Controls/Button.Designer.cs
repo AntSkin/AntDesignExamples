@@ -44,6 +44,9 @@
             header1 = new AntDesign.Header();
             panel3 = new System.Windows.Forms.Panel();
             panel1 = new System.Windows.Forms.Panel();
+            panel5 = new System.Windows.Forms.Panel();
+            button8 = new AntDesign.Button();
+            button20 = new AntDesign.Button();
             panel2 = new AntDesign.Panel();
             button10 = new AntDesign.Button();
             button15 = new AntDesign.Button();
@@ -55,15 +58,12 @@
             button18 = new AntDesign.Button();
             button19 = new AntDesign.Button();
             divider1 = new AntDesign.Divider();
-            panel5 = new System.Windows.Forms.Panel();
-            button8 = new AntDesign.Button();
-            button20 = new AntDesign.Button();
             flowLayoutPanel2.SuspendLayout();
             panel3.SuspendLayout();
             panel1.SuspendLayout();
+            panel5.SuspendLayout();
             panel2.SuspendLayout();
             panel4.SuspendLayout();
-            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -154,9 +154,9 @@
             flowLayoutPanel2.Controls.Add(button6);
             flowLayoutPanel2.Dock = DockStyle.Top;
             flowLayoutPanel2.ForeColor = Color.White;
-            flowLayoutPanel2.Location = new Point(0, 121);
+            flowLayoutPanel2.Location = new Point(0, 124);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(1300, 77);
+            flowLayoutPanel2.Size = new Size(1300, 80);
             flowLayoutPanel2.TabIndex = 3;
             // 
             // button13
@@ -278,10 +278,49 @@
             panel1.Controls.Add(panel5);
             panel1.Controls.Add(panel2);
             panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 220);
+            panel1.Location = new Point(0, 226);
             panel1.Name = "panel1";
             panel1.Size = new Size(1300, 100);
             panel1.TabIndex = 8;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(button8);
+            panel5.Controls.Add(button20);
+            panel5.Font = new Font("Microsoft YaHei UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            panel5.ForeColor = Color.White;
+            panel5.Location = new Point(485, 20);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(154, 57);
+            panel5.TabIndex = 16;
+            // 
+            // button8
+            // 
+            button8.Back = Color.FromArgb(17, 24, 39);
+            button8.BackActive = Color.FromArgb(17, 24, 39);
+            button8.BackHover = Color.FromArgb(17, 24, 39);
+            button8.Dock = DockStyle.Fill;
+            button8.JoinLeft = true;
+            button8.Location = new Point(60, 0);
+            button8.Name = "button8";
+            button8.Radius = 4;
+            button8.Size = new Size(94, 57);
+            button8.TabIndex = 1;
+            button8.Text = "Button";
+            // 
+            // button20
+            // 
+            button20.Back = Color.FromArgb(168, 85, 247);
+            button20.BackActive = Color.FromArgb(147, 51, 234);
+            button20.BackHover = Color.FromArgb(147, 51, 234);
+            button20.Dock = DockStyle.Left;
+            button20.Image = Properties.Resources.search;
+            button20.JoinRight = true;
+            button20.Location = new Point(0, 0);
+            button20.Name = "button20";
+            button20.Radius = 4;
+            button20.Size = new Size(60, 57);
+            button20.TabIndex = 0;
             // 
             // panel2
             // 
@@ -351,7 +390,7 @@
             // 
             divider3.Dock = DockStyle.Top;
             divider3.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            divider3.Location = new Point(0, 198);
+            divider3.Location = new Point(0, 204);
             divider3.Name = "divider3";
             divider3.Orientation = AntDesign.TOrientation.Left;
             divider3.Size = new Size(1300, 22);
@@ -362,7 +401,7 @@
             // 
             divider2.Dock = DockStyle.Top;
             divider2.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            divider2.Location = new Point(0, 99);
+            divider2.Location = new Point(0, 102);
             divider2.Name = "divider2";
             divider2.Orientation = AntDesign.TOrientation.Left;
             divider2.Size = new Size(1300, 22);
@@ -382,7 +421,7 @@
             panel4.Dock = DockStyle.Top;
             panel4.Location = new Point(0, 22);
             panel4.Name = "panel4";
-            panel4.Size = new Size(1300, 77);
+            panel4.Size = new Size(1300, 80);
             panel4.TabIndex = 2;
             // 
             // button17
@@ -433,45 +472,6 @@
             divider1.TabIndex = 1;
             divider1.Text = "Light";
             // 
-            // panel5
-            // 
-            panel5.Controls.Add(button8);
-            panel5.Controls.Add(button20);
-            panel5.Font = new Font("Microsoft YaHei UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            panel5.ForeColor = Color.White;
-            panel5.Location = new Point(485, 20);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(154, 57);
-            panel5.TabIndex = 16;
-            // 
-            // button8
-            // 
-            button8.Back = Color.FromArgb(17, 24, 39);
-            button8.BackActive = Color.FromArgb(17, 24, 39);
-            button8.BackHover = Color.FromArgb(17, 24, 39);
-            button8.Dock = DockStyle.Fill;
-            button8.JoinLeft = true;
-            button8.Location = new Point(60, 0);
-            button8.Name = "button8";
-            button8.Radius = 4;
-            button8.Size = new Size(94, 57);
-            button8.TabIndex = 1;
-            button8.Text = "Button";
-            // 
-            // button20
-            // 
-            button20.Back = Color.FromArgb(168, 85, 247);
-            button20.BackActive = Color.FromArgb(147, 51, 234);
-            button20.BackHover = Color.FromArgb(147, 51, 234);
-            button20.Dock = DockStyle.Left;
-            button20.Image = Properties.Resources.search;
-            button20.JoinRight = true;
-            button20.Location = new Point(0, 0);
-            button20.Name = "button20";
-            button20.Radius = 4;
-            button20.Size = new Size(60, 57);
-            button20.TabIndex = 0;
-            // 
             // Button
             // 
             Controls.Add(panel3);
@@ -482,9 +482,9 @@
             flowLayoutPanel2.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel1.ResumeLayout(false);
+            panel5.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel4.ResumeLayout(false);
-            panel5.ResumeLayout(false);
             ResumeLayout(false);
         }
 
