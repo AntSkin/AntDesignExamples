@@ -1,4 +1,4 @@
-![横幅](screenshot/banner.gif?raw=true)
+![横幅](screenshot/banner.png?raw=true)
 
 # Ant Design
 Winform UI library use Ant Design 5.0
@@ -7,8 +7,8 @@ https://ant-design.antgroup.com/components/overview-cn
 
 ---
 
-![DEMO](screenshot/Pre/Demo.gif?raw=true)
-![OverView](screenshot/Pre/OverView.gif?raw=true)
+![DEMO](screenshot/Pre/Demo.png?raw=true)
+![OverView](screenshot/Pre/OverView.png?raw=true)
 
 ### ✨特性
 
@@ -76,3 +76,6 @@ https://ant-design.antgroup.com/components/overview-cn
 
 > [!IMPORTANT]
 > 录制均压缩过，不代表**最终效果**
+> * **Github**: [EVA-SS](https://github.com/EVA-SS)
+> * **CSDN**: [v_132](https://blog.csdn.net/v_132)
+> * **Mail**: [17379620@qq.com](mailto:17379620@qq.com)
