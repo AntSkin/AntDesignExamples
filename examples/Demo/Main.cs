@@ -8,9 +8,11 @@
 
             panel_top.MouseDown += Window_MouseDown;
             label_title.MouseDown += Window_MouseDown;
+            tableLayoutPanel8.MouseDown += Window_MouseDown;
 
             panel_top.MouseMove += Window_MouseMove;
             label_title.MouseMove += Window_MouseMove;
+            tableLayoutPanel8.MouseMove += Window_MouseMove;
         }
 
         void Window_MouseMove(object? sender, MouseEventArgs e)
@@ -94,7 +96,7 @@
 
         private void Progress_Red(object sender, EventArgs e)
         {
-            iError2.Visible = false;
+            progress6.Icon = AntDesign.TType.None;
             progress3.Value = progress6.Value = progress9.Value = 0F;
             progress6.Text = "0%";
             progress3.Color = progress6.Color = progress1.Color;
@@ -111,10 +113,7 @@
                             progress3.Value = progress6.Value = progress9.Value = 0.7F;
                             progress3.Color = progress6.Color = progress9.Color;
                             progress6.Text = null;
-                            Invoke(new Action(() =>
-                            {
-                                iError2.Visible = true;
-                            }));
+                            progress6.Icon = AntDesign.TType.Error;
                             return;
                         }
                         Thread.Sleep(10);
