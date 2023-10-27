@@ -46,6 +46,8 @@
             iconError1 = new AntDesign.Icon.IconError();
             iconComplete1 = new AntDesign.Icon.IconComplete();
             iconInfo1 = new AntDesign.Icon.IconInfo();
+            pagination1 = new AntDesign.Pagination();
+            pagination2 = new AntDesign.Pagination();
             panel1.SuspendLayout();
             label1.SuspendLayout();
             panel2.SuspendLayout();
@@ -255,9 +257,45 @@
             iconInfo1.TabIndex = 6;
             iconInfo1.Text = "iconInfo1";
             // 
+            // pagination1
+            // 
+            pagination1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pagination1.BackColor = Color.White;
+            pagination1.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            pagination1.Location = new Point(74, 312);
+            pagination1.Name = "pagination1";
+            pagination1.Padding = new Padding(4);
+            pagination1.PageSize = 1;
+            pagination1.Size = new Size(467, 55);
+            pagination1.TabIndex = 7;
+            pagination1.Text = "pagination1";
+            pagination1.Total = 100000;
+            pagination1.ShowTotalChanged += pagination1_ShowTotalChanged;
+            // 
+            // pagination2
+            // 
+            pagination2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pagination2.BackColor = Color.Black;
+            pagination2.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            pagination2.ForeColor = Color.White;
+            pagination2.Location = new Point(74, 399);
+            pagination2.Mode = AntDesign.TMode.Dark;
+            pagination2.Name = "pagination2";
+            pagination2.Padding = new Padding(4);
+            pagination2.PageSize = 1;
+            pagination2.RightToLeft = RightToLeft.Yes;
+            pagination2.ShowSizeChanger = true;
+            pagination2.Size = new Size(467, 55);
+            pagination2.TabIndex = 7;
+            pagination2.Text = "pagination1";
+            pagination2.Total = 50;
+            pagination2.ShowTotalChanged += pagination1_ShowTotalChanged;
+            // 
             // Form1
             // 
             ClientSize = new Size(800, 689);
+            Controls.Add(pagination2);
+            Controls.Add(pagination1);
             Controls.Add(iconInfo1);
             Controls.Add(iconComplete1);
             Controls.Add(iconError1);
@@ -297,5 +335,7 @@
         private AntDesign.Icon.IconError iconError1;
         private AntDesign.Icon.IconComplete iconComplete1;
         private AntDesign.Icon.IconInfo iconInfo1;
+        private AntDesign.Pagination pagination1;
+        private AntDesign.Pagination pagination2;
     }
 }

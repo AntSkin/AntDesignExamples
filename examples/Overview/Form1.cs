@@ -1,4 +1,5 @@
 ﻿using AntDesign;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Overview
 {
@@ -54,6 +55,11 @@ namespace Overview
                     Thread.Sleep(500);
                 }
             });
+        }
+
+        private string pagination1_ShowTotalChanged(int current, int total, int pageSize, int pageTotal)
+        {
+            return $"{pageSize} / {total}条 {pageTotal}页";
         }
     }
 }
