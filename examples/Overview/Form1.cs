@@ -1,5 +1,4 @@
 ﻿using AntDesign;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Overview
 {
@@ -25,6 +24,10 @@ namespace Overview
 
         private void button1_Click(object sender, EventArgs e)
         {
+            panel1.Spin(() => {
+                Thread.Sleep(2000);
+            });
+            return;
             Task.Run(() =>
             {
                 var arrd = panel1.Back.DarkColors(20, 100);
@@ -55,11 +58,6 @@ namespace Overview
                     Thread.Sleep(500);
                 }
             });
-        }
-
-        private string pagination1_ShowTotalChanged(int current, int total, int pageSize, int pageTotal)
-        {
-            return $"{pageSize} / {total}条 {pageTotal}页";
         }
     }
 }

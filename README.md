@@ -45,6 +45,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Select** 选择器 | ✅ | ❎ |
 :arrow_right: | **Slider** 滑动输入条 | ✅ | ❎ |
 :arrow_right: | **Switch** 开关 | ✅ | ✅ |
+:arrow_right: | **Spin** 加载中 | ✅ | ❎ |
 :arrow_right: | **Tabs** 标签页 | ✅ | ❎ |
 :arrow_right: | **Tooltip** 文字提示 | ✅ | ❎ |
 :arrow_right: | **Pagination** 分页 | ✅ | ✅ |

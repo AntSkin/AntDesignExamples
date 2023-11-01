@@ -116,7 +116,11 @@ namespace Overview
         {
             BeginInvoke(() =>
             {
-                if (btn_back.Tag is Control control) Controls.Remove(control);
+                if (btn_back.Tag is Control control)
+                {
+                    control.Dispose();
+                    Controls.Remove(control);
+                }
                 btn_back.Visible = false;
                 flowPanel.Visible = true;
             });

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            AntDesign.DividerSelectItem dividerSelectItem2 = new AntDesign.DividerSelectItem();
             input1 = new AntDesign.Input();
             input2 = new AntDesign.Input();
             input3 = new AntDesign.Input();
@@ -79,7 +80,7 @@
             input2.Location = new Point(18, 54);
             input2.Name = "input2";
             input2.Size = new Size(220, 44);
-            input2.TabIndex = 0;
+            input2.TabIndex = 2;
             input2.Text = "input1";
             // 
             // input3
@@ -89,7 +90,7 @@
             input3.PlaceholderText = "请输入账号";
             input3.Round = true;
             input3.Size = new Size(220, 44);
-            input3.TabIndex = 0;
+            input3.TabIndex = 1;
             input3.Text = "";
             // 
             // input4
@@ -99,7 +100,7 @@
             input4.PasswordChar = '●';
             input4.Round = true;
             input4.Size = new Size(220, 44);
-            input4.TabIndex = 0;
+            input4.TabIndex = 3;
             input4.Text = "321";
             // 
             // input5
@@ -109,7 +110,7 @@
             input5.Name = "input5";
             input5.Radius = 10;
             input5.Size = new Size(220, 44);
-            input5.TabIndex = 0;
+            input5.TabIndex = 4;
             input5.Text = "321";
             // 
             // input6
@@ -122,7 +123,7 @@
             input6.Mode = AntDesign.TMode.Dark;
             input6.Name = "input6";
             input6.Size = new Size(220, 44);
-            input6.TabIndex = 0;
+            input6.TabIndex = 5;
             input6.Text = "input1";
             // 
             // header1
@@ -133,7 +134,8 @@
             header1.Name = "header1";
             header1.Padding = new Padding(6);
             header1.Size = new Size(555, 79);
-            header1.TabIndex = 4;
+            header1.TabIndex = 0;
+            header1.TabStop = false;
             header1.Text = "Input 输入框";
             header1.TextDesc = "通过鼠标或键盘输入内容，是最基础的表单域的包装。";
             // 
@@ -161,7 +163,7 @@
             panel7.Location = new Point(0, 367);
             panel7.Name = "panel7";
             panel7.Size = new Size(555, 100);
-            panel7.TabIndex = 7;
+            panel7.TabIndex = 2;
             // 
             // panel8
             // 
@@ -170,7 +172,7 @@
             panel8.Location = new Point(306, 16);
             panel8.Name = "panel8";
             panel8.Size = new Size(220, 46);
-            panel8.TabIndex = 12;
+            panel8.TabIndex = 2;
             panel8.Text = "panel4";
             // 
             // select3
@@ -183,7 +185,7 @@
             select3.Name = "select3";
             select3.PlaceholderText = "输入点什么搜索";
             select3.Size = new Size(170, 46);
-            select3.TabIndex = 11;
+            select3.TabIndex = 0;
             select3.Text = "";
             // 
             // button4
@@ -197,7 +199,7 @@
             button4.Margins = 6;
             button4.Name = "button4";
             button4.Size = new Size(50, 46);
-            button4.TabIndex = 0;
+            button4.TabIndex = 1;
             // 
             // select2
             // 
@@ -208,7 +210,7 @@
             select2.Margin = new Padding(2, 3, 2, 3);
             select2.Name = "select2";
             select2.Size = new Size(126, 41);
-            select2.TabIndex = 11;
+            select2.TabIndex = 1;
             select2.Text = "（选择）";
             // 
             // select1
@@ -219,7 +221,7 @@
             select1.Margin = new Padding(2, 3, 2, 3);
             select1.Name = "select1";
             select1.Size = new Size(120, 41);
-            select1.TabIndex = 11;
+            select1.TabIndex = 0;
             select1.Text = "";
             // 
             // divider3
@@ -230,7 +232,7 @@
             divider3.Name = "divider3";
             divider3.Orientation = AntDesign.TOrientation.Left;
             divider3.Size = new Size(555, 22);
-            divider3.TabIndex = 6;
+            divider3.TabIndex = 2;
             divider3.Text = "选择器";
             // 
             // panel3
@@ -242,7 +244,7 @@
             panel3.Location = new Point(0, 206);
             panel3.Name = "panel3";
             panel3.Size = new Size(555, 139);
-            panel3.TabIndex = 5;
+            panel3.TabIndex = 1;
             // 
             // panel5
             // 
@@ -252,7 +254,7 @@
             panel5.Name = "panel5";
             panel5.Shadow = 0;
             panel5.Size = new Size(220, 50);
-            panel5.TabIndex = 11;
+            panel5.TabIndex = 1;
             panel5.Text = "panel4";
             // 
             // input8
@@ -264,7 +266,7 @@
             input8.Name = "input8";
             input8.PlaceholderText = "输入点什么搜索";
             input8.Size = new Size(157, 50);
-            input8.TabIndex = 1;
+            input8.TabIndex = 0;
             input8.Text = "";
             // 
             // button1
@@ -278,7 +280,7 @@
             button1.Margins = 6;
             button1.Name = "button1";
             button1.Size = new Size(63, 50);
-            button1.TabIndex = 0;
+            button1.TabIndex = 1;
             button1.Text = "搜索";
             button1.Click += Btn;
             // 
@@ -289,7 +291,7 @@
             panel6.Location = new Point(18, 76);
             panel6.Name = "panel6";
             panel6.Size = new Size(220, 46);
-            panel6.TabIndex = 11;
+            panel6.TabIndex = 2;
             panel6.Text = "panel4";
             // 
             // input9
@@ -301,7 +303,7 @@
             input9.Name = "input9";
             input9.PlaceholderText = "输入点什么搜索";
             input9.Size = new Size(170, 46);
-            input9.TabIndex = 1;
+            input9.TabIndex = 0;
             input9.Text = "";
             // 
             // button2
@@ -315,7 +317,7 @@
             button2.Margins = 6;
             button2.Name = "button2";
             button2.Size = new Size(50, 46);
-            button2.TabIndex = 0;
+            button2.TabIndex = 1;
             button2.Click += Btn;
             // 
             // panel4
@@ -326,7 +328,7 @@
             panel4.Name = "panel4";
             panel4.Shadow = 0;
             panel4.Size = new Size(220, 50);
-            panel4.TabIndex = 11;
+            panel4.TabIndex = 0;
             panel4.Text = "panel4";
             // 
             // input7
@@ -338,7 +340,7 @@
             input7.Name = "input7";
             input7.PlaceholderText = "输入点什么搜索";
             input7.Size = new Size(157, 50);
-            input7.TabIndex = 1;
+            input7.TabIndex = 0;
             input7.Text = "";
             // 
             // button3
@@ -352,7 +354,7 @@
             button3.Margins = 6;
             button3.Name = "button3";
             button3.Size = new Size(63, 50);
-            button3.TabIndex = 0;
+            button3.TabIndex = 1;
             button3.Text = "搜索";
             button3.Click += Btn;
             // 
@@ -364,7 +366,8 @@
             divider2.Name = "divider2";
             divider2.Orientation = AntDesign.TOrientation.Left;
             divider2.Size = new Size(555, 22);
-            divider2.TabIndex = 4;
+            divider2.TabIndex = 1;
+            divider2.TabStop = false;
             divider2.Text = "组合";
             // 
             // panel2
@@ -379,7 +382,7 @@
             panel2.Location = new Point(0, 22);
             panel2.Name = "panel2";
             panel2.Size = new Size(555, 162);
-            panel2.TabIndex = 3;
+            panel2.TabIndex = 0;
             // 
             // divider1
             // 
@@ -389,7 +392,8 @@
             divider1.Name = "divider1";
             divider1.Orientation = AntDesign.TOrientation.Left;
             divider1.Size = new Size(555, 22);
-            divider1.TabIndex = 2;
+            divider1.TabIndex = 1;
+            divider1.TabStop = false;
             divider1.Text = "常规";
             // 
             // Input
