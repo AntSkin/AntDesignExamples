@@ -37,9 +37,6 @@
             label2 = new Label();
             label1 = new Label();
             label8 = new Label();
-            panel2 = new AntDesign.Panel();
-            label15 = new Label();
-            label16 = new Label();
             button1 = new AntDesign.Button();
             iconWarn1 = new AntDesign.Icon.IconWarn();
             iconError1 = new AntDesign.Icon.IconError();
@@ -48,8 +45,6 @@
             spin1 = new AntDesign.Spin();
             panel1.SuspendLayout();
             label1.SuspendLayout();
-            panel2.SuspendLayout();
-            label15.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -67,7 +62,7 @@
             panel1.Location = new Point(12, 20);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(283, 120);
+            panel1.Size = new Size(283, 83);
             panel1.TabIndex = 0;
             panel1.Text = "panel1";
             // 
@@ -77,7 +72,7 @@
             label7.Location = new Point(195, 82);
             label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(88, 38);
+            label7.Size = new Size(88, 1);
             label7.TabIndex = 6;
             // 
             // label6
@@ -86,7 +81,7 @@
             label6.Location = new Point(156, 82);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(39, 38);
+            label6.Size = new Size(39, 1);
             label6.TabIndex = 5;
             // 
             // label5
@@ -95,7 +90,7 @@
             label5.Location = new Point(117, 82);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(39, 38);
+            label5.Size = new Size(39, 1);
             label5.TabIndex = 4;
             // 
             // label4
@@ -104,7 +99,7 @@
             label4.Location = new Point(78, 82);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(39, 38);
+            label4.Size = new Size(39, 1);
             label4.TabIndex = 3;
             // 
             // label3
@@ -113,7 +108,7 @@
             label3.Location = new Point(39, 82);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(39, 38);
+            label3.Size = new Size(39, 1);
             label3.TabIndex = 2;
             // 
             // label2
@@ -122,7 +117,7 @@
             label2.Location = new Point(0, 82);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(39, 38);
+            label2.Size = new Size(39, 1);
             label2.TabIndex = 1;
             // 
             // label1
@@ -152,46 +147,6 @@
             label8.TabIndex = 1;
             label8.Text = "#1890FF";
             // 
-            // panel2
-            // 
-            panel2.Back = Color.FromArgb(24, 144, 255);
-            panel2.BackColor = Color.Transparent;
-            panel2.Controls.Add(label15);
-            panel2.ForeColor = Color.White;
-            panel2.Location = new Point(12, 157);
-            panel2.Margin = new Padding(4);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(304, 80);
-            panel2.TabIndex = 0;
-            panel2.Text = "panel1";
-            // 
-            // label15
-            // 
-            label15.Controls.Add(label16);
-            label15.Dock = DockStyle.Top;
-            label15.Font = new Font("Microsoft YaHei UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label15.Location = new Point(0, 0);
-            label15.Margin = new Padding(4, 0, 4, 0);
-            label15.Name = "label15";
-            label15.Padding = new Padding(13, 0, 0, 24);
-            label15.Size = new Size(304, 82);
-            label15.TabIndex = 0;
-            label15.Text = "Selected background Color";
-            label15.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // label16
-            // 
-            label16.Dock = DockStyle.Bottom;
-            label16.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            label16.ForeColor = Color.FromArgb(224, 224, 224);
-            label16.Location = new Point(0, 47);
-            label16.Margin = new Padding(4, 0, 4, 0);
-            label16.Name = "label16";
-            label16.Padding = new Padding(13, 0, 0, 0);
-            label16.Size = new Size(304, 35);
-            label16.TabIndex = 1;
-            label16.Text = "#1890FF";
-            // 
             // button1
             // 
             button1.ForeColor = Color.White;
@@ -200,7 +155,7 @@
             button1.Name = "button1";
             button1.Size = new Size(118, 42);
             button1.TabIndex = 1;
-            button1.Text = "AutoColor";
+            button1.Text = "加载";
             button1.Click += button1_Click;
             // 
             // iconWarn1
@@ -241,7 +196,7 @@
             // 
             // spin1
             // 
-            spin1.Location = new Point(205, 321);
+            spin1.Location = new Point(66, 162);
             spin1.Name = "spin1";
             spin1.Size = new Size(77, 74);
             spin1.TabIndex = 7;
@@ -256,7 +211,6 @@
             Controls.Add(iconError1);
             Controls.Add(iconWarn1);
             Controls.Add(button1);
-            Controls.Add(panel2);
             Controls.Add(panel1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
@@ -264,8 +218,6 @@
             Text = "Form1";
             panel1.ResumeLayout(false);
             label1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            label15.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -280,9 +232,6 @@
         private Label label4;
         private Label label3;
         private Label label8;
-        private AntDesign.Panel panel2;
-        private Label label15;
-        private Label label16;
         private AntDesign.Button button1;
         private AntDesign.Icon.IconWarn iconWarn1;
         private AntDesign.Icon.IconError iconError1;
