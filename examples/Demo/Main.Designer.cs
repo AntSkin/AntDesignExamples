@@ -660,7 +660,6 @@
             // tooltipComponent1
             // 
             tooltipComponent1.Font = new Font("Microsoft YaHei UI Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            tooltipComponent1.Mode = AntDesign.TMode.Light;
             // 
             // avatar2
             // 
@@ -784,7 +783,6 @@
             // tooltipComponent2
             // 
             tooltipComponent2.Font = new Font("Microsoft YaHei UI Light", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tooltipComponent2.Mode = AntDesign.TMode.Light;
             // 
             // badge1
             // 

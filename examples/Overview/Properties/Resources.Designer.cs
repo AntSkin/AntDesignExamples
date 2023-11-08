@@ -71,52 +71,65 @@ namespace Overview.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg t=&quot;1699411138127&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;6621&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M137.6 262.144a52.8 52.8 0 0 1 4.608-5.632l0.064-0.128 168.64-177.472a46.528 46.528 0 0 1 68.48 0.256c17.088 18.24 18.56 46.784 4.48 66.816l-4.736 5.76-85.312 89.728h231.04C728.704 241.536 896 401.152 896 600.832c0 194.816-159.168 351.424-356.352 358.976L524.8 960H176.448C149.696 960 128 937.024 128 908.672c0-25.984 18.24-47.424 41.856-50.816l6.592-0.512H [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap app_close {
+        internal static string app_back {
             get {
-                object obj = ResourceManager.GetObject("app_close", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("app_back", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg t=&quot;1699408534583&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2463&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M794.737778 284.444444l-56.32-56.888888-223.573334 223.573333L291.84 227.555556l-56.888889 56.888888 223.573333 223.004445-223.573333 223.573333 56.888889 56.32 223.004444-223.573333 223.573334 223.573333 56.32-56.32-223.573334-223.573333L794.737778 284.444444z&quot; p-id=&quot;2464&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap app_closeb {
+        internal static string app_close {
             get {
-                object obj = ResourceManager.GetObject("app_closeb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("app_close", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg t=&quot;1699405734548&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2453&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M186.86 493.94h-70.39c-10.79 0-19.42 8.63-19.42 19.42 0 10.79 8.63 19.42 19.42 19.42h70.39c10.79 0 19.42-8.63 19.42-19.42 0-10.79-8.63-19.42-19.42-19.42z m77.86-200.71c7.47 7.47 19.59 7.47 27.39 0 7.47-7.8 7.47-19.92 0-27.39l-45.98-45.98c-7.8-7.8-19.92-7.8-27.39 0-7.8 7.47-7.8 19.76 0 27.39-0.01 0 45.98 45.98 45.98 45.98z m5.64 434.62l-51.63 51.63c-7.8 7. [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap app_max2b {
+        internal static string app_dark {
             get {
-                object obj = ResourceManager.GetObject("app_max2b", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("app_dark", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg t=&quot;1699405710916&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;4060&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M186.86 493.94h-70.39c-10.79 0-19.42 8.63-19.42 19.42 0 10.79 8.63 19.42 19.42 19.42h70.39c10.79 0 19.42-8.63 19.42-19.42 0-10.79-8.63-19.42-19.42-19.42zM264.72 293.23c7.47 7.47 19.59 7.47 27.39 0 7.47-7.8 7.47-19.92 0-27.39l-45.98-45.98c-7.8-7.8-19.92-7.8-27.39 0-7.8 7.47-7.8 19.76 0 27.39-0.01 0 45.98 45.98 45.98 45.98zM270.36 727.85l-51.63 51.63c-7.8 7 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap app_maxb {
+        internal static string app_light {
             get {
-                object obj = ResourceManager.GetObject("app_maxb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("app_light", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg t=&quot;1699408499621&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2029&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M746.666667 341.333333v341.333334h-469.333334V341.333333h469.333334m68.266666-85.333333H209.066667a17.066667 17.066667 0 0 0-17.066667 17.066667v477.866666a17.066667 17.066667 0 0 0 17.066667 17.066667h605.866666a17.066667 17.066667 0 0 0 17.066667-17.066667V273.066667a17.066667 17.066667 0 0 0-17.066667-17.066667z&quot; p-id=&quot;2030&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap app_minb {
+        internal static string app_max {
             get {
-                object obj = ResourceManager.GetObject("app_minb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("app_max", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;svg t=&quot;1699408492863&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;1887&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M207.075556 560h568.888888v113.777778h-568.888888z&quot; p-id=&quot;1888&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
+        /// </summary>
+        internal static string app_min {
+            get {
+                return ResourceManager.GetString("app_min", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;svg t=&quot;1699408512218&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2317&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M853.333333 228.124444H284.444444v112.64H170.666667v455.111112h568.888889v-112.64h113.777777v-455.111112zM227.555556 738.986667v-284.444445h455.111111v284.444445H227.555556z m568.888888-112.64h-56.888888V340.764444H341.333333v-55.751111h455.111111v341.333334z&quot; p-id=&quot;2318&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
+        /// </summary>
+        internal static string app_restore {
+            get {
+                return ResourceManager.GetString("app_restore", resourceCulture);
             }
         }
         
@@ -126,16 +139,6 @@ namespace Overview.Properties {
         internal static System.Drawing.Bitmap Avatar {
             get {
                 object obj = ResourceManager.GetObject("Avatar", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap back {
-            get {
-                object obj = ResourceManager.GetObject("back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

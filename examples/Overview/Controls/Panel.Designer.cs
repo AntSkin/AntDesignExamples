@@ -34,10 +34,6 @@
             label5 = new Label();
             divider1 = new AntDesign.Divider();
             label7 = new Label();
-            panel2 = new AntDesign.Panel();
-            label4 = new Label();
-            divider2 = new AntDesign.Divider();
-            label11 = new Label();
             panel1 = new AntDesign.Panel();
             label1 = new Label();
             divider3 = new AntDesign.Divider();
@@ -55,7 +51,6 @@
             button4 = new AntDesign.Button();
             flowLayoutPanel1.SuspendLayout();
             panel8.SuspendLayout();
-            panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel9.SuspendLayout();
             panel4.SuspendLayout();
@@ -78,7 +73,6 @@
             // 
             flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.Controls.Add(panel8);
-            flowLayoutPanel1.Controls.Add(panel2);
             flowLayoutPanel1.Controls.Add(panel1);
             flowLayoutPanel1.Controls.Add(panel9);
             flowLayoutPanel1.Controls.Add(panel4);
@@ -139,58 +133,6 @@
             label7.Text = "Card title";
             label7.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // panel2
-            // 
-            panel2.Back = Color.FromArgb(20, 20, 20);
-            panel2.Controls.Add(label4);
-            panel2.Controls.Add(divider2);
-            panel2.Controls.Add(label11);
-            panel2.ForeColor = Color.White;
-            panel2.Location = new Point(278, 3);
-            panel2.Name = "panel2";
-            panel2.Padding = new Padding(24);
-            panel2.Shadow = 24;
-            panel2.ShadowOpacity = 0.2F;
-            panel2.ShadowOpacityHover = 0.5F;
-            panel2.Size = new Size(269, 221);
-            panel2.TabIndex = 17;
-            // 
-            // label4
-            // 
-            label4.BackColor = Color.Transparent;
-            label4.Dock = DockStyle.Fill;
-            label4.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(24, 73);
-            label4.Name = "label4";
-            label4.Padding = new Padding(20, 10, 0, 0);
-            label4.Size = new Size(221, 124);
-            label4.TabIndex = 2;
-            label4.Text = "Card content\r\n\r\nCard content\r\n\r\nCard content";
-            // 
-            // divider2
-            // 
-            divider2.BackColor = Color.Transparent;
-            divider2.Color = Color.FromArgb(6, 255, 255, 255);
-            divider2.Dock = DockStyle.Top;
-            divider2.Location = new Point(24, 72);
-            divider2.Margin = new Padding(10);
-            divider2.Name = "divider2";
-            divider2.Size = new Size(221, 1);
-            divider2.TabIndex = 1;
-            // 
-            // label11
-            // 
-            label11.BackColor = Color.Transparent;
-            label11.Dock = DockStyle.Top;
-            label11.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(24, 24);
-            label11.Name = "label11";
-            label11.Padding = new Padding(20, 0, 0, 0);
-            label11.Size = new Size(221, 48);
-            label11.TabIndex = 0;
-            label11.Text = "Card title";
-            label11.TextAlign = ContentAlignment.MiddleLeft;
-            // 
             // panel1
             // 
             panel1.ArrowAlign = AntDesign.TAlign.LT;
@@ -198,7 +140,7 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(divider3);
             panel1.Controls.Add(label3);
-            panel1.Location = new Point(553, 3);
+            panel1.Location = new Point(278, 3);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(24);
             panel1.Radius = 0;
@@ -395,13 +337,11 @@
             Size = new Size(835, 634);
             flowLayoutPanel1.ResumeLayout(false);
             panel8.ResumeLayout(false);
-            panel2.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel9.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel5.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -415,10 +355,6 @@
         private Label label5;
         private AntDesign.Divider divider1;
         private Label label7;
-        private AntDesign.Panel panel2;
-        private Label label4;
-        private AntDesign.Divider divider2;
-        private Label label11;
         private AntDesign.Panel panel1;
         private Label label1;
         private AntDesign.Divider divider3;

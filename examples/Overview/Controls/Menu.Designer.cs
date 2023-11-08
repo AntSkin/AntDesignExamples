@@ -89,11 +89,7 @@
             // 
             // menu2
             // 
-            menu2.BackActive = Color.FromArgb(17, 26, 44);
-            menu2.BackColor = Color.FromArgb(20, 20, 20);
             menu2.Dock = DockStyle.Left;
-            menu2.ForeActive = Color.FromArgb(22, 104, 220);
-            menu2.ForeColor = Color.White;
             menu2.Location = new Point(304, 79);
             menu2.Name = "menu2";
             menu2.Size = new Size(278, 597);

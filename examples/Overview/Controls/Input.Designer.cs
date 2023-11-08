@@ -120,7 +120,6 @@
             input6.BorderWidth = 4F;
             input6.ForeColor = Color.White;
             input6.Location = new Point(244, 102);
-            input6.Mode = AntDesign.TMode.Dark;
             input6.Name = "input6";
             input6.Size = new Size(220, 44);
             input6.TabIndex = 5;

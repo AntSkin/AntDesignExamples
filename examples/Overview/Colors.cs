@@ -11,7 +11,7 @@ namespace Overview
         }
         void CCC()
         {
-            var colors = panel_primary.Back.GenerateColors();
+            var colors = panel_primary.Back.Value.GenerateColors();
             int i = 1;
             foreach (var color in colors)
             {
@@ -38,7 +38,7 @@ namespace Overview
         {
             using (var dialog = new ColorDialog
             {
-                Color = panel_primary.Back
+                Color = panel_primary.Back.Value
             })
             {
                 if (dialog.ShowDialog() == DialogResult.OK)
@@ -53,7 +53,7 @@ namespace Overview
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             panel_primary.Back = textBox1.Text.ToColor();
-            label_primary_color.Text = "#" + panel_primary.Back.ToHex();
+            label_primary_color.Text = "#" + panel_primary.Back.Value.ToHex();
             CCC();
         }
     }

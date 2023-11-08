@@ -136,16 +136,42 @@ namespace Overview
             Min();
         }
 
-        protected override void OnSizeChanged(EventArgs e)
+        private void btn_mode_Click(object? sender, EventArgs e)
         {
-            if (WindowState == FormWindowState.Maximized)
+            AntDesign.Config.IsDark = !AntDesign.Config.IsDark;
+            Dark = AntDesign.Config.IsDark;
+            if (Dark)
             {
-                btn_max.Image = Properties.Resources.app_max2b;
+                btn_mode.Image = Properties.Resources.app_light.SvgToBmp();
+                BackColor = Color.Black;
+                ForeColor = Color.White;
+                btn_back.BackHover = btn_mode.BackHover = btn_min.BackHover = btn_max.BackHover = Color.FromArgb(32, 32, 32);
+                foreach (AntDesign.Panel item in flowPanel.Controls)
+                {
+                    item.Back = Color.FromArgb(46, 46, 46);
+                }
             }
             else
             {
-                btn_max.Image = Properties.Resources.app_maxb;
+                btn_mode.Image = Properties.Resources.app_dark.SvgToBmp();
+                BackColor = Color.White;
+                ForeColor = Color.Black;
+                btn_back.BackHover = btn_mode.BackHover = btn_min.BackHover = btn_max.BackHover = Color.FromArgb(223, 223, 223);
+                foreach (AntDesign.Panel item in flowPanel.Controls)
+                {
+                    item.Back = Color.White;
+                }
             }
+            btn_back.Image = Properties.Resources.app_back.SvgToBmp();
+            btn_min.Image = Properties.Resources.app_min.SvgToBmp();
+            btn_close.Image = Properties.Resources.app_close.SvgToBmp();
+            OnSizeChanged(e);
+        }
+
+        protected override void OnSizeChanged(EventArgs e)
+        {
+            if (WindowState == FormWindowState.Maximized) btn_max.Image = Properties.Resources.app_restore.SvgToBmp();
+            else btn_max.Image = Properties.Resources.app_max.SvgToBmp();
             base.OnSizeChanged(e);
         }
 
@@ -209,7 +235,7 @@ namespace Overview
 
                     var divider = new AntDesign.Divider
                     {
-                        Color = Color.FromArgb(20, 0, 0, 0),
+                        BackColor = Color.Transparent,
                         Dock = DockStyle.Top,
                         Margin = new Padding(10),
                         Size = new Size(0, 1),

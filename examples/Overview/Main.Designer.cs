@@ -31,6 +31,7 @@
             panel_top = new Panel();
             label_title = new Label();
             btn_back = new AntDesign.Button();
+            btn_mode = new AntDesign.Button();
             btn_min = new AntDesign.Button();
             btn_max = new AntDesign.Button();
             btn_close = new AntDesign.Button();
@@ -43,6 +44,7 @@
             // 
             panel_top.Controls.Add(label_title);
             panel_top.Controls.Add(btn_back);
+            panel_top.Controls.Add(btn_mode);
             panel_top.Controls.Add(btn_min);
             panel_top.Controls.Add(btn_max);
             panel_top.Controls.Add(btn_close);
@@ -69,7 +71,7 @@
             btn_back.BackActive = Color.FromArgb(172, 172, 172);
             btn_back.BackHover = Color.FromArgb(223, 223, 223);
             btn_back.Dock = DockStyle.Left;
-            btn_back.Image = Properties.Resources.back;
+            btn_back.Image = Properties.Resources.app_back.SvgToBmp();
             btn_back.Location = new Point(0, 0);
             btn_back.Name = "btn_back";
             btn_back.Size = new Size(90, 40);
@@ -78,6 +80,22 @@
             btn_back.Visible = false;
             btn_back.Click += btn_back_Click;
             // 
+            // btn_mode
+            // 
+            btn_mode.Back = Color.Transparent;
+            btn_mode.BackActive = Color.FromArgb(172, 172, 172);
+            btn_mode.BackHover = Color.FromArgb(223, 223, 223);
+            btn_mode.Dock = DockStyle.Right;
+            btn_mode.Font = new Font("Microsoft YaHei UI Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_mode.Image = Properties.Resources.app_light.SvgToBmp();
+            btn_mode.Location = new Point(776, 0);
+            btn_mode.Margins = 0;
+            btn_mode.Name = "btn_mode";
+            btn_mode.Radius = 0;
+            btn_mode.Size = new Size(50, 40);
+            btn_mode.TabIndex = 6;
+            btn_mode.Click += btn_mode_Click;
+            // 
             // btn_min
             // 
             btn_min.Back = Color.Transparent;
@@ -85,7 +103,7 @@
             btn_min.BackHover = Color.FromArgb(223, 223, 223);
             btn_min.Dock = DockStyle.Right;
             btn_min.Font = new Font("Microsoft YaHei UI Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_min.Image = Properties.Resources.app_minb;
+            btn_min.Image = Properties.Resources.app_min.SvgToBmp();
             btn_min.Location = new Point(776, 0);
             btn_min.Margins = 0;
             btn_min.Name = "btn_min";
@@ -101,7 +119,7 @@
             btn_max.BackHover = Color.FromArgb(223, 223, 223);
             btn_max.Dock = DockStyle.Right;
             btn_max.Font = new Font("Microsoft YaHei UI Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_max.Image = Properties.Resources.app_maxb;
+            btn_max.Image = Properties.Resources.app_max.SvgToBmp();
             btn_max.Location = new Point(826, 0);
             btn_max.Margins = 0;
             btn_max.Name = "btn_max";
@@ -116,9 +134,9 @@
             btn_close.BackActive = Color.FromArgb(145, 31, 20);
             btn_close.BackHover = Color.FromArgb(196, 43, 28);
             btn_close.Dock = DockStyle.Right;
-            btn_close.Font = new Font("Microsoft YaHei UI Light", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_close.Image = Properties.Resources.app_closeb;
-            btn_close.ImageHover = Properties.Resources.app_close;
+            btn_close.Font = new Font("Microsoft YaHei UI Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_close.Image = Properties.Resources.app_close.SvgToBmp();
+            btn_close.ImageHover = Properties.Resources.app_close.SvgToBmp(true);
             btn_close.Location = new Point(876, 0);
             btn_close.Margins = 0;
             btn_close.Name = "btn_close";
@@ -164,6 +182,7 @@
 
         private Panel panel_top;
         private Label label_title;
+        private AntDesign.Button btn_mode;
         private AntDesign.Button btn_min;
         private AntDesign.Button btn_max;
         private AntDesign.Button btn_close;

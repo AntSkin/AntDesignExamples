@@ -158,6 +158,10 @@
         private void btn_close_Click(object? sender, EventArgs e)
         {
             Close();
+            //new Thread(() => {
+            //    Thread.Sleep(1000);
+            //    Process.Start(@"E:\Pro\source\oxdragon\AntDesignExamples\examples\Overview\bin\Debug\net6.0-windows\Overview.exe");
+            //}).Start();
         }
 
         private void btn_min_Click(object? sender, EventArgs e)

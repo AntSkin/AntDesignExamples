@@ -83,7 +83,7 @@
             // 
             checkbox8.AutoSize = AntDesign.TAutoSize.Width;
             checkbox8.Checked = true;
-            checkbox8.Color = Color.FromArgb(100, 0, 0);
+            checkbox8.Fill = Color.FromArgb(100, 0, 0);
             checkbox8.Dock = DockStyle.Left;
             checkbox8.Enabled = false;
             checkbox8.Location = new Point(456, 0);
@@ -95,7 +95,7 @@
             // checkbox7
             // 
             checkbox7.AutoSize = AntDesign.TAutoSize.Width;
-            checkbox7.Color = Color.FromArgb(150, 0, 0);
+            checkbox7.Fill = Color.FromArgb(150, 0, 0);
             checkbox7.Dock = DockStyle.Left;
             checkbox7.Location = new Point(304, 0);
             checkbox7.Name = "checkbox7";
@@ -106,7 +106,7 @@
             // checkbox6
             // 
             checkbox6.AutoSize = AntDesign.TAutoSize.Width;
-            checkbox6.Color = Color.FromArgb(200, 0, 0);
+            checkbox6.Fill = Color.FromArgb(200, 0, 0);
             checkbox6.Dock = DockStyle.Left;
             checkbox6.Location = new Point(153, 0);
             checkbox6.Name = "checkbox6";
@@ -117,7 +117,7 @@
             // checkbox5
             // 
             checkbox5.AutoSize = AntDesign.TAutoSize.Width;
-            checkbox5.Color = Color.FromArgb(250, 0, 0);
+            checkbox5.Fill = Color.FromArgb(250, 0, 0);
             checkbox5.Dock = DockStyle.Left;
             checkbox5.Location = new Point(0, 0);
             checkbox5.Name = "checkbox5";

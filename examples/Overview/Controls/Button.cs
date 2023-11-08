@@ -37,5 +37,47 @@ namespace Overview.Controls
                 }
             });
         }
+
+        Random random = new Random();
+        private void Btn2(object sender, EventArgs e)
+        {
+            AntDesign.Button btn = (AntDesign.Button)sender;
+            int nnn = random.Next(0, 20);
+            if (nnn > 10)
+            {
+                btn.Loading = true;
+                btn.Enabled = false;
+                Task.Run(() =>
+                {
+                    Thread.Sleep(2000);
+                    btn.Loading = false;
+                    btn.Invoke(() =>
+                    {
+                        btn.Enabled = true;
+                    });
+                });
+            }
+            else if (nnn > 5)
+            {
+                btn.Loading = true;
+                Task.Run(() =>
+                {
+                    Thread.Sleep(2000);
+                    btn.Loading = false;
+                });
+            }
+            else
+            {
+                btn.Enabled = false;
+                Task.Run(() =>
+                {
+                    Thread.Sleep(2000);
+                    btn.Invoke(() =>
+                    {
+                        btn.Enabled = true;
+                    });
+                });
+            }
+        }
     }
 }

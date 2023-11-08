@@ -134,7 +134,7 @@
             // radio5
             // 
             radio5.AutoSize = AntDesign.TAutoSize.Width;
-            radio5.Color = Color.FromArgb(250, 0, 0);
+            radio5.Fill = Color.FromArgb(250, 0, 0);
             radio5.Dock = DockStyle.Left;
             radio5.Location = new Point(0, 0);
             radio5.Name = "radio5";
@@ -145,7 +145,7 @@
             // radio6
             // 
             radio6.AutoSize = AntDesign.TAutoSize.Width;
-            radio6.Color = Color.FromArgb(200, 0, 0);
+            radio6.Fill = Color.FromArgb(200, 0, 0);
             radio6.Dock = DockStyle.Left;
             radio6.Location = new Point(153, 0);
             radio6.Name = "radio6";
@@ -156,7 +156,7 @@
             // radio7
             // 
             radio7.AutoSize = AntDesign.TAutoSize.Width;
-            radio7.Color = Color.FromArgb(150, 0, 0);
+            radio7.Fill = Color.FromArgb(150, 0, 0);
             radio7.Dock = DockStyle.Left;
             radio7.Location = new Point(304, 0);
             radio7.Name = "radio7";
@@ -168,7 +168,7 @@
             // 
             radio8.AutoSize = AntDesign.TAutoSize.Width;
             radio8.Checked = true;
-            radio8.Color = Color.FromArgb(100, 0, 0);
+            radio8.Fill = Color.FromArgb(100, 0, 0);
             radio8.Dock = DockStyle.Left;
             radio8.Enabled = false;
             radio8.Location = new Point(456, 0);
