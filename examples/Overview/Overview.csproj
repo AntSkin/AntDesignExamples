@@ -17,10 +17,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Controls\Pagination.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="res_dark.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>res_dark.resx</DependentUpon>
+    </Compile>
+    <Compile Update="res_light.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>res_light.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -28,6 +41,14 @@
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="res_dark.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>res_dark.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="res_light.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>res_light.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

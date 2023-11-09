@@ -117,10 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Alert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="app_back" xml:space="preserve">
     <value>&lt;svg t="1699411138127" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6621" width="128" height="128"&gt;&lt;path d="M137.6 262.144a52.8 52.8 0 0 1 4.608-5.632l0.064-0.128 168.64-177.472a46.528 46.528 0 0 1 68.48 0.256c17.088 18.24 18.56 46.784 4.48 66.816l-4.736 5.76-85.312 89.728h231.04C728.704 241.536 896 401.152 896 600.832c0 194.816-159.168 351.424-356.352 358.976L524.8 960H176.448C149.696 960 128 937.024 128 908.672c0-25.984 18.24-47.424 41.856-50.816l6.592-0.512H524.8c152.576 0 274.368-116.16 274.368-256.64 0-136.128-114.496-249.472-260.544-256.256L524.8 344.128H174.528a45.952 45.952 0 0 1-3.008-0.256l4.928 0.256a46.08 46.08 0 0 1-29.248-10.368 50.432 50.432 0 0 1-9.408-9.984l4.288 5.248a51.072 51.072 0 0 1-13.376-27.52A51.84 51.84 0 0 1 128 292.864v-1.984l0.192-2.752L128 292.8a54.592 54.592 0 0 1 6.4-25.472l0.192-0.384 3.008-4.8z" p-id="6622"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
   </data>
@@ -142,12 +138,7 @@
   <data name="app_restore" xml:space="preserve">
     <value>&lt;svg t="1699408512218" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2317" width="128" height="128"&gt;&lt;path d="M853.333333 228.124444H284.444444v112.64H170.666667v455.111112h568.888889v-112.64h113.777777v-455.111112zM227.555556 738.986667v-284.444445h455.111111v284.444445H227.555556z m568.888888-112.64h-56.888888V340.764444H341.333333v-55.751111h455.111111v341.333334z" p-id="2318"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
   </data>
-  <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Badge" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Badge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg\bg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,50 +169,14 @@
   <data name="BR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Align\BR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Carousel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Carousel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Checkbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Checkbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Divider" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Divider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\img1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Align\Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Message" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Notification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Progress" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Progress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Radio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Radio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Align\Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,23 +184,8 @@
   <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Segmented" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Segmented.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Slider" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Slider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Switch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Switch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tabs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Tabs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="TL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Align\TL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tooltip" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons\Tooltip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Align\Top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

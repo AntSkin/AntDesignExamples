@@ -115,10 +115,7 @@
             // 
             // input6
             // 
-            input6.BackColor = Color.Black;
-            input6.BorderColor = Color.FromArgb(76, 76, 76);
-            input6.BorderWidth = 4F;
-            input6.ForeColor = Color.White;
+            input6.BorderWidth = 2F;
             input6.Location = new Point(244, 102);
             input6.Name = "input6";
             input6.Size = new Size(220, 44);
@@ -191,13 +188,13 @@
             // 
             button4.BackColor = Color.Transparent;
             button4.Dock = DockStyle.Right;
-            button4.ForeColor = Color.White;
             button4.Image = Properties.Resources.search;
             button4.JoinLeft = true;
             button4.Location = new Point(170, 0);
             button4.Margins = 6;
             button4.Name = "button4";
             button4.Size = new Size(50, 46);
+            button4.Type = AntDesign.TTypeMini.Primary;
             button4.TabIndex = 1;
             // 
             // select2
@@ -273,7 +270,6 @@
             button1.AutoSize = AntDesign.TAutoSize.Width;
             button1.BackColor = Color.Transparent;
             button1.Dock = DockStyle.Left;
-            button1.ForeColor = Color.White;
             button1.JoinRight = true;
             button1.Location = new Point(0, 0);
             button1.Margins = 6;
@@ -281,6 +277,7 @@
             button1.Size = new Size(63, 50);
             button1.TabIndex = 1;
             button1.Text = "搜索";
+            button1.Type = AntDesign.TTypeMini.Primary;
             button1.Click += Btn;
             // 
             // panel6
@@ -309,13 +306,13 @@
             // 
             button2.BackColor = Color.Transparent;
             button2.Dock = DockStyle.Right;
-            button2.ForeColor = Color.White;
             button2.Image = Properties.Resources.search;
             button2.JoinLeft = true;
             button2.Location = new Point(170, 0);
             button2.Margins = 6;
             button2.Name = "button2";
             button2.Size = new Size(50, 46);
+            button2.Type = AntDesign.TTypeMini.Primary;
             button2.TabIndex = 1;
             button2.Click += Btn;
             // 
@@ -347,7 +344,6 @@
             button3.AutoSize = AntDesign.TAutoSize.Width;
             button3.BackColor = Color.Transparent;
             button3.Dock = DockStyle.Right;
-            button3.ForeColor = Color.White;
             button3.JoinLeft = true;
             button3.Location = new Point(157, 0);
             button3.Margins = 6;
@@ -355,6 +351,7 @@
             button3.Size = new Size(63, 50);
             button3.TabIndex = 1;
             button3.Text = "搜索";
+            button3.Type = AntDesign.TTypeMini.Primary;
             button3.Click += Btn;
             // 
             // divider2

@@ -5,27 +5,36 @@ namespace Overview.Controls
         public Menu()
         {
             InitializeComponent();
-            var random = new Random();
-            for (int i = 0; i < random.Next(7, 20); i++)
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            Task.Run(() =>
             {
-                var it = new AntDesign.MenuItem("Menu " + (i + 1));
-                if (random.Next(0, 9) > 2)
+                Thread.Sleep(500);
+                var random = new Random();
+                for (int i = 0; i < random.Next(7, 20); i++)
                 {
-                    for (int j = 0; j < random.Next(3, 9); j++)
+                    var it = new AntDesign.MenuItem("Menu " + (i + 1));
+                    if (random.Next(0, 9) > 2)
                     {
-                        var it2 = new AntDesign.MenuItem("Option " + (j + 1));
-                        if (random.Next(0, 9) > 7)
+                        for (int j = 0; j < random.Next(3, 9); j++)
                         {
-                            for (int k = 0; k < random.Next(3, 9); k++)
+                            var it2 = new AntDesign.MenuItem("Option " + (j + 1));
+                            if (random.Next(0, 9) > 7)
                             {
-                                it2.Sub.Add(new AntDesign.MenuItem("Sub " + (k + 1)));
+                                for (int k = 0; k < random.Next(3, 9); k++)
+                                {
+                                    it2.Sub.Add(new AntDesign.MenuItem("Sub " + (k + 1)));
+                                }
                             }
+                            it.Sub.Add(it2);
                         }
-                        it.Sub.Add(it2);
                     }
+                    menu2.Items.Add(it);
                 }
-                menu2.Items.Add(it);
-            }
+            });
         }
     }
 }

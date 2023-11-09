@@ -104,7 +104,7 @@
             // 
             // progress1
             // 
-            progress1.Color = Color.FromArgb(0, 144, 255);
+            progress1.Fill = Color.FromArgb(0, 144, 255);
             progress1.Dock = DockStyle.Fill;
             progress1.Loading = true;
             progress1.Location = new Point(0, 10);
@@ -147,7 +147,7 @@
             // 
             // progress2
             // 
-            progress2.Color = Color.FromArgb(0, 204, 0);
+            progress2.Fill = Color.FromArgb(0, 204, 0);
             progress2.Dock = DockStyle.Fill;
             progress2.Location = new Point(0, 4);
             progress2.Name = "progress2";
@@ -187,7 +187,7 @@
             // 
             // progress3
             // 
-            progress3.Color = Color.FromArgb(255, 79, 87);
+            progress3.Fill = Color.FromArgb(255, 79, 87);
             progress3.Dock = DockStyle.Fill;
             progress3.Location = new Point(0, 4);
             progress3.Name = "progress3";
@@ -232,7 +232,7 @@
             // 
             // progress5
             // 
-            progress5.Color = Color.FromArgb(0, 204, 0);
+            progress5.Fill = Color.FromArgb(0, 204, 0);
             progress5.Controls.Add(iComplete1);
             progress5.Font = new Font("Microsoft YaHei UI Light", 16F, FontStyle.Regular, GraphicsUnit.Point);
             progress5.Location = new Point(158, 7);
@@ -255,7 +255,7 @@
             // 
             // progress6
             // 
-            progress6.Color = Color.FromArgb(255, 79, 87);
+            progress6.Fill = Color.FromArgb(255, 79, 87);
             progress6.Controls.Add(iError2);
             progress6.Font = new Font("Microsoft YaHei UI Light", 16F, FontStyle.Regular, GraphicsUnit.Point);
             progress6.Location = new Point(306, 7);
@@ -305,7 +305,7 @@
             // progress9
             // 
             progress9.Back = Color.FromArgb(40, 255, 79, 87);
-            progress9.Color = Color.FromArgb(255, 79, 87);
+            progress9.Fill = Color.FromArgb(255, 79, 87);
             progress9.Location = new Point(297, 3);
             progress9.Mini = true;
             progress9.Name = "progress9";
@@ -319,7 +319,7 @@
             // progress8
             // 
             progress8.Back = Color.FromArgb(40, 0, 204, 0);
-            progress8.Color = Color.FromArgb(0, 204, 0);
+            progress8.Fill = Color.FromArgb(0, 204, 0);
             progress8.Location = new Point(164, 3);
             progress8.Mini = true;
             progress8.Name = "progress8";

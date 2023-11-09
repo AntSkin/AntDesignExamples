@@ -76,7 +76,7 @@ namespace Overview.Controls
             iError2.Visible = false;
             progress3.Value = progress6.Value = progress9.Value = 0F;
             progress6.Text = "0%";
-            progress3.Color = progress6.Color = progress1.Color;
+            progress3.Fill = progress6.Fill = progress1.Fill;
             Task.Run(() =>
             {
                 while (true)
@@ -88,7 +88,7 @@ namespace Overview.Controls
                         if (progress6.Value >= 0.7)
                         {
                             progress3.Value = progress6.Value = progress9.Value = 0.7F;
-                            progress3.Color = progress6.Color = progress9.Color;
+                            progress3.Fill = progress6.Fill = progress9.Fill;
                             progress6.Text = null;
                             Invoke(new Action(() =>
                             {

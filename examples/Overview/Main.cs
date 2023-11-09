@@ -30,10 +30,10 @@ namespace Overview
 
         private void Btn(object? sender, EventArgs e)
         {
-            if (sender is Control control && control.Tag is string code)
+            if (sender is Control control && control.Tag is IList tag)
             {
                 Control? control_add = null;
-                switch (code)
+                switch (tag.id)
                 {
                     case "Button":
                         control_add = new Controls.Button();
@@ -76,6 +76,9 @@ namespace Overview
                         break;
                     case "Switch":
                         control_add = new Controls.Switch();
+                        break;
+                    case "Pagination":
+                        control_add = new Controls.Pagination();
                         break;
                     case "Alert":
                         control_add = new Controls.Alert();
@@ -146,10 +149,6 @@ namespace Overview
                 BackColor = Color.Black;
                 ForeColor = Color.White;
                 btn_back.BackHover = btn_mode.BackHover = btn_min.BackHover = btn_max.BackHover = Color.FromArgb(32, 32, 32);
-                foreach (AntDesign.Panel item in flowPanel.Controls)
-                {
-                    item.Back = Color.FromArgb(46, 46, 46);
-                }
             }
             else
             {
@@ -157,9 +156,15 @@ namespace Overview
                 BackColor = Color.White;
                 ForeColor = Color.Black;
                 btn_back.BackHover = btn_mode.BackHover = btn_min.BackHover = btn_max.BackHover = Color.FromArgb(223, 223, 223);
-                foreach (AntDesign.Panel item in flowPanel.Controls)
+            }
+            foreach (AntDesign.Panel item in flowPanel.Controls)
+            {
+                foreach (Control control in item.Controls)
                 {
-                    item.Back = Color.White;
+                    if (control is PictureBox pic && pic.Tag is IList tag)
+                    {
+                        pic.Image = Dark ? tag.imgs[1] : tag.imgs[0];
+                    }
                 }
             }
             btn_back.Image = Properties.Resources.app_back.SvgToBmp();
@@ -188,25 +193,26 @@ namespace Overview
 
             var dir = new List<IList>
             {
-                new IList("Button","按钮",Properties.Resources.Button),
-                new IList("Avatar","头像",Properties.Resources.Avatar),
-                new IList("Checkbox","多选框",Properties.Resources.Checkbox),
-                new IList("Radio","单选框",Properties.Resources.Radio),
-                new IList("Input","输入框",Properties.Resources.Input),
-                new IList("Menu","导航菜单",Properties.Resources.Menu),
-                new IList("Divider","分割线",Properties.Resources.Divider),
-                new IList("Panel","面板",Properties.Resources.Panel),
-                new IList("Carousel","走马灯",Properties.Resources.Carousel),
-                new IList("Segmented","分段控制器",Properties.Resources.Segmented),
-                new IList("Progress","进度条",Properties.Resources.Progress),
-                new IList("Slider","滑动输入条",Properties.Resources.Slider),
-                new IList("Switch","开关",Properties.Resources.Switch),
-                new IList("Tabs","标签页",Properties.Resources.Tabs),
-                new IList("Badge","徽标数",Properties.Resources.Badge),
-                new IList("Alert","警告提示",Properties.Resources.Alert),
-                new IList("Message","全局提示",Properties.Resources.Message),
-                new IList("Notification","通知提醒框",Properties.Resources.Notification),
-                new IList("Tooltip","文字提示",Properties.Resources.Tooltip),
+                new IList("Button","按钮", res_light.Button, res_dark.Button),
+                new IList("Avatar","头像", res_light.Avatar, res_dark.Avatar),
+                new IList("Checkbox","多选框", res_light.Checkbox, res_dark.Checkbox),
+                new IList("Radio","单选框", res_light.Radio, res_dark.Radio),
+                new IList("Input","输入框", res_light.Input, res_dark.Input),
+                new IList("Menu","导航菜单", res_light.Menu, res_dark.Menu),
+                new IList("Divider","分割线", res_light.Divider, res_dark.Divider),
+                new IList("Panel","面板", res_light.Panel, res_dark.Panel),
+                new IList("Carousel","走马灯",res_light.Carousel, res_dark.Carousel),
+                new IList("Segmented","分段控制器",res_light.Segmented, res_dark.Segmented),
+                new IList("Progress","进度条",res_light.Progress, res_dark.Progress),
+                new IList("Slider","滑动输入条",res_light.Slider, res_dark.Slider),
+                new IList("Switch","开关",res_light.Switch, res_dark.Switch),
+                new IList("Pagination","分页",res_light.Pagination, res_dark.Pagination),
+                new IList("Tabs","标签页",res_light.Tabs, res_dark.Tabs),
+                new IList("Badge","徽标数",res_light.Badge, res_dark.Badge),
+                new IList("Alert","警告提示",res_light.Alert, res_dark.Alert),
+                new IList("Message","全局提示",res_light.Message, res_dark.Message),
+                new IList("Notification","通知提醒框",res_light.Notification, res_dark.Notification),
+                new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
             };
             BeginInvoke(() =>
             {
@@ -222,15 +228,15 @@ namespace Overview
                         Padding = new Padding(20),
                         Shadow = 20,
                         Size = new Size(254, 258),
-                        Tag = item.id
+                        Tag = item
                     };
                     var pic = new PictureBox
                     {
                         BackColor = Color.Transparent,
                         Dock = DockStyle.Fill,
-                        Image = item.img,
-                        SizeMode = PictureBoxSizeMode.Zoom,
-                        Tag = item.id
+                        Image = Dark ? item.imgs[1] : item.imgs[0],
+                        SizeMode = PictureBoxSizeMode.CenterImage,
+                        Tag = item
                     };
 
                     var divider = new AntDesign.Divider
@@ -239,7 +245,7 @@ namespace Overview
                         Dock = DockStyle.Top,
                         Margin = new Padding(10),
                         Size = new Size(0, 1),
-                        Tag = item.id
+                        Tag = item
                     };
                     var label = new Label
                     {
@@ -250,7 +256,7 @@ namespace Overview
                         Size = new Size(0, 44),
                         Text = item.id + " " + item.key,
                         TextAlign = ContentAlignment.MiddleLeft,
-                        Tag = item.id
+                        Tag = item
                     };
                     panel.Controls.Add(pic);
                     panel.Controls.Add(divider);
@@ -265,15 +271,15 @@ namespace Overview
 
         class IList
         {
-            public IList(string _id, string _key, Image _img)
+            public IList(string _id, string _key, string _img_light, string _img_dark)
             {
                 id = _id;
                 key = _key;
-                img = _img;
+                imgs = new Image[] { _img_light.SvgToBmp(false), _img_dark.SvgToBmp(true) };
             }
             public string id { get; set; }
             public string key { get; set; }
-            public Image img { get; set; }
+            public Image[] imgs { get; set; }
         }
 
         #endregion

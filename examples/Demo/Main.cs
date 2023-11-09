@@ -8,11 +8,9 @@
 
             panel_top.MouseDown += Window_MouseDown;
             label_title.MouseDown += Window_MouseDown;
-            tableLayoutPanel8.MouseDown += Window_MouseDown;
 
             panel_top.MouseMove += Window_MouseMove;
             label_title.MouseMove += Window_MouseMove;
-            tableLayoutPanel8.MouseMove += Window_MouseMove;
         }
 
         void Window_MouseMove(object? sender, MouseEventArgs e)
@@ -96,10 +94,10 @@
 
         private void Progress_Red(object sender, EventArgs e)
         {
-            progress6.Icon = AntDesign.TType.None;
+            iError2.Visible = false;
             progress3.Value = progress6.Value = progress9.Value = 0F;
             progress6.Text = "0%";
-            progress3.Color = progress6.Color = progress1.Color;
+            progress3.Fill = progress6.Fill = progress1.Fill;
             Task.Run(() =>
             {
                 while (true)
@@ -111,9 +109,12 @@
                         if (progress6.Value >= 0.7)
                         {
                             progress3.Value = progress6.Value = progress9.Value = 0.7F;
-                            progress3.Color = progress6.Color = progress9.Color;
+                            progress3.Fill = progress6.Fill = progress9.Fill;
                             progress6.Text = null;
-                            progress6.Icon = AntDesign.TType.Error;
+                            Invoke(new Action(() =>
+                            {
+                                iError2.Visible = true;
+                            }));
                             return;
                         }
                         Thread.Sleep(10);
@@ -158,10 +159,6 @@
         private void btn_close_Click(object? sender, EventArgs e)
         {
             Close();
-            //new Thread(() => {
-            //    Thread.Sleep(1000);
-            //    Process.Start(@"E:\Pro\source\oxdragon\AntDesignExamples\examples\Overview\bin\Debug\net6.0-windows\Overview.exe");
-            //}).Start();
         }
 
         private void btn_min_Click(object? sender, EventArgs e)
