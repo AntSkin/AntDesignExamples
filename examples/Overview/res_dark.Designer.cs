@@ -211,6 +211,21 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;206px&quot; height=&quot;100px&quot; viewBox=&quot;0 0 206 100&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;Modal&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版---黑&quot; transform=&quot;translate(-1244.000000, -4312.000000)&quot;&gt;
+        ///            &lt;g id=&quot;Modal&quot; transform=&quot;translate(1244.000000, 4312.000000)&quot;&gt;
+        ///                &lt;path d=&quot;M6.15332448,2.04815396e-16 L [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Modal {
+            get {
+                return ResourceManager.GetString("Modal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;184px&quot; height=&quot;58px&quot; viewBox=&quot;0 0 184 58&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;Notification&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;

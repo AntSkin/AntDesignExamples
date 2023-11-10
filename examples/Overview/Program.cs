@@ -9,7 +9,6 @@ namespace Overview
         static void Main()
         {
             AntDesign.Config.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main());
         }

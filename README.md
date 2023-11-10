@@ -17,6 +17,7 @@ https://ant-design.antgroup.com/components/overview-cn
 - 🚀 Winform上最阴影的阴影效果
 - 📦 无边框窗口，拥有原生窗口特性
 - 💎 3D翻转效果
+- 👚 主题配置
 
 ### 🖥支持环境
 
@@ -49,6 +50,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Tabs** 标签页 | ✅ | ❎ |
 :arrow_right: | **Tooltip** 文字提示 | ✅ | ❎ |
 :arrow_right: | **Pagination** 分页 | ✅ | ✅ |
+:arrow_right: | **Modal** 对话框 | ✅ | ❎ |
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |
 

@@ -95,6 +95,9 @@ namespace Overview
                     case "Segmented":
                         control_add = new Controls.Segmented();
                         break;
+                    case "Modal":
+                        control_add = new Controls.Modal();
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -210,6 +213,7 @@ namespace Overview
                 new IList("Tabs","标签页",res_light.Tabs, res_dark.Tabs),
                 new IList("Badge","徽标数",res_light.Badge, res_dark.Badge),
                 new IList("Alert","警告提示",res_light.Alert, res_dark.Alert),
+                new IList("Modal","对话框",res_light.Modal, res_dark.Modal),
                 new IList("Message","全局提示",res_light.Message, res_dark.Message),
                 new IList("Notification","通知提醒框",res_light.Notification, res_dark.Notification),
                 new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),

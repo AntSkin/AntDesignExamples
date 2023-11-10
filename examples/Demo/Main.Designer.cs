@@ -130,6 +130,7 @@
             // button2
             // 
             button2.AutoSize = AntDesign.TAutoSize.Auto;
+            button2.BorderWidth = 2F;
             button2.Location = new Point(210, 78);
             button2.Margin = new Padding(4);
             button2.Name = "button2";
@@ -141,7 +142,7 @@
             // button3
             // 
             button3.AutoSize = AntDesign.TAutoSize.Auto;
-            button3.BorderWidth = 1F;
+            button3.BorderWidth = 2F;
             button3.Ghost = true;
             button3.Location = new Point(380, 78);
             button3.Margin = new Padding(4);
