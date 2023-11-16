@@ -98,6 +98,9 @@ namespace Overview
                     case "Modal":
                         control_add = new Controls.Modal();
                         break;
+                    case "DatePicker":
+                        control_add = new Controls.DatePicker();
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -201,6 +204,7 @@ namespace Overview
                 new IList("Checkbox","多选框", res_light.Checkbox, res_dark.Checkbox),
                 new IList("Radio","单选框", res_light.Radio, res_dark.Radio),
                 new IList("Input","输入框", res_light.Input, res_dark.Input),
+                new IList("DatePicker","日期选择框", res_light.DatePicker, res_dark.DatePicker),
                 new IList("Menu","导航菜单", res_light.Menu, res_dark.Menu),
                 new IList("Divider","分割线", res_light.Divider, res_dark.Divider),
                 new IList("Panel","面板", res_light.Panel, res_dark.Panel),

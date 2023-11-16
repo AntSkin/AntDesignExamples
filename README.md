@@ -38,12 +38,13 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Carousel** 走马灯 | ✅ | ❎ |
 :arrow_right: | **Divider** 分割线 | ❎ | ❎ |
 :arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
-:arrow_right: | **Input** 输入框 | ✅ | ❎ |
+:arrow_right: | **Input** 输入框 | ✅ | ✅ |
+:arrow_right: | **DatePicker** 日期选择框 | ✅ | ✅ |
 :arrow_right: | **Menu** 导航菜单 | ✅ | ❎ |
 :arrow_right: | **Panel** 面板 | ✅ | ❎ |
 :arrow_right: | **Progress** 进度条 | ✅ | ❎ |
 :arrow_right: | **Segmented** 分段控制器 | ✅ | ❎ |
-:arrow_right: | **Select** 选择器 | ✅ | ❎ |
+:arrow_right: | **Select** 选择器 | ✅ | ✅ |
 :arrow_right: | **Slider** 滑动输入条 | ✅ | ❎ |
 :arrow_right: | **Switch** 开关 | ✅ | ✅ |
 :arrow_right: | **Spin** 加载中 | ✅ | ❎ |

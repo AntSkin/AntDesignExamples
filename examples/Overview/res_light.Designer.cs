@@ -151,6 +151,21 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;121px&quot; height=&quot;69px&quot; viewBox=&quot;0 0 121 69&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;DatePicker&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版&quot; transform=&quot;translate(-1286.000000, -1724.000000)&quot;&gt;
+        ///            &lt;g id=&quot;DatePicker&quot; transform=&quot;translate(1287.000000, 1725.000000)&quot;&gt;
+        ///                &lt;g id=&quot;3.DataEntry/Selecte/Defaul [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string DatePicker {
+            get {
+                return ResourceManager.GetString("DatePicker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;155px&quot; height=&quot;101px&quot; viewBox=&quot;0 0 155 101&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;Divider&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;

@@ -182,6 +182,7 @@
             select3.PlaceholderText = "输入点什么搜索";
             select3.Size = new Size(170, 46);
             select3.TabIndex = 0;
+            select3.AllowClear = true;
             select3.Text = "";
             // 
             // button4
