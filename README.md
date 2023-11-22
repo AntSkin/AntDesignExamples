@@ -51,6 +51,8 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Tabs** 标签页 | ✅ | ❎ |
 :arrow_right: | **Tooltip** 文字提示 | ✅ | ❎ |
 :arrow_right: | **Pagination** 分页 | ✅ | ✅ |
+:arrow_right: | **Dropdown** 下拉菜单 | ✅ | ✅ |
+:arrow_right: | **Tree** 树形控件 | ✅ | ✅ |
 :arrow_right: | **Modal** 对话框 | ✅ | ❎ |
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |
