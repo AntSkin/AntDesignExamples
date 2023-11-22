@@ -38,6 +38,8 @@
             label9 = new Label();
             label8 = new Label();
             avatar2 = new AntDesign.Avatar();
+            dropdown1 = new AntDesign.Dropdown();
+            dropdown2 = new AntDesign.Dropdown();
             panel9.SuspendLayout();
             SuspendLayout();
             // 
@@ -151,9 +153,39 @@
             avatar2.Size = new Size(244, 110);
             avatar2.TabIndex = 9;
             // 
+            // dropdown1
+            // 
+            dropdown1.Font = new Font("Microsoft YaHei UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            dropdown1.Items.AddRange(new object[] { "君不见，黄河之水天上来，奔流到海不复回。", "君不见，高堂明镜悲白发，朝如青丝暮成雪。", "人生得意须尽欢，莫使金樽空对月。", "天生我材必有用，千金散尽还复来。", "烹羊宰牛且为乐，会须一饮三百杯。", "岑夫子，丹丘生，将进酒，杯莫停。", "与君歌一曲，请君为我倾耳听。", "钟鼓馔玉不足贵，但愿长醉不愿醒。", "古来圣贤皆寂寞，惟有饮者留其名。", "陈王昔时宴平乐，斗酒十千恣欢谑。", "主人何为言少钱，径须沽取对君酌。", "五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。" });
+            dropdown1.ListAutoWidth = true;
+            dropdown1.Location = new Point(456, 146);
+            dropdown1.Name = "dropdown1";
+            dropdown1.Placement = AntDesign.TAlignFrom.BR;
+            dropdown1.ShowArrow = true;
+            dropdown1.Size = new Size(214, 56);
+            dropdown1.TabIndex = 16;
+            dropdown1.Text = "dropdown1";
+            dropdown1.Trigger = AntDesign.Trigger.Hover;
+            dropdown1.Type = AntDesign.TTypeMini.Primary;
+            // 
+            // dropdown2
+            // 
+            dropdown2.Font = new Font("Microsoft YaHei UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            dropdown2.Items.AddRange(new object[] { "君不见，黄河之水天上来，奔流到海不复回。", "君不见，高堂明镜悲白发，朝如青丝暮成雪。", "人生得意须尽欢，莫使金樽空对月。", "天生我材必有用，千金散尽还复来。", "烹羊宰牛且为乐，会须一饮三百杯。", "岑夫子，丹丘生，将进酒，杯莫停。", "与君歌一曲，请君为我倾耳听。", "钟鼓馔玉不足贵，但愿长醉不愿醒。", "古来圣贤皆寂寞，惟有饮者留其名。", "陈王昔时宴平乐，斗酒十千恣欢谑。", "主人何为言少钱，径须沽取对君酌。", "五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。" });
+            dropdown2.ListAutoWidth = true;
+            dropdown2.Location = new Point(456, 208);
+            dropdown2.Name = "dropdown2";
+            dropdown2.Placement = AntDesign.TAlignFrom.BR;
+            dropdown2.ShowArrow = true;
+            dropdown2.Size = new Size(69, 56);
+            dropdown2.TabIndex = 16;
+            dropdown2.Type = AntDesign.TTypeMini.Primary;
+            // 
             // Form1
             // 
             ClientSize = new Size(800, 689);
+            Controls.Add(dropdown2);
+            Controls.Add(dropdown1);
             Controls.Add(panel9);
             Controls.Add(spin1);
             Controls.Add(iconInfo1);
@@ -180,5 +212,7 @@
         private Label label9;
         private Label label8;
         private AntDesign.Avatar avatar2;
+        private AntDesign.Dropdown dropdown1;
+        private AntDesign.Dropdown dropdown2;
     }
 }

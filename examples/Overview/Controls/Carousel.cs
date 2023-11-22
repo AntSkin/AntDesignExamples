@@ -10,7 +10,7 @@ namespace Overview.Controls
             {
                 slider1.Value = carousel1.SelectIndex;
             };
-            slider1.ValueChanged += (a) =>
+            slider1.ValueChanged += (s, a) =>
             {
                 carousel1.SelectIndex = a;
             };
