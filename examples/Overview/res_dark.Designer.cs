@@ -181,6 +181,21 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;120px&quot; height=&quot;96px&quot; viewBox=&quot;0 0 120 96&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;Dropdown&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版---黑&quot; transform=&quot;translate(-922.000000, -1126.000000)&quot;&gt;
+        ///            &lt;g id=&quot;Dropdown&quot; transform=&quot;translate(922.000000, 1126.000000)&quot;&gt;
+        ///                &lt;g id=&quot;Z/Shape/RectangleRC/2px/RC-A [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Dropdown {
+            get {
+                return ResourceManager.GetString("Dropdown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;119px&quot; height=&quot;75px&quot; viewBox=&quot;0 0 119 75&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;Input&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
@@ -386,6 +401,22 @@ namespace Overview {
         internal static string Tooltip {
             get {
                 return ResourceManager.GetString("Tooltip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;96px&quot; height=&quot;92px&quot; viewBox=&quot;0 0 96 92&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;Tree&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版---黑&quot; transform=&quot;translate(-1302.000000, -3974.000000)&quot;&gt;
+        ///            &lt;g id=&quot;Tree&quot; transform=&quot;translate(1302.000000, 3974.000000)&quot;&gt;
+        ///                &lt;g id=&quot;编组-15&quot;&gt;
+        ///                    &lt;g id=&quot; [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Tree {
+            get {
+                return ResourceManager.GetString("Tree", resourceCulture);
             }
         }
     }

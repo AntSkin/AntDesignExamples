@@ -101,6 +101,12 @@ namespace Overview
                     case "DatePicker":
                         control_add = new Controls.DatePicker();
                         break;
+                    case "Dropdown":
+                        control_add = new Controls.Dropdown();
+                        break;
+                    case "Tree":
+                        control_add = new Controls.Tree();
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -205,6 +211,7 @@ namespace Overview
                 new IList("Radio","单选框", res_light.Radio, res_dark.Radio),
                 new IList("Input","输入框", res_light.Input, res_dark.Input),
                 new IList("DatePicker","日期选择框", res_light.DatePicker, res_dark.DatePicker),
+                new IList("Dropdown","下拉菜单", res_light.Dropdown, res_dark.Dropdown),
                 new IList("Menu","导航菜单", res_light.Menu, res_dark.Menu),
                 new IList("Divider","分割线", res_light.Divider, res_dark.Divider),
                 new IList("Panel","面板", res_light.Panel, res_dark.Panel),
@@ -217,6 +224,7 @@ namespace Overview
                 new IList("Tabs","标签页",res_light.Tabs, res_dark.Tabs),
                 new IList("Badge","徽标数",res_light.Badge, res_dark.Badge),
                 new IList("Alert","警告提示",res_light.Alert, res_dark.Alert),
+                new IList("Tree","树形控件",res_light.Tree, res_dark.Tree),
                 new IList("Modal","对话框",res_light.Modal, res_dark.Modal),
                 new IList("Message","全局提示",res_light.Message, res_dark.Message),
                 new IList("Notification","通知提醒框",res_light.Notification, res_dark.Notification),
@@ -235,7 +243,7 @@ namespace Overview
                         Margin = new Padding(0),
                         Padding = new Padding(20),
                         Shadow = 20,
-                        Size = new Size(254, 258),
+                        Size = new Size(258, 244),
                         Tag = item
                     };
                     var pic = new PictureBox

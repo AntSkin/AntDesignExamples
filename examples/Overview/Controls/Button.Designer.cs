@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             header1 = new AntDesign.Header();
-            button1 = new System.Windows.Forms.Button();
             button3 = new AntDesign.Button();
             button5 = new AntDesign.Button();
             button16 = new AntDesign.Button();
@@ -69,15 +68,6 @@
             header1.TabIndex = 4;
             header1.Text = "Button 按钮";
             header1.TextDesc = "按钮用于开始一个即时操作。";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(5, 14);
-            button1.Name = "button1";
-            button1.Size = new Size(186, 46);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -373,7 +363,6 @@
         #endregion
 
         private AntDesign.Header header1;
-        private System.Windows.Forms.Button button1;
         private AntDesign.Button button3;
         private AntDesign.Button button16;
         private AntDesign.Button button5;
