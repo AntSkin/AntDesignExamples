@@ -728,6 +728,37 @@
     &lt;/g&gt;
 &lt;/svg&gt;</value>
   </data>
+  <data name="Popover" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;svg width="172px" height="96px" viewBox="0 0 172 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+    &lt;title&gt;Popover&lt;/title&gt;
+    &lt;g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"&gt;
+        &lt;g id="🎉-5.0-新版---黑" transform="translate(-899.000000, -3492.000000)"&gt;
+            &lt;g id="Popover" transform="translate(899.000000, 3492.000000)"&gt;
+                &lt;path d="M32.6568542,88 C31.5959883,88 30.5785726,88.4214274 29.8284271,89.1715729 L24.4142136,94.5857864 C23.633165,95.366835 22.366835,95.366835 21.5857864,94.5857864 L16.1715729,89.1715729 C15.4214274,88.4214274 14.4040117,88 13.3431458,88 L10.2555408,88 C6.68946584,88 5.39632089,87.6286976 4.09261719,86.9314692 C2.78891348,86.2342408 1.76575919,85.2110865 1.06853082,83.9073828 C0.371302445,82.6036791 -2.84217094e-14,81.3105342 2.84217094e-14,77.7444592 L0,10.2555408 C0,6.68946584 0.371302445,5.39632089 1.06853082,4.09261719 C1.76575919,2.78891348 2.78891348,1.76575919 4.09261719,1.06853082 C5.39632089,0.371302445 6.68946584,-2.4074122e-16 10.2555408,4.14336123e-16 L161.744459,-2.2280044e-15 C165.310534,1.29453472e-15 166.603679,0.371302445 167.907383,1.06853082 C169.211087,1.76575919 170.234241,2.78891348 170.931469,4.09261719 C171.628698,5.39632089 172,6.68946584 172,10.2555408 L172,77.7444592 C172,81.3105342 171.628698,82.6036791 170.931469,83.9073828 C170.234241,85.2110865 169.211087,86.2342408 167.907383,86.9314692 C166.603679,87.6286976 165.310534,88 161.744459,88 Z" id="形状结合" fill="#1F1F1F"&gt;&lt;/path&gt;
+                &lt;g id="编组" transform="translate(12.000000, 17.000000)" fill="#FFFFFF" fill-opacity="0.88" fill-rule="nonzero"&gt;
+                    &lt;rect id="矩形" x="0" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份" x="3" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-2" x="6" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-3" x="9" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-4" x="12" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-5" x="15" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-6" x="18" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-7" x="21" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-8" x="24" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-9" x="27" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-10" x="30" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-11" x="33" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-11备份" x="36" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                    &lt;rect id="矩形备份-11备份-2" x="39" y="0" width="1" height="10"&gt;&lt;/rect&gt;
+                &lt;/g&gt;
+                &lt;rect id="矩形复制-81" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" opacity="0.999255952" x="12" y="36" width="148" height="10" rx="1"&gt;&lt;/rect&gt;
+                &lt;rect id="矩形复制-81备份-2" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" opacity="0.999255952" x="12" y="54" width="120" height="10" rx="1"&gt;&lt;/rect&gt;
+            &lt;/g&gt;
+        &lt;/g&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
   <data name="Progress" xml:space="preserve">
     <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;svg width="75px" height="74px" viewBox="0 0 75 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;

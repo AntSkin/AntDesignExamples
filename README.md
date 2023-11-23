@@ -53,6 +53,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Pagination** 分页 | ✅ | ✅ |
 :arrow_right: | **Dropdown** 下拉菜单 | ✅ | ✅ |
 :arrow_right: | **Tree** 树形控件 | ✅ | ✅ |
+:arrow_right: | **Popover** 气泡卡片 | ✅ | ❎ |
 :arrow_right: | **Modal** 对话框 | ✅ | ❎ |
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |

@@ -107,6 +107,9 @@ namespace Overview
                     case "Tree":
                         control_add = new Controls.Tree();
                         break;
+                    case "Popover":
+                        control_add = new Controls.Popover();
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -228,6 +231,7 @@ namespace Overview
                 new IList("Modal","对话框",res_light.Modal, res_dark.Modal),
                 new IList("Message","全局提示",res_light.Message, res_dark.Message),
                 new IList("Notification","通知提醒框",res_light.Notification, res_dark.Notification),
+                new IList("Popover","气泡卡片",res_light.Popover, res_dark.Popover),
                 new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
             };
             BeginInvoke(() =>

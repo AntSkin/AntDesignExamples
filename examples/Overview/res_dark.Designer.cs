@@ -301,6 +301,21 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;172px&quot; height=&quot;96px&quot; viewBox=&quot;0 0 172 96&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;Popover&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版---黑&quot; transform=&quot;translate(-899.000000, -3492.000000)&quot;&gt;
+        ///            &lt;g id=&quot;Popover&quot; transform=&quot;translate(899.000000, 3492.000000)&quot;&gt;
+        ///                &lt;path d=&quot;M32.6568542,88 C31.5959883,8 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Popover {
+            get {
+                return ResourceManager.GetString("Popover", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;75px&quot; height=&quot;74px&quot; viewBox=&quot;0 0 75 74&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;编组 3&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
