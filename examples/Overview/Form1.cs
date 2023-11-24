@@ -1,6 +1,6 @@
 ﻿namespace Overview
 {
-    public partial class Form1 : Form
+    public partial class Form1 : AntDesign.BaseForm
     {
         public Form1()
         {

@@ -122,6 +122,7 @@ namespace Overview
                             c.SetMouseHover(false);
                         }
                         control_add.Dock = DockStyle.Fill;
+                        AutoDpi(control_add);
                         Controls.Add(control_add);
                         control_add.BringToFront();
                         btn_back.Visible = true;
@@ -236,6 +237,9 @@ namespace Overview
             };
             BeginInvoke(() =>
             {
+                var dpi = Dpi();
+                var panel_size = new Size((int)(258 * dpi), (int)(244 * dpi));
+                int title_height = (int)(44 * dpi), size = (int)(10 * dpi), size2 = size * 2;
                 flowPanel.SuspendLayout();
                 flowPanel.Controls.Clear();
                 foreach (var item in dir)
@@ -245,9 +249,9 @@ namespace Overview
                         BorderWidth = 1F,
                         Location = new Point(0, 0),
                         Margin = new Padding(0),
-                        Padding = new Padding(20),
-                        Shadow = 20,
-                        Size = new Size(258, 244),
+                        Padding = new Padding(size2),
+                        Shadow = size2,
+                        Size = panel_size,
                         Tag = item
                     };
                     var pic = new PictureBox
@@ -263,7 +267,7 @@ namespace Overview
                     {
                         BackColor = Color.Transparent,
                         Dock = DockStyle.Top,
-                        Margin = new Padding(10),
+                        Margin = new Padding(size),
                         Size = new Size(0, 1),
                         Tag = item
                     };
@@ -272,8 +276,8 @@ namespace Overview
                         BackColor = Color.Transparent,
                         Dock = DockStyle.Top,
                         Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Bold, GraphicsUnit.Point),
-                        Padding = new Padding(10, 0, 0, 0),
-                        Size = new Size(0, 44),
+                        Padding = new Padding(size2, 0, 0, 0),
+                        Size = new Size(0, title_height),
                         Text = item.id + " " + item.key,
                         TextAlign = ContentAlignment.MiddleLeft,
                         Tag = item
