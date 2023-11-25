@@ -206,7 +206,11 @@ namespace Overview
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
+            Task.Run(LoadList);
+        }
 
+        void LoadList()
+        {
             var dir = new List<IList>
             {
                 new IList("Button","按钮", res_light.Button, res_dark.Button),
@@ -235,11 +239,13 @@ namespace Overview
                 new IList("Popover","气泡卡片",res_light.Popover, res_dark.Popover),
                 new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
             };
+
+            var dpi = Dpi();
+            var panel_size = new Size((int)(258 * dpi), (int)(244 * dpi));
+            int title_height = (int)(44 * dpi), size = (int)(10 * dpi), size2 = size * 2;
+
             BeginInvoke(() =>
             {
-                var dpi = Dpi();
-                var panel_size = new Size((int)(258 * dpi), (int)(244 * dpi));
-                int title_height = (int)(44 * dpi), size = (int)(10 * dpi), size2 = size * 2;
                 flowPanel.SuspendLayout();
                 flowPanel.Controls.Clear();
                 foreach (var item in dir)
