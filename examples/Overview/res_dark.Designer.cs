@@ -82,7 +82,7 @@ namespace Overview {
         ///        &lt;g id=&quot;🎉-5.0-新版&quot; transform=&quot;translate(-190.000000, -3023.000000)&quot; fill-rule=&quot;nonzero&quot;&gt;
         ///            &lt;g id=&quot;Avatar&quot; transform=&quot;translate(190.000000, 3023.000000)&quot;&gt;
         ///                &lt;g id=&quot;编组&quot;&gt;
-        ///                    &lt;circle id=&quot;椭圆形&quot; fill-opacity=&quot;0.25&quot; [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///                    &lt;circle id=&quot;椭圆形&quot; fill-opacity= [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Avatar {
             get {
@@ -112,7 +112,7 @@ namespace Overview {
         ///        &lt;g id=&quot;🎉-5.0-新版&quot; transform=&quot;translate(-204.000000, -424.000000)&quot;&gt;
         ///            &lt;g id=&quot;Button&quot; transform=&quot;translate(204.000000, 424.000000)&quot;&gt;
         ///                &lt;rect id=&quot;矩形&quot; fill=&quot;#1677FF&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;79&quot; height=&quot;31&quot; rx=&quot;6&quot;/&gt;
-        ///                &lt; [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///            [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Button {
             get {
@@ -401,6 +401,21 @@ namespace Overview {
         internal static string Tabs {
             get {
                 return ResourceManager.GetString("Tabs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;168px&quot; height=&quot;103px&quot; viewBox=&quot;0 0 168 103&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;Timeline&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版---黑&quot; transform=&quot;translate(-170.000000, -3969.000000)&quot; fill-rule=&quot;nonzero&quot;&gt;
+        ///            &lt;g id=&quot;Timeline&quot; transform=&quot;translate(171.000000, 3969.000000)&quot;&gt;
+        ///                &lt;rect id=&quot;矩形&quot; [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Timeline {
+            get {
+                return ResourceManager.GetString("Timeline", resourceCulture);
             }
         }
         

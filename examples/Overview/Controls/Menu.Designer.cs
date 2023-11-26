@@ -94,6 +94,7 @@
             menu2.Name = "menu2";
             menu2.Size = new Size(278, 597);
             menu2.TabIndex = 11;
+            menu2.Indent = true;
             menu2.Text = "menu2";
             // 
             // divider1

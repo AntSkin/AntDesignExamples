@@ -8,15 +8,8 @@ namespace Overview
 
             panel_top.MouseDown += Window_MouseDown;
             label_title.MouseDown += Window_MouseDown;
-
-            panel_top.MouseMove += Window_MouseMove;
-            label_title.MouseMove += Window_MouseMove;
         }
 
-        void Window_MouseMove(object? sender, MouseEventArgs e)
-        {
-            ControlMouseMove(sender, e);
-        }
         void Window_MouseDown(object? sender, MouseEventArgs e)
         {
             ControlMouseDown(sender, e);
@@ -109,6 +102,9 @@ namespace Overview
                         break;
                     case "Popover":
                         control_add = new Controls.Popover();
+                        break;
+                    case "Timeline":
+                        control_add = new Controls.Timeline();
                         break;
                 }
                 if (control_add != null)
@@ -211,6 +207,8 @@ namespace Overview
 
         void LoadList()
         {
+            var dpi = AntDesign.Config.Dpi;
+
             var dir = new List<IList>
             {
                 new IList("Button","按钮", res_light.Button, res_dark.Button),
@@ -238,9 +236,9 @@ namespace Overview
                 new IList("Notification","通知提醒框",res_light.Notification, res_dark.Notification),
                 new IList("Popover","气泡卡片",res_light.Popover, res_dark.Popover),
                 new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
+                new IList("Timeline","时间轴",res_light.Timeline, res_dark.Timeline),
             };
 
-            var dpi = Dpi();
             var panel_size = new Size((int)(258 * dpi), (int)(244 * dpi));
             int title_height = (int)(44 * dpi), size = (int)(10 * dpi), size2 = size * 2;
 

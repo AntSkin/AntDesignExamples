@@ -57,6 +57,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Modal** 对话框 | ✅ | ❎ |
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |
+:arrow_right: | **Timeline** 时间轴 | ✅ | ❎ |
 
 ### 🎨截图
 
