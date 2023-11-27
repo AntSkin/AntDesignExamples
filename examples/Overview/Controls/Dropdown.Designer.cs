@@ -42,6 +42,7 @@
             panel4 = new FlowLayoutPanel();
             button17 = new AntDesign.Dropdown();
             button19 = new AntDesign.Dropdown();
+            dropdown1 = new AntDesign.Dropdown();
             divider1 = new AntDesign.Divider();
             panel3.SuspendLayout();
             panel1.SuspendLayout();
@@ -66,7 +67,7 @@
             button7.ForeColor = Color.White;
             button7.Image = Properties.Resources.close;
             button7.Items.AddRange(new object[] { "菜单1", "菜单2", "菜单3" });
-            button7.Location = new Point(233, 3);
+            button7.Location = new Point(339, 3);
             button7.Name = "button7";
             button7.Placement = AntDesign.TAlignFrom.BR;
             button7.Shape = AntDesign.TShape.Circle;
@@ -199,6 +200,7 @@
             // 
             panel4.Controls.Add(button17);
             panel4.Controls.Add(button19);
+            panel4.Controls.Add(dropdown1);
             panel4.Controls.Add(button7);
             panel4.Dock = DockStyle.Top;
             panel4.Location = new Point(0, 22);
@@ -230,6 +232,18 @@
             button19.Text = "Hover me";
             button19.TextAlign = ContentAlignment.MiddleLeft;
             button19.Trigger = AntDesign.Trigger.Hover;
+            // 
+            // dropdown1
+            // 
+            dropdown1.AutoSize = AntDesign.TAutoSize.Auto;
+            dropdown1.ForeColor = Color.White;
+            dropdown1.Location = new Point(233, 3);
+            dropdown1.Name = "dropdown1";
+            dropdown1.Size = new Size(100, 47);
+            dropdown1.TabIndex = 0;
+            dropdown1.Text = "多级菜单";
+            dropdown1.Type = AntDesign.TTypeMini.Primary;
+            dropdown1.SelectedValueChanged += dropdown1_SelectedValueChanged;
             // 
             // divider1
             // 
@@ -272,5 +286,6 @@
         private AntDesign.Dropdown button5;
         private AntDesign.Dropdown button3;
         private AntDesign.Dropdown button8;
+        private AntDesign.Dropdown dropdown1;
     }
 }
