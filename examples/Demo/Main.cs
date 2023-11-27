@@ -8,15 +8,8 @@
 
             panel_top.MouseDown += Window_MouseDown;
             label_title.MouseDown += Window_MouseDown;
-
-            panel_top.MouseMove += Window_MouseMove;
-            label_title.MouseMove += Window_MouseMove;
         }
 
-        void Window_MouseMove(object? sender, MouseEventArgs e)
-        {
-            ControlMouseMove(sender, e);
-        }
         void Window_MouseDown(object? sender, MouseEventArgs e)
         {
             ControlMouseDown(sender, e);
