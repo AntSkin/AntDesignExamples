@@ -9,6 +9,7 @@ https://ant-design.antgroup.com/components/overview-cn
 
 ![DEMO](screenshot/Pre/Demo.png?raw=true)
 ![OverView](screenshot/Pre/OverView.png?raw=true)
+![Scale150](screenshot/Pre/Scale150.png?raw=true)
 
 ### ✨特性
 
@@ -18,6 +19,7 @@ https://ant-design.antgroup.com/components/overview-cn
 - 📦 无边框窗口，拥有原生窗口特性
 - 💎 3D翻转效果
 - 👚 主题配置
+- 👓 DPI适配
 
 ### 🖥支持环境
 
