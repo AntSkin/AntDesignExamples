@@ -45,6 +45,7 @@
             button1 = new AntDesign.Button();
             divider2 = new AntDesign.Divider();
             panel2 = new System.Windows.Forms.Panel();
+            tooltip1 = new AntDesign.Tooltip();
             label4 = new Label();
             divider1 = new AntDesign.Divider();
             tooltipComponent1 = new AntDesign.TooltipComponent();
@@ -60,7 +61,6 @@
             tooltipLB = new AntDesign.TooltipComponent();
             tooltipLeft = new AntDesign.TooltipComponent();
             tooltipLT = new AntDesign.TooltipComponent();
-            tooltip1 = new AntDesign.Tooltip();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -115,7 +115,7 @@
             // 
             button9.Back = Color.FromArgb(217, 217, 217);
             button9.BorderWidth = 2F;
-            button9.Location = new Point(329, 147);
+            button9.Location = new Point(343, 147);
             button9.Name = "button9";
             button9.Size = new Size(60, 40);
             button9.TabIndex = 2;
@@ -137,7 +137,7 @@
             // 
             button8.Back = Color.FromArgb(217, 217, 217);
             button8.BorderWidth = 2F;
-            button8.Location = new Point(329, 101);
+            button8.Location = new Point(343, 101);
             button8.Name = "button8";
             button8.Size = new Size(86, 40);
             button8.TabIndex = 2;
@@ -159,7 +159,7 @@
             // 
             button7.Back = Color.FromArgb(217, 217, 217);
             button7.BorderWidth = 2F;
-            button7.Location = new Point(329, 55);
+            button7.Location = new Point(343, 55);
             button7.Name = "button7";
             button7.Size = new Size(60, 40);
             button7.TabIndex = 2;
@@ -181,7 +181,7 @@
             // 
             button12.Back = Color.FromArgb(217, 217, 217);
             button12.BorderWidth = 2F;
-            button12.Location = new Point(269, 193);
+            button12.Location = new Point(283, 193);
             button12.Name = "button12";
             button12.Size = new Size(60, 40);
             button12.TabIndex = 2;
@@ -192,7 +192,7 @@
             // 
             button4.Back = Color.FromArgb(217, 217, 217);
             button4.BorderWidth = 2F;
-            button4.Location = new Point(269, 13);
+            button4.Location = new Point(283, 13);
             button4.Name = "button4";
             button4.Size = new Size(60, 40);
             button4.TabIndex = 2;
@@ -205,7 +205,7 @@
             button11.BorderWidth = 2F;
             button11.Location = new Point(177, 193);
             button11.Name = "button11";
-            button11.Size = new Size(86, 40);
+            button11.Size = new Size(100, 40);
             button11.TabIndex = 2;
             button11.Text = "Bottom";
             tooltipBottom.SetTip(button11, "prompt text");
@@ -216,7 +216,7 @@
             button3.BorderWidth = 2F;
             button3.Location = new Point(177, 13);
             button3.Name = "button3";
-            button3.Size = new Size(86, 40);
+            button3.Size = new Size(100, 40);
             button3.TabIndex = 2;
             button3.Text = "Top";
             tooltipTop.SetTip(button3, "prompt text");
@@ -264,6 +264,16 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(589, 62);
             panel2.TabIndex = 3;
+            // 
+            // tooltip1
+            // 
+            tooltip1.Location = new Point(142, 3);
+            tooltip1.MaximumSize = new Size(335, 51);
+            tooltip1.MinimumSize = new Size(335, 51);
+            tooltip1.Name = "tooltip1";
+            tooltip1.Size = new Size(335, 51);
+            tooltip1.TabIndex = 1;
+            tooltip1.Text = "Thanks for using antd. Have a nice day!";
             // 
             // label4
             // 
@@ -349,16 +359,6 @@
             // 
             tooltipLT.ArrowAlign = AntDesign.TAlign.LT;
             tooltipLT.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            // 
-            // tooltip1
-            // 
-            tooltip1.Location = new Point(142, 3);
-            tooltip1.MaximumSize = new Size(335, 51);
-            tooltip1.MinimumSize = new Size(335, 51);
-            tooltip1.Name = "tooltip1";
-            tooltip1.Size = new Size(335, 51);
-            tooltip1.TabIndex = 1;
-            tooltip1.Text = "Thanks for using antd. Have a nice day!";
             // 
             // Tooltip
             // 

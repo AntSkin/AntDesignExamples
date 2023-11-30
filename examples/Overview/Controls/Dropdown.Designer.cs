@@ -67,7 +67,7 @@
             button7.ForeColor = Color.White;
             button7.Image = Properties.Resources.close;
             button7.Items.AddRange(new object[] { "菜单1", "菜单2", "菜单3" });
-            button7.Location = new Point(339, 3);
+            button7.Location = new Point(386, 3);
             button7.Name = "button7";
             button7.Placement = AntDesign.TAlignFrom.BR;
             button7.Shape = AntDesign.TShape.Circle;
@@ -111,7 +111,7 @@
             button4.Location = new Point(296, 93);
             button4.Name = "button4";
             button4.Placement = AntDesign.TAlignFrom.BR;
-            button4.Size = new Size(161, 47);
+            button4.Size = new Size(162, 50);
             button4.TabIndex = 2;
             button4.Text = "bottomRight";
             button4.Type = AntDesign.TTypeMini.Primary;
@@ -125,7 +125,7 @@
             button6.Location = new Point(171, 93);
             button6.Name = "button6";
             button6.Placement = AntDesign.TAlignFrom.Bottom;
-            button6.Size = new Size(119, 47);
+            button6.Size = new Size(120, 50);
             button6.TabIndex = 3;
             button6.Text = "bottom";
             button6.Type = AntDesign.TTypeMini.Primary;
@@ -139,7 +139,7 @@
             button2.Location = new Point(328, 15);
             button2.Name = "button2";
             button2.Placement = AntDesign.TAlignFrom.TR;
-            button2.Size = new Size(129, 47);
+            button2.Size = new Size(130, 50);
             button2.TabIndex = 4;
             button2.Text = "topRight";
             button2.Type = AntDesign.TTypeMini.Primary;
@@ -153,7 +153,7 @@
             button5.Location = new Point(187, 15);
             button5.Name = "button5";
             button5.Placement = AntDesign.TAlignFrom.Top;
-            button5.Size = new Size(87, 47);
+            button5.Size = new Size(88, 50);
             button5.TabIndex = 5;
             button5.Text = "top";
             button5.Type = AntDesign.TTypeMini.Primary;
@@ -166,7 +166,7 @@
             button3.Items.AddRange(new object[] { "one st menu item", "two nd menu item", "three rd menu item", "four menu item", "five menu item", "six six six menu item" });
             button3.Location = new Point(14, 93);
             button3.Name = "button3";
-            button3.Size = new Size(148, 47);
+            button3.Size = new Size(149, 50);
             button3.TabIndex = 6;
             button3.Text = "bottomLeft";
             button3.Type = AntDesign.TTypeMini.Primary;
@@ -180,7 +180,7 @@
             button8.Location = new Point(14, 15);
             button8.Name = "button8";
             button8.Placement = AntDesign.TAlignFrom.TL;
-            button8.Size = new Size(116, 47);
+            button8.Size = new Size(117, 50);
             button8.TabIndex = 7;
             button8.Text = "topLeft";
             button8.Type = AntDesign.TTypeMini.Primary;
@@ -212,22 +212,25 @@
             // 
             button17.AutoSize = AntDesign.TAutoSize.Auto;
             button17.ForeColor = Color.White;
+            button17.IsLink = true;
             button17.Items.AddRange(new object[] { "菜单1", "菜单2", "菜单3" });
             button17.Location = new Point(3, 3);
             button17.Name = "button17";
-            button17.Size = new Size(101, 47);
+            button17.ShowArrow = true;
+            button17.Size = new Size(127, 50);
             button17.TabIndex = 0;
             button17.Text = "Click me";
             button17.Type = AntDesign.TTypeMini.Primary;
             // 
             // button19
             // 
+            button19.AutoSize = AntDesign.TAutoSize.Auto;
             button19.Items.AddRange(new object[] { "菜单1", "菜单2", "菜单3" });
             button19.ListAutoWidth = false;
-            button19.Location = new Point(110, 3);
+            button19.Location = new Point(136, 3);
             button19.Name = "button19";
             button19.ShowArrow = true;
-            button19.Size = new Size(117, 47);
+            button19.Size = new Size(138, 50);
             button19.TabIndex = 0;
             button19.Text = "Hover me";
             button19.TextAlign = ContentAlignment.MiddleLeft;
@@ -237,9 +240,9 @@
             // 
             dropdown1.AutoSize = AntDesign.TAutoSize.Auto;
             dropdown1.ForeColor = Color.White;
-            dropdown1.Location = new Point(233, 3);
+            dropdown1.Location = new Point(280, 3);
             dropdown1.Name = "dropdown1";
-            dropdown1.Size = new Size(100, 47);
+            dropdown1.Size = new Size(100, 50);
             dropdown1.TabIndex = 0;
             dropdown1.Text = "多级菜单";
             dropdown1.Type = AntDesign.TTypeMini.Primary;

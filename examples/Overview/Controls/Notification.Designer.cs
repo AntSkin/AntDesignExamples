@@ -81,7 +81,7 @@
             panel3.Controls.Add(button9);
             panel3.Controls.Add(button10);
             panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(0, 223);
+            panel3.Location = new Point(0, 239);
             panel3.Name = "panel3";
             panel3.Size = new Size(543, 63);
             panel3.TabIndex = 4;
@@ -89,9 +89,9 @@
             // button7
             // 
             button7.BorderWidth = 2F;
-            button7.Location = new Point(305, 9);
+            button7.Location = new Point(347, 8);
             button7.Name = "button7";
-            button7.Size = new Size(91, 40);
+            button7.Size = new Size(110, 40);
             button7.TabIndex = 1;
             button7.Text = "Info";
             button7.Type = AntDesign.TTypeMini.Info;
@@ -100,9 +100,9 @@
             // button8
             // 
             button8.BorderWidth = 2F;
-            button8.Location = new Point(208, 9);
+            button8.Location = new Point(236, 8);
             button8.Name = "button8";
-            button8.Size = new Size(91, 40);
+            button8.Size = new Size(110, 40);
             button8.TabIndex = 1;
             button8.Text = "Warning";
             button8.Type = AntDesign.TTypeMini.Warn;
@@ -111,9 +111,9 @@
             // button9
             // 
             button9.BorderWidth = 2F;
-            button9.Location = new Point(111, 9);
+            button9.Location = new Point(125, 8);
             button9.Name = "button9";
-            button9.Size = new Size(91, 40);
+            button9.Size = new Size(110, 40);
             button9.TabIndex = 1;
             button9.Text = "Error";
             button9.Type = AntDesign.TTypeMini.Error;
@@ -122,9 +122,9 @@
             // button10
             // 
             button10.BorderWidth = 2F;
-            button10.Location = new Point(14, 9);
+            button10.Location = new Point(14, 8);
             button10.Name = "button10";
-            button10.Size = new Size(91, 40);
+            button10.Size = new Size(110, 40);
             button10.TabIndex = 1;
             button10.Text = "Success";
             button10.Type = AntDesign.TTypeMini.Success;
@@ -134,7 +134,7 @@
             // 
             divider2.Dock = DockStyle.Top;
             divider2.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            divider2.Location = new Point(0, 201);
+            divider2.Location = new Point(0, 217);
             divider2.Margin = new Padding(10);
             divider2.Name = "divider2";
             divider2.Orientation = AntDesign.TOrientation.Left;
@@ -154,16 +154,16 @@
             panel2.ForeColor = Color.White;
             panel2.Location = new Point(0, 22);
             panel2.Name = "panel2";
-            panel2.Size = new Size(543, 179);
+            panel2.Size = new Size(543, 195);
             panel2.TabIndex = 2;
             // 
             // button4
             // 
             button4.AutoSize = AntDesign.TAutoSize.Auto;
             button4.Image = Properties.Resources.BR;
-            button4.Location = new Point(169, 58);
+            button4.Location = new Point(169, 69);
             button4.Name = "button4";
-            button4.Size = new Size(161, 47);
+            button4.Size = new Size(166, 54);
             button4.TabIndex = 1;
             button4.Text = "bottomRight";
             button4.Type = AntDesign.TTypeMini.Primary;
@@ -173,9 +173,9 @@
             // 
             button6.AutoSize = AntDesign.TAutoSize.Auto;
             button6.Image = Properties.Resources.Bottom;
-            button6.Location = new Point(169, 107);
+            button6.Location = new Point(169, 129);
             button6.Name = "button6";
-            button6.Size = new Size(119, 47);
+            button6.Size = new Size(124, 54);
             button6.TabIndex = 1;
             button6.Text = "bottom";
             button6.Type = AntDesign.TTypeMini.Primary;
@@ -187,7 +187,7 @@
             button2.Image = Properties.Resources.TR;
             button2.Location = new Point(169, 9);
             button2.Name = "button2";
-            button2.Size = new Size(129, 47);
+            button2.Size = new Size(134, 54);
             button2.TabIndex = 1;
             button2.Text = "topRight";
             button2.Type = AntDesign.TTypeMini.Primary;
@@ -197,9 +197,9 @@
             // 
             button5.AutoSize = AntDesign.TAutoSize.Auto;
             button5.Image = Properties.Resources.Top;
-            button5.Location = new Point(14, 107);
+            button5.Location = new Point(14, 129);
             button5.Name = "button5";
-            button5.Size = new Size(87, 47);
+            button5.Size = new Size(92, 54);
             button5.TabIndex = 1;
             button5.Text = "top";
             button5.Type = AntDesign.TTypeMini.Primary;
@@ -209,9 +209,9 @@
             // 
             button3.AutoSize = AntDesign.TAutoSize.Auto;
             button3.Image = Properties.Resources.BL;
-            button3.Location = new Point(14, 58);
+            button3.Location = new Point(14, 69);
             button3.Name = "button3";
-            button3.Size = new Size(148, 47);
+            button3.Size = new Size(153, 54);
             button3.TabIndex = 1;
             button3.Text = "bottomLeft";
             button3.Type = AntDesign.TTypeMini.Primary;
@@ -223,7 +223,7 @@
             button1.Image = Properties.Resources.TL;
             button1.Location = new Point(14, 9);
             button1.Name = "button1";
-            button1.Size = new Size(116, 47);
+            button1.Size = new Size(121, 54);
             button1.TabIndex = 1;
             button1.Text = "topLeft";
             button1.Type = AntDesign.TTypeMini.Primary;

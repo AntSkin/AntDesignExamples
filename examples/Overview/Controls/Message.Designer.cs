@@ -87,9 +87,9 @@
             // button5
             // 
             button5.BorderWidth = 2F;
-            button5.Location = new Point(305, 9);
+            button5.Location = new Point(362, 13);
             button5.Name = "button5";
-            button5.Size = new Size(91, 40);
+            button5.Size = new Size(110, 40);
             button5.TabIndex = 1;
             button5.Text = "Info";
             button5.Type = AntDesign.TTypeMini.Info;
@@ -98,9 +98,9 @@
             // button6
             // 
             button6.BorderWidth = 2F;
-            button6.Location = new Point(208, 9);
+            button6.Location = new Point(246, 13);
             button6.Name = "button6";
-            button6.Size = new Size(91, 40);
+            button6.Size = new Size(110, 40);
             button6.TabIndex = 1;
             button6.Text = "Warning";
             button6.Type = AntDesign.TTypeMini.Warn;
@@ -109,9 +109,9 @@
             // button7
             // 
             button7.BorderWidth = 2F;
-            button7.Location = new Point(111, 9);
+            button7.Location = new Point(130, 13);
             button7.Name = "button7";
-            button7.Size = new Size(91, 40);
+            button7.Size = new Size(110, 40);
             button7.TabIndex = 1;
             button7.Text = "Error";
             button7.Type = AntDesign.TTypeMini.Error;
@@ -122,7 +122,7 @@
             button8.BorderWidth = 2F;
             button8.Location = new Point(14, 9);
             button8.Name = "button8";
-            button8.Size = new Size(91, 40);
+            button8.Size = new Size(110, 40);
             button8.TabIndex = 1;
             button8.Text = "Success";
             button8.Type = AntDesign.TTypeMini.Success;
@@ -155,9 +155,9 @@
             // button4
             // 
             button4.BorderWidth = 2F;
-            button4.Location = new Point(305, 9);
+            button4.Location = new Point(362, 10);
             button4.Name = "button4";
-            button4.Size = new Size(91, 40);
+            button4.Size = new Size(110, 40);
             button4.TabIndex = 1;
             button4.Text = "Info";
             button4.Click += button4_Click;
@@ -165,9 +165,9 @@
             // button3
             // 
             button3.BorderWidth = 2F;
-            button3.Location = new Point(208, 9);
+            button3.Location = new Point(246, 10);
             button3.Name = "button3";
-            button3.Size = new Size(91, 40);
+            button3.Size = new Size(110, 40);
             button3.TabIndex = 1;
             button3.Text = "Warning";
             button3.Click += button3_Click;
@@ -175,9 +175,9 @@
             // button2
             // 
             button2.BorderWidth = 2F;
-            button2.Location = new Point(111, 9);
+            button2.Location = new Point(130, 9);
             button2.Name = "button2";
-            button2.Size = new Size(91, 40);
+            button2.Size = new Size(110, 40);
             button2.TabIndex = 1;
             button2.Text = "Error";
             button2.Click += button2_Click;
@@ -187,7 +187,7 @@
             button1.BorderWidth = 2F;
             button1.Location = new Point(14, 9);
             button1.Name = "button1";
-            button1.Size = new Size(91, 40);
+            button1.Size = new Size(110, 40);
             button1.TabIndex = 1;
             button1.Text = "Success";
             button1.Click += button1_Click;

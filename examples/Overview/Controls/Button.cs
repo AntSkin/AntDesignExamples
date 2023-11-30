@@ -9,8 +9,8 @@ namespace Overview.Controls
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            panel2.Width = button2.Width + button15.Width + button10.Width + 40;
-            panel2.Height = button2.Height + 40;
+            panel2.Width = button2.Width + button15.Width + button10.Width + panel2.Padding.Horizontal;
+            panel2.Height = button2.Height + panel2.Padding.Vertical;
         }
         private void Btn(object sender, EventArgs e)
         {
@@ -20,7 +20,7 @@ namespace Overview.Controls
             if (btn.Parent == panel2)
             {
                 change = true;
-                panel2.Width = button2.Width + button15.Width + button10.Width + 40;
+                panel2.Width = button2.Width + button15.Width + button10.Width + panel2.Padding.Horizontal;
             }
             Task.Run(() =>
             {
@@ -32,7 +32,7 @@ namespace Overview.Controls
                 {
                     panel2.Invoke(() =>
                     {
-                        panel2.Width = button2.Width + button15.Width + button10.Width + 40;
+                        panel2.Width = button2.Width + button15.Width + button10.Width + panel2.Padding.Horizontal;
                     });
                 }
             });

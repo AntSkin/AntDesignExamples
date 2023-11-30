@@ -102,7 +102,7 @@
             // 
             buttonRB.Back = Color.FromArgb(217, 217, 217);
             buttonRB.BorderWidth = 2F;
-            buttonRB.Location = new Point(333, 149);
+            buttonRB.Location = new Point(347, 149);
             buttonRB.Name = "buttonRB";
             buttonRB.Size = new Size(60, 40);
             buttonRB.TabIndex = 3;
@@ -124,7 +124,7 @@
             // 
             buttonRight.Back = Color.FromArgb(217, 217, 217);
             buttonRight.BorderWidth = 2F;
-            buttonRight.Location = new Point(333, 103);
+            buttonRight.Location = new Point(347, 103);
             buttonRight.Name = "buttonRight";
             buttonRight.Size = new Size(86, 40);
             buttonRight.TabIndex = 5;
@@ -146,7 +146,7 @@
             // 
             buttonRT.Back = Color.FromArgb(217, 217, 217);
             buttonRT.BorderWidth = 2F;
-            buttonRT.Location = new Point(333, 57);
+            buttonRT.Location = new Point(347, 57);
             buttonRT.Name = "buttonRT";
             buttonRT.Size = new Size(60, 40);
             buttonRT.TabIndex = 7;
@@ -168,7 +168,7 @@
             // 
             buttonBR.Back = Color.FromArgb(217, 217, 217);
             buttonBR.BorderWidth = 2F;
-            buttonBR.Location = new Point(273, 195);
+            buttonBR.Location = new Point(287, 195);
             buttonBR.Name = "buttonBR";
             buttonBR.Size = new Size(60, 40);
             buttonBR.TabIndex = 9;
@@ -179,7 +179,7 @@
             // 
             buttonTR.Back = Color.FromArgb(217, 217, 217);
             buttonTR.BorderWidth = 2F;
-            buttonTR.Location = new Point(273, 15);
+            buttonTR.Location = new Point(287, 15);
             buttonTR.Name = "buttonTR";
             buttonTR.Size = new Size(60, 40);
             buttonTR.TabIndex = 10;
@@ -192,7 +192,7 @@
             buttonBottom.BorderWidth = 2F;
             buttonBottom.Location = new Point(181, 195);
             buttonBottom.Name = "buttonBottom";
-            buttonBottom.Size = new Size(86, 40);
+            buttonBottom.Size = new Size(100, 40);
             buttonBottom.TabIndex = 11;
             buttonBottom.Text = "Bottom";
             buttonBottom.Click += buttonBottom_Click;
@@ -203,7 +203,7 @@
             buttonTop.BorderWidth = 2F;
             buttonTop.Location = new Point(181, 15);
             buttonTop.Name = "buttonTop";
-            buttonTop.Size = new Size(86, 40);
+            buttonTop.Size = new Size(100, 40);
             buttonTop.TabIndex = 12;
             buttonTop.Text = "Top";
             buttonTop.Click += buttonTop_Click;
@@ -256,7 +256,7 @@
             button2.AutoSize = AntDesign.TAutoSize.Auto;
             button2.Location = new Point(145, 17);
             button2.Name = "button2";
-            button2.Size = new Size(182, 47);
+            button2.Size = new Size(186, 50);
             button2.TabIndex = 7;
             button2.Text = "自定义控件内容弹出";
             button2.Type = AntDesign.TTypeMini.Primary;
@@ -267,7 +267,7 @@
             button1.AutoSize = AntDesign.TAutoSize.Auto;
             button1.Location = new Point(14, 17);
             button1.Name = "button1";
-            button1.Size = new Size(100, 47);
+            button1.Size = new Size(104, 50);
             button1.TabIndex = 7;
             button1.Text = "普通弹出";
             button1.Type = AntDesign.TTypeMini.Primary;
