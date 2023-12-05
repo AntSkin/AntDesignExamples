@@ -30,12 +30,17 @@
         {
             header1 = new AntDesign.Header();
             panel1 = new System.Windows.Forms.Panel();
+            panel3 = new System.Windows.Forms.Panel();
+            datePickerRange1 = new AntDesign.DatePickerRange();
+            inputRange1 = new AntDesign.DatePickerRange();
+            divider2 = new AntDesign.Divider();
             panel2 = new System.Windows.Forms.Panel();
             datePicker3 = new AntDesign.DatePicker();
             datePicker2 = new AntDesign.DatePicker();
             datePicker1 = new AntDesign.DatePicker();
             divider1 = new AntDesign.Divider();
             panel1.SuspendLayout();
+            panel3.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,6 +59,8 @@
             // panel1
             // 
             panel1.AutoScroll = true;
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(divider2);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(divider1);
             panel1.Dock = DockStyle.Fill;
@@ -61,6 +68,43 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(614, 367);
             panel1.TabIndex = 6;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(datePickerRange1);
+            panel3.Controls.Add(inputRange1);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(0, 162);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(614, 118);
+            panel3.TabIndex = 5;
+            // 
+            // datePickerRange1
+            // 
+            datePickerRange1.Location = new Point(19, 61);
+            datePickerRange1.Name = "datePickerRange1";
+            datePickerRange1.Size = new Size(300, 40);
+            datePickerRange1.TabIndex = 23;
+            // 
+            // inputRange1
+            // 
+            inputRange1.Location = new Point(19, 15);
+            inputRange1.Name = "inputRange1";
+            inputRange1.PlaceholderEnd = "结束日期";
+            inputRange1.PlaceholderStart = "开始日期";
+            inputRange1.Size = new Size(300, 40);
+            inputRange1.TabIndex = 24;
+            // 
+            // divider2
+            // 
+            divider2.Dock = DockStyle.Top;
+            divider2.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            divider2.Location = new Point(0, 140);
+            divider2.Name = "divider2";
+            divider2.Orientation = AntDesign.TOrientation.Left;
+            divider2.Size = new Size(614, 22);
+            divider2.TabIndex = 4;
+            divider2.Text = "日期范围";
             // 
             // panel2
             // 
@@ -77,6 +121,7 @@
             // 
             datePicker3.AllowClear = true;
             datePicker3.BackColor = Color.Transparent;
+            datePicker3.DropDownArrow = true;
             datePicker3.Location = new Point(19, 56);
             datePicker3.Name = "datePicker3";
             datePicker3.PlaceholderText = "请选择日期";
@@ -91,9 +136,9 @@
             datePicker2.BackColor = Color.Transparent;
             datePicker2.Location = new Point(253, 6);
             datePicker2.Name = "datePicker2";
+            datePicker2.Placement = AntDesign.TAlignFrom.BR;
             datePicker2.Size = new Size(200, 44);
             datePicker2.TabIndex = 20;
-            datePicker2.Text = "";
             // 
             // datePicker1
             // 
@@ -103,7 +148,6 @@
             datePicker1.PlaceholderText = "请选择日期";
             datePicker1.Size = new Size(200, 44);
             datePicker1.TabIndex = 21;
-            datePicker1.Text = "";
             // 
             // divider1
             // 
@@ -124,6 +168,7 @@
             Name = "DatePicker";
             Size = new Size(614, 446);
             panel1.ResumeLayout(false);
+            panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -136,5 +181,9 @@
         private AntDesign.DatePicker datePicker2;
         private AntDesign.DatePicker datePicker1;
         private AntDesign.DatePicker datePicker3;
+        private System.Windows.Forms.Panel panel3;
+        private AntDesign.Divider divider2;
+        private AntDesign.DatePickerRange datePickerRange1;
+        private AntDesign.DatePickerRange inputRange1;
     }
 }
