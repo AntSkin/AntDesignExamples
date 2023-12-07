@@ -42,6 +42,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
 :arrow_right: | **Input** 输入框 | ✅ | ✅ |
 :arrow_right: | **DatePicker** 日期选择框 | ✅ | ✅ |
+:arrow_right: | **DatePickerRange** 日期范围选择框 | ✅ | ✅ |
 :arrow_right: | **Menu** 导航菜单 | ✅ | ❎ |
 :arrow_right: | **Panel** 面板 | ✅ | ❎ |
 :arrow_right: | **Progress** 进度条 | ✅ | ❎ |
