@@ -47,6 +47,12 @@ namespace Overview.Controls
         {
             header1 = new AntDesign.Header();
             panel1 = new System.Windows.Forms.Panel();
+            panel4 = new System.Windows.Forms.Panel();
+            datePickerRange3 = new AntDesign.DatePickerRange();
+            datePickerRange4 = new AntDesign.DatePickerRange();
+            datePicker4 = new AntDesign.DatePicker();
+            datePickerRange2 = new AntDesign.DatePicker();
+            divider3 = new AntDesign.Divider();
             panel3 = new System.Windows.Forms.Panel();
             datePickerRange1 = new AntDesign.DatePickerRange();
             inputRange1 = new AntDesign.DatePickerRange();
@@ -57,6 +63,7 @@ namespace Overview.Controls
             datePicker1 = new AntDesign.DatePicker();
             divider1 = new AntDesign.Divider();
             panel1.SuspendLayout();
+            panel4.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -68,7 +75,7 @@ namespace Overview.Controls
             header1.Location = new Point(0, 0);
             header1.Name = "header1";
             header1.Padding = new Padding(6);
-            header1.Size = new Size(614, 79);
+            header1.Size = new Size(770, 79);
             header1.TabIndex = 4;
             header1.Text = "DatePicker 日期选择框";
             header1.TextDesc = "输入或选择日期的控件。";
@@ -76,6 +83,8 @@ namespace Overview.Controls
             // panel1
             // 
             panel1.AutoScroll = true;
+            panel1.Controls.Add(panel4);
+            panel1.Controls.Add(divider3);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(divider2);
             panel1.Controls.Add(panel2);
@@ -83,8 +92,69 @@ namespace Overview.Controls
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 79);
             panel1.Name = "panel1";
-            panel1.Size = new Size(614, 367);
+            panel1.Size = new Size(770, 491);
             panel1.TabIndex = 6;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(datePickerRange3);
+            panel4.Controls.Add(datePickerRange4);
+            panel4.Controls.Add(datePicker4);
+            panel4.Controls.Add(datePickerRange2);
+            panel4.Dock = DockStyle.Top;
+            panel4.Location = new Point(0, 302);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(770, 127);
+            panel4.TabIndex = 7;
+            // 
+            // datePickerRange3
+            // 
+            datePickerRange3.Location = new Point(271, 71);
+            datePickerRange3.Name = "datePickerRange3";
+            datePickerRange3.Size = new Size(286, 44);
+            datePickerRange3.TabIndex = 25;
+            datePickerRange3.PresetsClickChanged += datePickerRange4_PresetsClickChanged;
+            // 
+            // datePickerRange4
+            // 
+            datePickerRange4.Location = new Point(271, 16);
+            datePickerRange4.Name = "datePickerRange4";
+            datePickerRange4.PlaceholderEnd = "结束日期";
+            datePickerRange4.PlaceholderStart = "开始日期";
+            datePickerRange4.Presets.AddRange(new object[] { "今天", "昨天", "过去7天", "过去39天", "本周", "上周", "本月", "上月", "本季", "上季", "本年", "去年" });
+            datePickerRange4.Size = new Size(286, 44);
+            datePickerRange4.TabIndex = 26;
+            datePickerRange4.PresetsClickChanged += datePickerRange4_PresetsClickChanged;
+            // 
+            // datePicker4
+            // 
+            datePicker4.Format = "yyyy-MM-dd HH:mm:ss";
+            datePicker4.Location = new Point(19, 71);
+            datePicker4.Name = "datePicker4";
+            datePicker4.Presets.AddRange(new object[] { "今天", "昨天", "过去7天", "过去39天", "本周", "上周", "本月", "上月", "本季", "上季", "本年", "去年", "去年1", "去年2" });
+            datePicker4.Size = new Size(221, 44);
+            datePicker4.TabIndex = 23;
+            datePicker4.PresetsClickChanged += datePickerRange4_PresetsClickChanged;
+            // 
+            // datePickerRange2
+            // 
+            datePickerRange2.Format = "yyyy-MM-dd HH:mm:ss";
+            datePickerRange2.Location = new Point(19, 16);
+            datePickerRange2.Name = "datePickerRange2";
+            datePickerRange2.Size = new Size(221, 44);
+            datePickerRange2.TabIndex = 24;
+            datePickerRange2.PresetsClickChanged += datePickerRange4_PresetsClickChanged;
+            // 
+            // divider3
+            // 
+            divider3.Dock = DockStyle.Top;
+            divider3.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            divider3.Location = new Point(0, 280);
+            divider3.Name = "divider3";
+            divider3.Orientation = AntDesign.TOrientation.Left;
+            divider3.Size = new Size(770, 22);
+            divider3.TabIndex = 6;
+            divider3.Text = "时间/预置";
             // 
             // panel3
             // 
@@ -93,7 +163,7 @@ namespace Overview.Controls
             panel3.Dock = DockStyle.Top;
             panel3.Location = new Point(0, 162);
             panel3.Name = "panel3";
-            panel3.Size = new Size(614, 118);
+            panel3.Size = new Size(770, 118);
             panel3.TabIndex = 5;
             // 
             // datePickerRange1
@@ -119,7 +189,7 @@ namespace Overview.Controls
             divider2.Location = new Point(0, 140);
             divider2.Name = "divider2";
             divider2.Orientation = AntDesign.TOrientation.Left;
-            divider2.Size = new Size(614, 22);
+            divider2.Size = new Size(770, 22);
             divider2.TabIndex = 4;
             divider2.Text = "日期范围";
             // 
@@ -131,7 +201,7 @@ namespace Overview.Controls
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 22);
             panel2.Name = "panel2";
-            panel2.Size = new Size(614, 118);
+            panel2.Size = new Size(770, 118);
             panel2.TabIndex = 3;
             // 
             // datePicker3
@@ -173,7 +243,7 @@ namespace Overview.Controls
             divider1.Location = new Point(0, 0);
             divider1.Name = "divider1";
             divider1.Orientation = AntDesign.TOrientation.Left;
-            divider1.Size = new Size(614, 22);
+            divider1.Size = new Size(770, 22);
             divider1.TabIndex = 2;
             divider1.Text = "选择日期";
             // 
@@ -183,8 +253,9 @@ namespace Overview.Controls
             Controls.Add(header1);
             Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "DatePicker";
-            Size = new Size(614, 446);
+            Size = new Size(770, 570);
             panel1.ResumeLayout(false);
+            panel4.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ResumeLayout(false);
@@ -202,5 +273,11 @@ namespace Overview.Controls
         private AntDesign.Divider divider2;
         private AntDesign.DatePickerRange datePickerRange1;
         private AntDesign.DatePickerRange inputRange1;
+        private System.Windows.Forms.Panel panel4;
+        private AntDesign.Divider divider3;
+        private AntDesign.DatePicker datePicker4;
+        private AntDesign.DatePicker datePickerRange2;
+        private AntDesign.DatePickerRange datePickerRange3;
+        private AntDesign.DatePickerRange datePickerRange4;
     }
 }

@@ -42,5 +42,10 @@ namespace Overview.Controls
                 };
             };
         }
+
+        private void datePickerRange4_PresetsClickChanged(object sender, object value)
+        {
+            AntDesign.Message.info((Form)Parent, "ÒÑµã»÷£º" + value, Font);
+        }
     }
 }

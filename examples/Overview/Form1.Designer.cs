@@ -45,6 +45,8 @@ namespace Overview
         /// </summary>
         private void InitializeComponent()
         {
+            AntDesign.TabsBadge tabsBadge1 = new AntDesign.TabsBadge();
+            AntDesign.TabsBadge tabsBadge2 = new AntDesign.TabsBadge();
             button1 = new AntDesign.Button();
             dropdown1 = new AntDesign.Dropdown();
             dropdown2 = new AntDesign.Dropdown();
@@ -78,8 +80,14 @@ namespace Overview
             label8 = new Label();
             label9 = new Label();
             panel9 = new AntDesign.Panel();
+            tabs1 = new AntDesign.Tabs();
+            tabPage1 = new TabPage();
+            tabPage2 = new TabPage();
+            datePickerRange2 = new AntDesign.DatePicker();
+            datePicker1 = new AntDesign.DatePicker();
             panel1.SuspendLayout();
             panel9.SuspendLayout();
+            tabs1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -189,6 +197,7 @@ namespace Overview
             inputRange1.Name = "inputRange1";
             inputRange1.PlaceholderEnd = "结束日期";
             inputRange1.PlaceholderStart = "开始日期";
+            inputRange1.Presets.AddRange(new object[] { "今天", "昨天", "过去7天", "过去39天", "本周", "上周", "本月", "上月", "本季", "上季", "本年", "去年" });
             inputRange1.Size = new Size(260, 40);
             inputRange1.TabIndex = 22;
             // 
@@ -291,7 +300,7 @@ namespace Overview
             button22.Location = new Point(12, 208);
             button22.Name = "button22";
             button22.ShowArrow = true;
-            button22.Size = new Size(125, 44);
+            button22.Size = new Size(154, 54);
             button22.TabIndex = 19;
             button22.Text = "button21";
             button22.TextAlign = ContentAlignment.MiddleLeft;
@@ -355,7 +364,7 @@ namespace Overview
             button24.Location = new Point(186, 208);
             button24.Name = "button24";
             button24.ShowArrow = true;
-            button24.Size = new Size(149, 44);
+            button24.Size = new Size(185, 54);
             button24.TabIndex = 19;
             button24.Text = "button21";
             button24.TextAlign = ContentAlignment.MiddleLeft;
@@ -382,7 +391,7 @@ namespace Overview
             button3.Location = new Point(12, 108);
             button3.Name = "button3";
             button3.RightToLeft = RightToLeft.Yes;
-            button3.Size = new Size(100, 44);
+            button3.Size = new Size(123, 54);
             button3.TabIndex = 19;
             button3.Text = "button21";
             // 
@@ -394,7 +403,7 @@ namespace Overview
             button21.Location = new Point(12, 158);
             button21.Name = "button21";
             button21.ShowArrow = true;
-            button21.Size = new Size(125, 44);
+            button21.Size = new Size(154, 54);
             button21.TabIndex = 19;
             button21.Text = "button21";
             button21.TextAlign = ContentAlignment.MiddleLeft;
@@ -424,7 +433,7 @@ namespace Overview
             button2.Location = new Point(186, 108);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.Yes;
-            button2.Size = new Size(100, 44);
+            button2.Size = new Size(123, 54);
             button2.TabIndex = 19;
             button2.Text = "button21";
             // 
@@ -437,7 +446,7 @@ namespace Overview
             button23.Location = new Point(186, 158);
             button23.Name = "button23";
             button23.ShowArrow = true;
-            button23.Size = new Size(149, 44);
+            button23.Size = new Size(185, 54);
             button23.TabIndex = 19;
             button23.Text = "button21";
             button23.TextAlign = ContentAlignment.MiddleLeft;
@@ -496,10 +505,73 @@ namespace Overview
             panel9.Size = new Size(320, 258);
             panel9.TabIndex = 15;
             // 
+            // tabs1
+            // 
+            tabsBadge1.Count = 0;
+            tabsBadge1.Fill = null;
+            tabsBadge1.Index = 0;
+            tabsBadge2.Count = 2;
+            tabsBadge2.Fill = null;
+            tabsBadge2.Index = 1;
+            tabs1.Badge.AddRange(new AntDesign.TabsBadge[] { tabsBadge1, tabsBadge2 });
+            tabs1.Controls.Add(tabPage1);
+            tabs1.Controls.Add(tabPage2);
+            tabs1.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tabs1.ItemSize = new Size(140, 40);
+            tabs1.Location = new Point(609, 12);
+            tabs1.Name = "tabs1";
+            tabs1.SelectedIndex = 0;
+            tabs1.Size = new Size(314, 141);
+            tabs1.SizeMode = TabSizeMode.Fixed;
+            tabs1.TabIndex = 22;
+            tabs1.Type = AntDesign.TabType.Card;
+            // 
+            // tabPage1
+            // 
+            tabPage1.Location = new Point(4, 44);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(306, 93);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "tabPage1";
+            tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            tabPage2.Location = new Point(4, 44);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(306, 93);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "tabPage2";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // datePickerRange2
+            // 
+            datePickerRange2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            datePickerRange2.Format = "yyyy-MM-dd HH:mm:ss";
+            datePickerRange2.Location = new Point(478, 180);
+            datePickerRange2.Name = "datePickerRange2";
+            datePickerRange2.Size = new Size(260, 40);
+            datePickerRange2.TabIndex = 22;
+            // 
+            // datePicker1
+            // 
+            datePicker1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            datePicker1.Format = "yyyy-MM-dd HH:mm:ss";
+            datePicker1.Location = new Point(478, 235);
+            datePicker1.Name = "datePicker1";
+            datePicker1.Presets.AddRange(new object[] { "今天", "昨天", "过去7天", "过去39天", "本周", "上周", "本月", "上月", "本季", "上季", "本年", "去年", "去年1", "去年2" });
+            datePicker1.Size = new Size(260, 40);
+            datePicker1.TabIndex = 22;
+            // 
             // Form1
             // 
             ClientSize = new Size(800, 689);
+            Controls.Add(tabs1);
             Controls.Add(panel1);
+            Controls.Add(datePicker1);
+            Controls.Add(datePickerRange2);
             Controls.Add(dropdown2);
             Controls.Add(dropdown1);
             Controls.Add(panel9);
@@ -510,6 +582,7 @@ namespace Overview
             Text = "Form1";
             panel1.ResumeLayout(false);
             panel9.ResumeLayout(false);
+            tabs1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -547,5 +620,10 @@ namespace Overview
         private AntDesign.Panel panel9;
         private AntDesign.DatePickerRange inputRange1;
         private AntDesign.DatePickerRange datePickerRange1;
+        private AntDesign.Tabs tabs1;
+        private TabPage tabPage1;
+        private TabPage tabPage2;
+        private AntDesign.DatePicker datePickerRange2;
+        private AntDesign.DatePicker datePicker1;
     }
 }

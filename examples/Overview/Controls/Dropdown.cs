@@ -45,7 +45,7 @@ namespace Overview.Controls
 
         private void dropdown1_SelectedValueChanged(object sender, object value)
         {
-            AntDesign.Message.info((Form)Parent, "已选中：" + value);
+            AntDesign.Message.info((Form)Parent, "已选中：" + value, Font);
         }
     }
 }
