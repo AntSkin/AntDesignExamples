@@ -123,6 +123,9 @@ namespace Overview
                     case "Timeline":
                         control_add = new Controls.Timeline();
                         break;
+                    case "Steps":
+                        control_add = new Controls.Steps();
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -254,6 +257,7 @@ namespace Overview
                 new IList("Popover","气泡卡片",res_light.Popover, res_dark.Popover),
                 new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
                 new IList("Timeline","时间轴",res_light.Timeline, res_dark.Timeline),
+                new IList("Steps","步骤条",res_light.Steps, res_dark.Steps),
             };
 
             var panel_size = new Size((int)(258 * dpi), (int)(244 * dpi));

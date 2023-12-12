@@ -94,6 +94,7 @@ namespace Overview
             btn_back.Size = new Size(90, 40);
             btn_back.TabIndex = 7;
             btn_back.Text = "返回";
+            btn_back.Ghost = true;
             btn_back.Visible = false;
             btn_back.Click += btn_back_Click;
             // 
@@ -111,6 +112,7 @@ namespace Overview
             btn_mode.Radius = 0;
             btn_mode.Size = new Size(50, 40);
             btn_mode.TabIndex = 6;
+            btn_mode.Ghost = true;
             btn_mode.Click += btn_mode_Click;
             // 
             // btn_min
@@ -127,6 +129,7 @@ namespace Overview
             btn_min.Radius = 0;
             btn_min.Size = new Size(50, 40);
             btn_min.TabIndex = 6;
+            btn_min.Ghost = true;
             btn_min.Click += btn_min_Click;
             // 
             // btn_max
@@ -143,6 +146,7 @@ namespace Overview
             btn_max.Radius = 0;
             btn_max.Size = new Size(50, 40);
             btn_max.TabIndex = 5;
+            btn_max.Ghost = true;
             btn_max.Click += btn_max_Click;
             // 
             // btn_close
@@ -160,6 +164,7 @@ namespace Overview
             btn_close.Radius = 0;
             btn_close.Size = new Size(58, 40);
             btn_close.TabIndex = 4;
+            btn_close.Ghost = true;
             btn_close.Click += btn_close_Click;
             // 
             // divider2

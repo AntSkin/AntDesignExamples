@@ -83,8 +83,11 @@ namespace Overview
             tabs1 = new AntDesign.Tabs();
             tabPage1 = new TabPage();
             tabPage2 = new TabPage();
-            datePickerRange2 = new AntDesign.DatePicker();
-            datePicker1 = new AntDesign.DatePicker();
+            colorPicker21 = new AntDesign.ColorPickerHue();
+            colorPicker22 = new AntDesign.ColorPickerOpacity();
+            colorPicker1 = new AntDesign.ColorPicker();
+            colorPicker2 = new AntDesign.ColorPicker();
+            colorPicker3 = new AntDesign.ColorPicker();
             panel1.SuspendLayout();
             panel9.SuspendLayout();
             tabs1.SuspendLayout();
@@ -109,6 +112,7 @@ namespace Overview
             dropdown1.Location = new Point(339, 12);
             dropdown1.Name = "dropdown1";
             dropdown1.Placement = AntDesign.TAlignFrom.BR;
+            dropdown1.select_x = 0;
             dropdown1.ShowArrow = true;
             dropdown1.Size = new Size(214, 56);
             dropdown1.TabIndex = 16;
@@ -123,6 +127,7 @@ namespace Overview
             dropdown2.Location = new Point(354, 134);
             dropdown2.Name = "dropdown2";
             dropdown2.Placement = AntDesign.TAlignFrom.BR;
+            dropdown2.select_x = 0;
             dropdown2.ShowArrow = true;
             dropdown2.Size = new Size(69, 56);
             dropdown2.TabIndex = 16;
@@ -210,6 +215,7 @@ namespace Overview
             input7.Multiline = true;
             input7.Name = "input7";
             input7.PlaceholderText = "水印";
+            input7.select_x = 0;
             input7.Size = new Size(152, 109);
             input7.TabIndex = 20;
             // 
@@ -300,7 +306,7 @@ namespace Overview
             button22.Location = new Point(12, 208);
             button22.Name = "button22";
             button22.ShowArrow = true;
-            button22.Size = new Size(154, 54);
+            button22.Size = new Size(125, 44);
             button22.TabIndex = 19;
             button22.Text = "button21";
             button22.TextAlign = ContentAlignment.MiddleLeft;
@@ -364,7 +370,7 @@ namespace Overview
             button24.Location = new Point(186, 208);
             button24.Name = "button24";
             button24.ShowArrow = true;
-            button24.Size = new Size(185, 54);
+            button24.Size = new Size(149, 44);
             button24.TabIndex = 19;
             button24.Text = "button21";
             button24.TextAlign = ContentAlignment.MiddleLeft;
@@ -391,7 +397,7 @@ namespace Overview
             button3.Location = new Point(12, 108);
             button3.Name = "button3";
             button3.RightToLeft = RightToLeft.Yes;
-            button3.Size = new Size(123, 54);
+            button3.Size = new Size(100, 44);
             button3.TabIndex = 19;
             button3.Text = "button21";
             // 
@@ -403,7 +409,7 @@ namespace Overview
             button21.Location = new Point(12, 158);
             button21.Name = "button21";
             button21.ShowArrow = true;
-            button21.Size = new Size(154, 54);
+            button21.Size = new Size(125, 44);
             button21.TabIndex = 19;
             button21.Text = "button21";
             button21.TextAlign = ContentAlignment.MiddleLeft;
@@ -433,7 +439,7 @@ namespace Overview
             button2.Location = new Point(186, 108);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.Yes;
-            button2.Size = new Size(123, 54);
+            button2.Size = new Size(100, 44);
             button2.TabIndex = 19;
             button2.Text = "button21";
             // 
@@ -446,7 +452,7 @@ namespace Overview
             button23.Location = new Point(186, 158);
             button23.Name = "button23";
             button23.ShowArrow = true;
-            button23.Size = new Size(185, 54);
+            button23.Size = new Size(149, 44);
             button23.TabIndex = 19;
             button23.Text = "button21";
             button23.TextAlign = ContentAlignment.MiddleLeft;
@@ -546,32 +552,61 @@ namespace Overview
             tabPage2.Text = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
             // 
-            // datePickerRange2
+            // colorPicker21
             // 
-            datePickerRange2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            datePickerRange2.Format = "yyyy-MM-dd HH:mm:ss";
-            datePickerRange2.Location = new Point(478, 180);
-            datePickerRange2.Name = "datePickerRange2";
-            datePickerRange2.Size = new Size(260, 40);
-            datePickerRange2.TabIndex = 22;
+            colorPicker21.Location = new Point(261, 271);
+            colorPicker21.Name = "colorPicker21";
+            colorPicker21.Size = new Size(227, 23);
+            colorPicker21.TabIndex = 24;
+            colorPicker21.Text = "colorPicker21";
             // 
-            // datePicker1
+            // colorPicker22
             // 
-            datePicker1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            datePicker1.Format = "yyyy-MM-dd HH:mm:ss";
-            datePicker1.Location = new Point(478, 235);
-            datePicker1.Name = "datePicker1";
-            datePicker1.Presets.AddRange(new object[] { "今天", "昨天", "过去7天", "过去39天", "本周", "上周", "本月", "上月", "本季", "上季", "本年", "去年", "去年1", "去年2" });
-            datePicker1.Size = new Size(260, 40);
-            datePicker1.TabIndex = 22;
+            colorPicker22.Location = new Point(28, 270);
+            colorPicker22.Name = "colorPicker22";
+            colorPicker22.Size = new Size(227, 23);
+            colorPicker22.TabIndex = 24;
+            colorPicker22.Text = "colorPicker21";
+            // 
+            // colorPicker1
+            // 
+            colorPicker1.AutoSize = AntDesign.TAutoSize.Auto;
+            colorPicker1.Location = new Point(512, 171);
+            colorPicker1.Name = "colorPicker1";
+            colorPicker1.Size = new Size(41, 41);
+            colorPicker1.TabIndex = 25;
+            colorPicker1.Text = "colorPicker1";
+            colorPicker1.Value = Color.FromArgb(22, 119, 255);
+            // 
+            // colorPicker2
+            // 
+            colorPicker2.Location = new Point(511, 218);
+            colorPicker2.Name = "colorPicker2";
+            colorPicker2.Size = new Size(42, 42);
+            colorPicker2.TabIndex = 25;
+            colorPicker2.Text = "colorPicker1";
+            colorPicker2.Value = Color.FromArgb(22, 119, 255);
+            // 
+            // colorPicker3
+            // 
+            colorPicker3.AutoSize = AntDesign.TAutoSize.Auto;
+            colorPicker3.Location = new Point(559, 171);
+            colorPicker3.Name = "colorPicker3";
+            colorPicker3.ShowText = true;
+            colorPicker3.Size = new Size(100, 41);
+            colorPicker3.TabIndex = 25;
+            colorPicker3.Value = Color.FromArgb(22, 119, 255);
             // 
             // Form1
             // 
             ClientSize = new Size(800, 689);
+            Controls.Add(colorPicker2);
+            Controls.Add(colorPicker3);
+            Controls.Add(colorPicker1);
+            Controls.Add(colorPicker22);
+            Controls.Add(colorPicker21);
             Controls.Add(tabs1);
             Controls.Add(panel1);
-            Controls.Add(datePicker1);
-            Controls.Add(datePickerRange2);
             Controls.Add(dropdown2);
             Controls.Add(dropdown1);
             Controls.Add(panel9);
@@ -623,7 +658,10 @@ namespace Overview
         private AntDesign.Tabs tabs1;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private AntDesign.DatePicker datePickerRange2;
-        private AntDesign.DatePicker datePicker1;
+        private AntDesign.ColorPickerHue colorPicker21;
+        private AntDesign.ColorPickerOpacity colorPicker22;
+        private AntDesign.ColorPicker colorPicker1;
+        private AntDesign.ColorPicker colorPicker2;
+        private AntDesign.ColorPicker colorPicker3;
     }
 }

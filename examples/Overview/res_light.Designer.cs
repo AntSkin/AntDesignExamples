@@ -382,6 +382,21 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;108px&quot; height=&quot;116px&quot; viewBox=&quot;0 0 108 116&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;小-垂直-带描述&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版&quot; transform=&quot;translate(-566.000000, -1360.000000)&quot;&gt;
+        ///            &lt;g id=&quot;小-垂直-带描述&quot; transform=&quot;translate(566.000000, 1361.000000)&quot;&gt;
+        ///                &lt;g id=&quot;导航/Steps步骤条/Light/小-垂直-带描述-完成项 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Steps {
+            get {
+                return ResourceManager.GetString("Steps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;160px&quot; height=&quot;16px&quot; viewBox=&quot;0 0 160 16&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;编组 5&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;

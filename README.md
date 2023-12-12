@@ -61,6 +61,8 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |
 :arrow_right: | **Timeline** 时间轴 | ✅ | ❎ |
+:arrow_right: | **Steps** 步骤条 | ✅ | ❎ |
+:arrow_right: | **ColorPicker** 颜色选择器 | ✅ | ✅ |
 
 ### 🎨截图
 

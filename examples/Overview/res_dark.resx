@@ -910,6 +910,65 @@
     &lt;/g&gt;
 &lt;/svg&gt;</value>
   </data>
+  <data name="Steps" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;svg width="108px" height="116px" viewBox="0 0 108 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+    &lt;title&gt;Steps&lt;/title&gt;
+    &lt;g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"&gt;
+        &lt;g id="🎉-5.0-新版---黑" transform="translate(-566.000000, -1360.000000)"&gt;
+            &lt;g id="Steps" transform="translate(566.000000, 1360.400000)"&gt;
+                &lt;g id="导航/Steps步骤条/Light/小-垂直-带描述-完成项"&gt;
+                    &lt;text id="Finished" font-family="PingFangSC-Regular, PingFang SC" font-size="9.60000038" font-weight="normal" line-spacing="14.4" fill="#FFFFFF" fill-opacity="0.88"&gt;
+                        &lt;tspan x="19.2" y="10"&gt;Finished&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text id="这里是描述文案" font-family="PingFangSC-Regular, PingFang SC" font-size="8.39999962" font-weight="normal" line-spacing="13.2" fill="#FFFFFF" fill-opacity="0.45"&gt;
+                        &lt;tspan x="19.2" y="26.4"&gt;This is a description&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;g id="Icon/Steps-Finished" transform="translate(0.000000, 0.600000)"&gt;
+                        &lt;circle id="椭圆形" stroke="#167CDB" cx="7.2" cy="7.2" r="6.7"&gt;&lt;/circle&gt;
+                        &lt;g id="check-outlined" transform="translate(3.600000, 3.600000)" fill="#1677FF" fill-rule="nonzero"&gt;
+                            &lt;rect id="矩形" opacity="0" x="0" y="0" width="7.2" height="7.2"&gt;&lt;/rect&gt;
+                            &lt;path d="M6.4125,1.3359375 L5.92101562,1.3359375 C5.85210937,1.3359375 5.78671875,1.36757813 5.74453125,1.42171875 L2.84554687,5.09414062 L1.45546875,3.3328125 C1.41257812,3.27867187 1.34789062,3.24703125 1.27898437,3.24703125 L0.7875,3.24703125 C0.740390625,3.24703125 0.714375,3.30117187 0.743203125,3.33773437 L2.6690625,5.77757812 C2.7590625,5.89148438 2.93203125,5.89148438 3.02273437,5.77757812 L6.45679687,1.4259375 C6.485625,1.39007813 6.45960937,1.3359375 6.4125,1.3359375 Z" id="路径"&gt;&lt;/path&gt;
+                        &lt;/g&gt;
+                    &lt;/g&gt;
+                    &lt;g id="导航/Steps步骤条/Light/垂直分割线" transform="translate(7.200000, 19.800000)" fill="#FFFFFF" fill-opacity="0.15"&gt;
+                        &lt;rect id="Divider" x="0" y="0" width="1" height="19.2"&gt;&lt;/rect&gt;
+                    &lt;/g&gt;
+                &lt;/g&gt;
+                &lt;g id="导航/Steps步骤条/Light/小-垂直-带描述-当前项" transform="translate(0.000000, 43.643478)"&gt;
+                    &lt;text id="Finished" font-family="PingFangSC-Medium, PingFang SC" font-size="5.03999977" font-weight="400" line-spacing="13.2" fill="#FFFFFF" fill-opacity="0.88"&gt;
+                        &lt;tspan x="19.2" y="5"&gt;In Progress&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;text id="这里是描述文案" font-family="PingFangSC-Regular, PingFang SC" font-size="5.03999977" font-weight="normal" line-spacing="13.2" fill="#FFFFFF" fill-opacity="0.45"&gt;
+                        &lt;tspan x="19.2" y="20.6"&gt;This is a description&lt;/tspan&gt;
+                    &lt;/text&gt;
+                    &lt;g id="导航/Steps步骤条/Light/垂直分割线" transform="translate(7.200000, 19.200000)" fill="#FFFFFF" fill-opacity="0.15"&gt;
+                        &lt;rect id="Divider" x="0" y="0" width="1" height="19.2"&gt;&lt;/rect&gt;
+                    &lt;/g&gt;
+                    &lt;g id="Icon/Steps-Active"&gt;
+                        &lt;circle id="Active" fill="#1677FF" cx="7.2" cy="7.2" r="7.2"&gt;&lt;/circle&gt;
+                        &lt;text id="Number" font-family="PingFangSC-Regular, PingFang SC" font-size="8.4" font-weight="normal" line-spacing="13.2" fill="#FFFFFF"&gt;
+                            &lt;tspan x="4.68" y="9.6"&gt;2&lt;/tspan&gt;
+                        &lt;/text&gt;
+                    &lt;/g&gt;
+                &lt;/g&gt;
+                &lt;text id="Finished" font-family="PingFangSC-Regular, PingFang SC" font-size="8.39999962" font-weight="normal" line-spacing="13.2" fill="#FFFFFF" fill-opacity="0.45"&gt;
+                    &lt;tspan x="19.2" y="95.6869565"&gt;Waiting&lt;/tspan&gt;
+                &lt;/text&gt;
+                &lt;text id="这里是描述文案" font-family="PingFangSC-Regular, PingFang SC" font-size="8.39999962" font-weight="normal" line-spacing="13.2" fill="#FFFFFF" fill-opacity="0.45"&gt;
+                    &lt;tspan x="19.2" y="111.286957"&gt;This is a description&lt;/tspan&gt;
+                &lt;/text&gt;
+                &lt;g id="Icon/Steps-Normal" transform="translate(0.000000, 86.686957)"&gt;
+                    &lt;circle id="椭圆形" stroke-opacity="0.2" stroke="#FFFFFF" cx="7.2" cy="7.2" r="6.7"&gt;&lt;/circle&gt;
+                    &lt;text id="↳-Number" font-family="PingFangSC-Regular, PingFang SC" font-size="8.39999962" font-weight="normal" line-spacing="13.2" fill="#FFFFFF" fill-opacity="0.45"&gt;
+                        &lt;tspan x="5" y="9.6"&gt;3&lt;/tspan&gt;
+                    &lt;/text&gt;
+                &lt;/g&gt;
+            &lt;/g&gt;
+        &lt;/g&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
   <data name="Switch" xml:space="preserve">
     <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;svg width="160px" height="16px" viewBox="0 0 160 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
