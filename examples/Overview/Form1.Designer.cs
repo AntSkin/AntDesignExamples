@@ -1,6 +1,6 @@
 ﻿// COPYRIGHT (C) Tom. ALL RIGHTS RESERVED.
 // THE AntDesignExamples PROJECT IS AN WINFORM LIBRARY LICENSED UNDER THE Apache-2.0 License.
-// LICENSED UNDER THE Apache License, VERSION 2.0 (THE "License");
+// LICENSED UNDER THE Apache License, VERSION 2.0 (THE "License")
 // YOU MAY NOT USE THIS FILE EXCEPT IN COMPLIANCE WITH THE License.
 // YOU MAY OBTAIN A COPY OF THE LICENSE AT
 //
@@ -85,9 +85,8 @@ namespace Overview
             tabPage2 = new TabPage();
             colorPicker21 = new AntDesign.ColorPickerHue();
             colorPicker22 = new AntDesign.ColorPickerOpacity();
-            colorPicker1 = new AntDesign.ColorPicker();
-            colorPicker2 = new AntDesign.ColorPicker();
             colorPicker3 = new AntDesign.ColorPicker();
+            colorPickerHue1 = new AntDesign.ColorPickerColors();
             panel1.SuspendLayout();
             panel9.SuspendLayout();
             tabs1.SuspendLayout();
@@ -568,42 +567,29 @@ namespace Overview
             colorPicker22.TabIndex = 24;
             colorPicker22.Text = "colorPicker21";
             // 
-            // colorPicker1
-            // 
-            colorPicker1.AutoSize = AntDesign.TAutoSize.Auto;
-            colorPicker1.Location = new Point(512, 171);
-            colorPicker1.Name = "colorPicker1";
-            colorPicker1.Size = new Size(41, 41);
-            colorPicker1.TabIndex = 25;
-            colorPicker1.Text = "colorPicker1";
-            colorPicker1.Value = Color.FromArgb(22, 119, 255);
-            // 
-            // colorPicker2
-            // 
-            colorPicker2.Location = new Point(511, 218);
-            colorPicker2.Name = "colorPicker2";
-            colorPicker2.Size = new Size(42, 42);
-            colorPicker2.TabIndex = 25;
-            colorPicker2.Text = "colorPicker1";
-            colorPicker2.Value = Color.FromArgb(22, 119, 255);
-            // 
             // colorPicker3
             // 
-            colorPicker3.AutoSize = AntDesign.TAutoSize.Auto;
-            colorPicker3.Location = new Point(559, 171);
+            colorPicker3.Location = new Point(580, 181);
             colorPicker3.Name = "colorPicker3";
             colorPicker3.ShowText = true;
             colorPicker3.Size = new Size(100, 41);
             colorPicker3.TabIndex = 25;
             colorPicker3.Value = Color.FromArgb(22, 119, 255);
             // 
+            // colorPickerHue1
+            // 
+            colorPickerHue1.Location = new Point(511, 271);
+            colorPickerHue1.Name = "colorPickerHue1";
+            colorPickerHue1.Size = new Size(227, 130);
+            colorPickerHue1.TabIndex = 24;
+            colorPickerHue1.Text = "colorPicker21";
+            // 
             // Form1
             // 
             ClientSize = new Size(800, 689);
-            Controls.Add(colorPicker2);
             Controls.Add(colorPicker3);
-            Controls.Add(colorPicker1);
             Controls.Add(colorPicker22);
+            Controls.Add(colorPickerHue1);
             Controls.Add(colorPicker21);
             Controls.Add(tabs1);
             Controls.Add(panel1);
@@ -660,8 +646,7 @@ namespace Overview
         private TabPage tabPage2;
         private AntDesign.ColorPickerHue colorPicker21;
         private AntDesign.ColorPickerOpacity colorPicker22;
-        private AntDesign.ColorPicker colorPicker1;
-        private AntDesign.ColorPicker colorPicker2;
         private AntDesign.ColorPicker colorPicker3;
+        private AntDesign.ColorPickerColors colorPickerHue1;
     }
 }
