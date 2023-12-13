@@ -16,6 +16,7 @@ bin-release/
 *.vcxproj.user
 *.pubxml.user
 
+# Projects
 /.vs
 /packages
 /Debug
