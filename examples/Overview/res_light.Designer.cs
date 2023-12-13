@@ -157,6 +157,23 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;157px&quot; height=&quot;138px&quot; viewBox=&quot;0 0 157 138&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;编组 6&lt;/title&gt;
+        ///    &lt;defs&gt;
+        ///        &lt;linearGradient x1=&quot;100%&quot; y1=&quot;50%&quot; x2=&quot;0%&quot; y2=&quot;50%&quot; id=&quot;linearGradient-1&quot;&gt;
+        ///            &lt;stop stop-color=&quot;#1677FF&quot; offset=&quot;0%&quot;&gt;&lt;/stop&gt;
+        ///            &lt;stop stop-color=&quot;#FFFFFF&quot; offset=&quot;100%&quot;&gt;&lt;/stop&gt;
+        ///        &lt;/linearGradient&gt;
+        ///        &lt;linearGradient x1=&quot;50%&quot; y1=&quot;0.0897381757%&quot;  [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string ColorPicker {
+            get {
+                return ResourceManager.GetString("ColorPicker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;121px&quot; height=&quot;69px&quot; viewBox=&quot;0 0 121 69&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;DatePicker&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
@@ -362,6 +379,21 @@ namespace Overview {
         internal static string Segmented {
             get {
                 return ResourceManager.GetString("Segmented", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;121px&quot; height=&quot;33px&quot; viewBox=&quot;0 0 121 33&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;Select&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版&quot; transform=&quot;translate(-923.000000, -2221.000000)&quot;&gt;
+        ///            &lt;g id=&quot;3.DataEntry/Selecte/Default/Unselected&quot; transform=&quot;translate(924.000000, 2222.000000)&quot;&gt;
+        ///                &lt;rect id=&quot;o [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Select {
+            get {
+                return ResourceManager.GetString("Select", resourceCulture);
             }
         }
         

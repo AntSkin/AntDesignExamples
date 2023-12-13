@@ -66,6 +66,9 @@ namespace Overview
                     case "Input":
                         control_add = new Controls.Input();
                         break;
+                    case "Select":
+                        control_add = new Controls.Select();
+                        break;
                     case "Panel":
                         control_add = new Controls.Panel();
                         break;
@@ -125,6 +128,9 @@ namespace Overview
                         break;
                     case "Steps":
                         control_add = new Controls.Steps();
+                        break;
+                    case "ColorPicker":
+                        control_add = new Controls.ColorPicker();
                         break;
                 }
                 if (control_add != null)
@@ -231,33 +237,46 @@ namespace Overview
 
             var dir = new List<IList>
             {
+                //通用
                 new IList("Button","按钮", res_light.Button, res_dark.Button),
-                new IList("Avatar","头像", res_light.Avatar, res_dark.Avatar),
-                new IList("Checkbox","多选框", res_light.Checkbox, res_dark.Checkbox),
-                new IList("Radio","单选框", res_light.Radio, res_dark.Radio),
-                new IList("Input","输入框", res_light.Input, res_dark.Input),
-                new IList("DatePicker","日期选择框", res_light.DatePicker, res_dark.DatePicker),
+
+                //布局
+                new IList("Divider","分割线", res_light.Divider, res_dark.Divider),
+
+                //导航
                 new IList("Dropdown","下拉菜单", res_light.Dropdown, res_dark.Dropdown),
                 new IList("Menu","导航菜单", res_light.Menu, res_dark.Menu),
-                new IList("Divider","分割线", res_light.Divider, res_dark.Divider),
-                new IList("Panel","面板", res_light.Panel, res_dark.Panel),
-                new IList("Carousel","走马灯",res_light.Carousel, res_dark.Carousel),
-                new IList("Segmented","分段控制器",res_light.Segmented, res_dark.Segmented),
-                new IList("Progress","进度条",res_light.Progress, res_dark.Progress),
+                new IList("Pagination","分页",res_light.Pagination, res_dark.Pagination),
+                new IList("Steps","步骤条",res_light.Steps, res_dark.Steps),
+
+                //数据录入
+                new IList("Checkbox","多选框", res_light.Checkbox, res_dark.Checkbox),
+                new IList("ColorPicker","颜色选择器", res_light.ColorPicker, res_dark.ColorPicker),
+                new IList("DatePicker","日期选择框", res_light.DatePicker, res_dark.DatePicker),
+                new IList("Input","输入框", res_light.Input, res_dark.Input),
+                new IList("Radio","单选框", res_light.Radio, res_dark.Radio),
+                new IList("Select","选择器", res_light.Select, res_dark.Select),
                 new IList("Slider","滑动输入条",res_light.Slider, res_dark.Slider),
                 new IList("Switch","开关",res_light.Switch, res_dark.Switch),
-                new IList("Pagination","分页",res_light.Pagination, res_dark.Pagination),
-                new IList("Tabs","标签页",res_light.Tabs, res_dark.Tabs),
+
+                //数据展示
+                new IList("Avatar","头像", res_light.Avatar, res_dark.Avatar),
                 new IList("Badge","徽标数",res_light.Badge, res_dark.Badge),
-                new IList("Alert","警告提示",res_light.Alert, res_dark.Alert),
-                new IList("Tree","树形控件",res_light.Tree, res_dark.Tree),
-                new IList("Modal","对话框",res_light.Modal, res_dark.Modal),
-                new IList("Message","全局提示",res_light.Message, res_dark.Message),
-                new IList("Notification","通知提醒框",res_light.Notification, res_dark.Notification),
+                new IList("Panel","面板", res_light.Panel, res_dark.Panel),
+                new IList("Carousel","走马灯",res_light.Carousel, res_dark.Carousel),
                 new IList("Popover","气泡卡片",res_light.Popover, res_dark.Popover),
-                new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
+                new IList("Segmented","分段控制器",res_light.Segmented, res_dark.Segmented),
+                new IList("Tabs","标签页",res_light.Tabs, res_dark.Tabs),
                 new IList("Timeline","时间轴",res_light.Timeline, res_dark.Timeline),
-                new IList("Steps","步骤条",res_light.Steps, res_dark.Steps),
+                new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
+                new IList("Tree","树形控件",res_light.Tree, res_dark.Tree),
+
+                //反馈
+                new IList("Alert","警告提示",res_light.Alert, res_dark.Alert),
+                new IList("Message","全局提示",res_light.Message, res_dark.Message),
+                new IList("Modal","对话框",res_light.Modal, res_dark.Modal),
+                new IList("Notification","通知提醒框",res_light.Notification, res_dark.Notification),
+                new IList("Progress","进度条",res_light.Progress, res_dark.Progress),
             };
 
             var panel_size = new Size((int)(258 * dpi), (int)(244 * dpi));

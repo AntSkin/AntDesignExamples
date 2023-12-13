@@ -83,10 +83,7 @@ namespace Overview
             tabs1 = new AntDesign.Tabs();
             tabPage1 = new TabPage();
             tabPage2 = new TabPage();
-            colorPicker21 = new AntDesign.ColorPickerHue();
-            colorPicker22 = new AntDesign.ColorPickerOpacity();
             colorPicker3 = new AntDesign.ColorPicker();
-            colorPickerHue1 = new AntDesign.ColorPickerColors();
             panel1.SuspendLayout();
             panel9.SuspendLayout();
             tabs1.SuspendLayout();
@@ -111,7 +108,6 @@ namespace Overview
             dropdown1.Location = new Point(339, 12);
             dropdown1.Name = "dropdown1";
             dropdown1.Placement = AntDesign.TAlignFrom.BR;
-            dropdown1.select_x = 0;
             dropdown1.ShowArrow = true;
             dropdown1.Size = new Size(214, 56);
             dropdown1.TabIndex = 16;
@@ -126,7 +122,6 @@ namespace Overview
             dropdown2.Location = new Point(354, 134);
             dropdown2.Name = "dropdown2";
             dropdown2.Placement = AntDesign.TAlignFrom.BR;
-            dropdown2.select_x = 0;
             dropdown2.ShowArrow = true;
             dropdown2.Size = new Size(69, 56);
             dropdown2.TabIndex = 16;
@@ -214,7 +209,6 @@ namespace Overview
             input7.Multiline = true;
             input7.Name = "input7";
             input7.PlaceholderText = "水印";
-            input7.select_x = 0;
             input7.Size = new Size(152, 109);
             input7.TabIndex = 20;
             // 
@@ -551,46 +545,21 @@ namespace Overview
             tabPage2.Text = "tabPage2";
             tabPage2.UseVisualStyleBackColor = true;
             // 
-            // colorPicker21
-            // 
-            colorPicker21.Location = new Point(261, 271);
-            colorPicker21.Name = "colorPicker21";
-            colorPicker21.Size = new Size(227, 23);
-            colorPicker21.TabIndex = 24;
-            colorPicker21.Text = "colorPicker21";
-            // 
-            // colorPicker22
-            // 
-            colorPicker22.Location = new Point(28, 270);
-            colorPicker22.Name = "colorPicker22";
-            colorPicker22.Size = new Size(227, 23);
-            colorPicker22.TabIndex = 24;
-            colorPicker22.Text = "colorPicker21";
-            // 
             // colorPicker3
             // 
-            colorPicker3.Location = new Point(580, 181);
+            colorPicker3.AutoSize = AntDesign.TAutoSize.Auto;
+            colorPicker3.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            colorPicker3.Location = new Point(552, 189);
             colorPicker3.Name = "colorPicker3";
             colorPicker3.ShowText = true;
-            colorPicker3.Size = new Size(100, 41);
+            colorPicker3.Size = new Size(144, 47);
             colorPicker3.TabIndex = 25;
             colorPicker3.Value = Color.FromArgb(22, 119, 255);
-            // 
-            // colorPickerHue1
-            // 
-            colorPickerHue1.Location = new Point(511, 271);
-            colorPickerHue1.Name = "colorPickerHue1";
-            colorPickerHue1.Size = new Size(227, 130);
-            colorPickerHue1.TabIndex = 24;
-            colorPickerHue1.Text = "colorPicker21";
             // 
             // Form1
             // 
             ClientSize = new Size(800, 689);
             Controls.Add(colorPicker3);
-            Controls.Add(colorPicker22);
-            Controls.Add(colorPickerHue1);
-            Controls.Add(colorPicker21);
             Controls.Add(tabs1);
             Controls.Add(panel1);
             Controls.Add(dropdown2);
@@ -644,9 +613,6 @@ namespace Overview
         private AntDesign.Tabs tabs1;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private AntDesign.ColorPickerHue colorPicker21;
-        private AntDesign.ColorPickerOpacity colorPicker22;
         private AntDesign.ColorPicker colorPicker3;
-        private AntDesign.ColorPickerColors colorPickerHue1;
     }
 }

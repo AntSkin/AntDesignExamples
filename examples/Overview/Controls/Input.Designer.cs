@@ -45,7 +45,6 @@ namespace Overview.Controls
         /// </summary>
         private void InitializeComponent()
         {
-            AntDesign.DividerSelectItem dividerSelectItem2 = new AntDesign.DividerSelectItem();
             input1 = new AntDesign.Input();
             input2 = new AntDesign.Input();
             input3 = new AntDesign.Input();
@@ -54,13 +53,6 @@ namespace Overview.Controls
             input6 = new AntDesign.Input();
             header1 = new AntDesign.Header();
             panel1 = new System.Windows.Forms.Panel();
-            panel7 = new System.Windows.Forms.Panel();
-            panel8 = new System.Windows.Forms.Panel();
-            select3 = new AntDesign.Select();
-            button4 = new AntDesign.Button();
-            select2 = new AntDesign.Select();
-            select1 = new AntDesign.Select();
-            divider3 = new AntDesign.Divider();
             panel3 = new System.Windows.Forms.Panel();
             panel5 = new AntDesign.Panel();
             input8 = new AntDesign.Input();
@@ -75,8 +67,6 @@ namespace Overview.Controls
             panel2 = new System.Windows.Forms.Panel();
             divider1 = new AntDesign.Divider();
             panel1.SuspendLayout();
-            panel7.SuspendLayout();
-            panel8.SuspendLayout();
             panel3.SuspendLayout();
             panel5.SuspendLayout();
             panel6.SuspendLayout();
@@ -108,7 +98,6 @@ namespace Overview.Controls
             input3.Round = true;
             input3.Size = new Size(220, 44);
             input3.TabIndex = 1;
-            input3.Text = "";
             // 
             // input4
             // 
@@ -155,8 +144,6 @@ namespace Overview.Controls
             // panel1
             // 
             panel1.AutoScroll = true;
-            panel1.Controls.Add(panel7);
-            panel1.Controls.Add(divider3);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(divider2);
             panel1.Controls.Add(panel2);
@@ -166,88 +153,6 @@ namespace Overview.Controls
             panel1.Name = "panel1";
             panel1.Size = new Size(555, 475);
             panel1.TabIndex = 6;
-            // 
-            // panel7
-            // 
-            panel7.Controls.Add(panel8);
-            panel7.Controls.Add(select2);
-            panel7.Controls.Add(select1);
-            panel7.Dock = DockStyle.Top;
-            panel7.Location = new Point(0, 367);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(555, 100);
-            panel7.TabIndex = 2;
-            // 
-            // panel8
-            // 
-            panel8.Controls.Add(select3);
-            panel8.Controls.Add(button4);
-            panel8.Location = new Point(306, 16);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(220, 46);
-            panel8.TabIndex = 2;
-            panel8.Text = "panel4";
-            // 
-            // select3
-            // 
-            select3.Dock = DockStyle.Fill;
-            select3.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi", "HUAWEI", "XIAOMI" });
-            select3.JoinRight = true;
-            select3.Location = new Point(0, 0);
-            select3.Margins = 6;
-            select3.Name = "select3";
-            select3.PlaceholderText = "输入点什么搜索";
-            select3.Size = new Size(170, 46);
-            select3.TabIndex = 0;
-            select3.AllowClear = true;
-            select3.Text = "";
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.Transparent;
-            button4.Dock = DockStyle.Right;
-            button4.Image = Properties.Resources.search;
-            button4.JoinLeft = true;
-            button4.Location = new Point(170, 0);
-            button4.Margins = 6;
-            button4.Name = "button4";
-            button4.Size = new Size(50, 46);
-            button4.Type = AntDesign.TTypeMini.Primary;
-            button4.TabIndex = 1;
-            // 
-            // select2
-            // 
-            select2.Items.AddRange(new AntDesign.ISelectItem[] { new AntDesign.SelectItem(0, "Lucy"), new AntDesign.SelectItem(1, "Tom"), new AntDesign.SelectItem(1, "AduSkin"), new AntDesign.DividerSelectItem(), new AntDesign.SelectItem(0, "WangLi"), new AntDesign.SelectItem(0, "HUAWEI"), new AntDesign.SelectItem(0, "XIAOMI") });
-            select2.List = true;
-            select2.ListAutoWidth = true;
-            select2.Location = new Point(160, 19);
-            select2.Margin = new Padding(2, 3, 2, 3);
-            select2.Name = "select2";
-            select2.Size = new Size(126, 41);
-            select2.TabIndex = 1;
-            select2.Text = "（选择）";
-            // 
-            // select1
-            // 
-            select1.AllowClear = true;
-            select1.Items.AddRange(new object[] { "Lucy", "Tom", "AduSkin", "WangLi", "HUAWEI", "XIAOMI" });
-            select1.Location = new Point(18, 19);
-            select1.Margin = new Padding(2, 3, 2, 3);
-            select1.Name = "select1";
-            select1.Size = new Size(120, 41);
-            select1.TabIndex = 0;
-            select1.Text = "";
-            // 
-            // divider3
-            // 
-            divider3.Dock = DockStyle.Top;
-            divider3.Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            divider3.Location = new Point(0, 345);
-            divider3.Name = "divider3";
-            divider3.Orientation = AntDesign.TOrientation.Left;
-            divider3.Size = new Size(555, 22);
-            divider3.TabIndex = 2;
-            divider3.Text = "选择器";
             // 
             // panel3
             // 
@@ -275,24 +180,22 @@ namespace Overview.Controls
             // 
             input8.Dock = DockStyle.Fill;
             input8.JoinLeft = true;
-            input8.Location = new Point(63, 0);
+            input8.Location = new Point(59, 0);
             input8.Margins = 6;
             input8.Name = "input8";
             input8.PlaceholderText = "输入点什么搜索";
-            input8.Size = new Size(157, 50);
+            input8.Size = new Size(161, 50);
             input8.TabIndex = 0;
-            input8.Text = "";
             // 
             // button1
             // 
             button1.AutoSize = AntDesign.TAutoSize.Width;
-            button1.BackColor = Color.Transparent;
             button1.Dock = DockStyle.Left;
             button1.JoinRight = true;
             button1.Location = new Point(0, 0);
             button1.Margins = 6;
             button1.Name = "button1";
-            button1.Size = new Size(63, 50);
+            button1.Size = new Size(59, 50);
             button1.TabIndex = 1;
             button1.Text = "搜索";
             button1.Type = AntDesign.TTypeMini.Primary;
@@ -318,7 +221,6 @@ namespace Overview.Controls
             input9.PlaceholderText = "输入点什么搜索";
             input9.Size = new Size(170, 46);
             input9.TabIndex = 0;
-            input9.Text = "";
             // 
             // button2
             // 
@@ -330,8 +232,8 @@ namespace Overview.Controls
             button2.Margins = 6;
             button2.Name = "button2";
             button2.Size = new Size(50, 46);
-            button2.Type = AntDesign.TTypeMini.Primary;
             button2.TabIndex = 1;
+            button2.Type = AntDesign.TTypeMini.Primary;
             button2.Click += Btn;
             // 
             // panel4
@@ -353,20 +255,18 @@ namespace Overview.Controls
             input7.Margins = 6;
             input7.Name = "input7";
             input7.PlaceholderText = "输入点什么搜索";
-            input7.Size = new Size(157, 50);
+            input7.Size = new Size(161, 50);
             input7.TabIndex = 0;
-            input7.Text = "";
             // 
             // button3
             // 
             button3.AutoSize = AntDesign.TAutoSize.Width;
-            button3.BackColor = Color.Transparent;
             button3.Dock = DockStyle.Right;
             button3.JoinLeft = true;
-            button3.Location = new Point(157, 0);
+            button3.Location = new Point(161, 0);
             button3.Margins = 6;
             button3.Name = "button3";
-            button3.Size = new Size(63, 50);
+            button3.Size = new Size(59, 50);
             button3.TabIndex = 1;
             button3.Text = "搜索";
             button3.Type = AntDesign.TTypeMini.Primary;
@@ -418,8 +318,6 @@ namespace Overview.Controls
             Name = "Input";
             Size = new Size(555, 554);
             panel1.ResumeLayout(false);
-            panel7.ResumeLayout(false);
-            panel8.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel6.ResumeLayout(false);
@@ -451,12 +349,5 @@ namespace Overview.Controls
         private AntDesign.Panel panel4;
         private AntDesign.Input input7;
         private AntDesign.Button button3;
-        private System.Windows.Forms.Panel panel7;
-        private AntDesign.Divider divider3;
-        private AntDesign.Select select1;
-        private AntDesign.Select select2;
-        private System.Windows.Forms.Panel panel8;
-        private AntDesign.Select select3;
-        private AntDesign.Button button4;
     }
 }
