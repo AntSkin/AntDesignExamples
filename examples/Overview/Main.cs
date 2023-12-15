@@ -132,6 +132,9 @@ namespace Overview
                     case "ColorPicker":
                         control_add = new Controls.ColorPicker();
                         break;
+                    case "InputNumber":
+                        control_add = new Controls.InputNumber();
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -254,6 +257,7 @@ namespace Overview
                 new IList("ColorPicker","颜色选择器", res_light.ColorPicker, res_dark.ColorPicker),
                 new IList("DatePicker","日期选择框", res_light.DatePicker, res_dark.DatePicker),
                 new IList("Input","输入框", res_light.Input, res_dark.Input),
+                new IList("InputNumber","数字输入框", res_light.InputNumber, res_dark.InputNumber),
                 new IList("Radio","单选框", res_light.Radio, res_dark.Radio),
                 new IList("Select","选择器", res_light.Select, res_dark.Select),
                 new IList("Slider","滑动输入条",res_light.Slider, res_dark.Slider),

@@ -606,6 +606,36 @@
     &lt;/g&gt;
 &lt;/svg&gt;</value>
   </data>
+  <data name="InputNumber" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;svg width="119px" height="32px" viewBox="0 0 119 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+    &lt;title&gt;InputNumber&lt;/title&gt;
+    &lt;g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"&gt;
+        &lt;g id="🎉-5.0-新版---黑" transform="translate(-923.000000, -1981.000000)"&gt;
+            &lt;g id="InputNumber" transform="translate(923.000000, 1981.000000)"&gt;
+                &lt;path d="M112.996754,0.5 C114.516391,0.5 115.892177,1.11574169 116.888077,2.11113313 C117.883979,3.1065248 118.5,4.48158064 118.5,6.00017566 L118.5,25.9998243 C118.5,27.5194596 117.885135,28.8952146 116.889149,29.8906909 C115.894156,30.8851756 114.518889,31.5 112.996754,31.5 L6.00324648,31.5 C4.48360898,31.5 3.10782344,30.8842583 2.11192257,29.8888669 C1.11602147,28.8934752 0.5,27.5184194 0.5,25.9998243 L0.5,6.00017566 C0.5,4.48054042 1.11486478,3.10478539 2.1108505,2.10930914 C3.10584418,1.11482443 4.48111141,0.5 6.00324648,0.5 Z" id="bg" stroke-opacity="0.2" stroke="#FFFFFF"&gt;&lt;/path&gt;
+                &lt;g id="UpDown" transform="translate(97.000000, 0.000000)"&gt;
+                    &lt;path d="M21.5,15.5 L21.5,26.9913864 C21.5,28.237118 20.9977557,29.3649965 20.184285,30.1811515 C19.3720869,30.9960297 18.2496486,31.5 17.0078595,31.5 L0.5,31.5 L0.5,15.5 L21.5,15.5 Z" id="Rectangle-26-Copy-2" stroke="#434343"&gt;&lt;/path&gt;
+                    &lt;path d="M17.0078595,0.5 C18.2477588,0.5 19.3702495,1.00395668 20.1830191,1.8174663 C20.9966284,2.63181635 21.5,3.75640823 21.5,4.99668583 L21.5,15.5 L0.5,15.5 L0.5,0.5 Z" id="Rectangle-26-Copy-2" stroke="#434343"&gt;&lt;/path&gt;
+                    &lt;g id="Icon/Up" opacity="0.45" transform="translate(7.000000, 5.000000)"&gt;
+                        &lt;g id="up"&gt;
+                            &lt;rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="8" height="8"&gt;&lt;/rect&gt;
+                            &lt;path d="M6.95703125,5.90078125 L4.20234375,2.103125 C4.10234375,1.965625 3.89765625,1.965625 3.7984375,2.103125 L1.04296875,5.90078125 C1.01328125,5.9421875 1.0421875,6 1.09375,6 L1.6796875,6 C1.71953125,6 1.75703125,5.98046875 1.78046875,5.9484375 L4,2.8890625 L6.21953125,5.9484375 C6.24296875,5.98046875 6.28046875,6 6.3203125,6 L6.90625,6 C6.95703125,6 6.98671875,5.9421875 6.95703125,5.90078125 L6.95703125,5.90078125 Z" id="路径" fill="#FFFFFF"&gt;&lt;/path&gt;
+                        &lt;/g&gt;
+                    &lt;/g&gt;
+                    &lt;g id="Icon/Down" transform="translate(7.000000, 20.000000)"&gt;
+                        &lt;rect id="Rectangle" x="0" y="0" width="8" height="8"&gt;&lt;/rect&gt;
+                        &lt;path d="M6.87509895,2 L6.28916145,2 C6.2493177,2 6.2118177,2.01953125 6.1883802,2.0515625 L3.96884895,5.1109375 L1.7493177,2.0515625 C1.7258802,2.01953125 1.6883802,2 1.64853645,2 L1.06259895,2 C1.0118177,2 0.982130198,2.0578125 1.0118177,2.09921875 L3.7665052,5.896875 C3.8665052,6.034375 4.0711927,6.034375 4.17041145,5.896875 L6.92509895,2.09921875 C6.9555677,2.0578125 6.9258802,2 6.87509895,2 Z" id="Down" fill-opacity="0.45" fill="#FFFFFF"&gt;&lt;/path&gt;
+                    &lt;/g&gt;
+                &lt;/g&gt;
+                &lt;text id="Number" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="22" fill="#FFFFFF" fill-opacity="0.88"&gt;
+                    &lt;tspan x="12" y="20"&gt;Number&lt;/tspan&gt;
+                &lt;/text&gt;
+            &lt;/g&gt;
+        &lt;/g&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
   <data name="Menu" xml:space="preserve">
     <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;svg width="82px" height="106px" viewBox="0 0 82 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;

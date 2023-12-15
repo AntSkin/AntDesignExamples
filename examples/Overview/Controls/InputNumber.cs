@@ -17,27 +17,16 @@
 
 namespace Overview.Controls
 {
-    public partial class Select : UserControl
+    public partial class InputNumber : UserControl
     {
-        public Select()
+        public InputNumber()
         {
             InitializeComponent();
+        }
 
-            select5.Items.AddRange(new AntDesign.SelectItem[] {
-                new AntDesign.SelectItem("one"){
-                    Sub = new List<object>{
-                        new AntDesign.SelectItem("子菜单1"){
-                            Sub=new List<object>{ new AntDesign.SelectItem("sub menu") {
-                                Sub=new List<object>{
-                                    "one st menu item","two nd menu item","three rd menu item"
-                                }
-                            } }
-                        },
-                        new AntDesign.SelectItem( "子菜单2")
-                    }
-                },
-                new AntDesign.SelectItem("two"){ Sub=new List<object>{ "five menu item", "six six six menu item"} },
-            });
+        private string input4_Format(int value)
+        {
+            return value.ToString("N0");
         }
     }
 }
