@@ -41,6 +41,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Divider** 分割线 | ❎ | ❎ |
 :arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
 :arrow_right: | **Input** 输入框 | ✅ | ✅ |
+:arrow_right: | **InputNumber** 数字输入框 | ✅ | ✅ |
 :arrow_right: | **DatePicker** 日期选择框 | ✅ | ✅ |
 :arrow_right: | **DatePickerRange** 日期范围选择框 | ✅ | ✅ |
 :arrow_right: | **Menu** 导航菜单 | ✅ | ❎ |
