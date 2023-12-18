@@ -220,6 +220,21 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;161px&quot; height=&quot;40px&quot; viewBox=&quot;0 0 161 40&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;FloatButton&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版---黑&quot; transform=&quot;translate(-903.000000, -5173.000000)&quot;&gt;
+        ///            &lt;g id=&quot;FloatButton&quot; transform=&quot;translate(903.500000, 5173.000000)&quot;&gt;
+        ///                &lt;g id=&quot;编组&quot; transform=&quot;transla [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string FloatButton {
+            get {
+                return ResourceManager.GetString("FloatButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;119px&quot; height=&quot;75px&quot; viewBox=&quot;0 0 119 75&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;Input&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
@@ -470,6 +485,21 @@ namespace Overview {
         internal static string Tabs {
             get {
                 return ResourceManager.GetString("Tabs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;193px&quot; height=&quot;57px&quot; viewBox=&quot;0 0 193 57&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;Tag&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版---黑&quot; transform=&quot;translate(-1251.000000, -3750.000000)&quot; fill-rule=&quot;nonzero&quot;&gt;
+        ///            &lt;g id=&quot;Tag&quot; transform=&quot;translate(1252.000000, 3751.000000)&quot;&gt;
+        ///                &lt;rect id=&quot;矩形&quot; stroke-op [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Tag {
+            get {
+                return ResourceManager.GetString("Tag", resourceCulture);
             }
         }
         

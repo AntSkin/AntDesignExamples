@@ -135,6 +135,21 @@ namespace Overview
                     case "InputNumber":
                         control_add = new Controls.InputNumber();
                         break;
+                    case "Tag":
+                        control_add = new Controls.Tag();
+                        break;
+                    case "FloatButton":
+                        FloatButton?.Close();
+                        FloatButton = AntDesign.FloatButton.open(new AntDesign.FloatButton.Config
+                        {
+                            Badge = "9",
+                            Tooltip = "笑死人",
+                            Text = "HELP",
+                            Shape = AntDesign.TShape.Default,
+                            Form = this,
+                            Icon = Properties.Resources.img1
+                        });
+                        break;
                 }
                 if (control_add != null)
                 {
@@ -155,6 +170,7 @@ namespace Overview
                 }
             }
         }
+        Form? FloatButton = null;
 
         private void btn_back_Click(object sender, EventArgs e)
         {
@@ -242,6 +258,7 @@ namespace Overview
             {
                 //通用
                 new IList("Button","按钮", res_light.Button, res_dark.Button),
+                new IList("FloatButton","悬浮按钮",res_light.FloatButton, res_dark.FloatButton),
 
                 //布局
                 new IList("Divider","分割线", res_light.Divider, res_dark.Divider),
@@ -271,6 +288,7 @@ namespace Overview
                 new IList("Popover","气泡卡片",res_light.Popover, res_dark.Popover),
                 new IList("Segmented","分段控制器",res_light.Segmented, res_dark.Segmented),
                 new IList("Tabs","标签页",res_light.Tabs, res_dark.Tabs),
+                new IList("Tag","标签",res_light.Tag, res_dark.Tag),
                 new IList("Timeline","时间轴",res_light.Timeline, res_dark.Timeline),
                 new IList("Tooltip","文字提示",res_light.Tooltip, res_dark.Tooltip),
                 new IList("Tree","树形控件",res_light.Tree, res_dark.Tree),

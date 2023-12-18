@@ -29,41 +29,53 @@ https://ant-design.antgroup.com/components/overview-cn
 
 ### 🌴控件
 
-:arrow_down: | Controls | Animation | Disabling |
+:arrow_down: | 通用 `2` | 动画 | 禁用 |
 :---:|:--|:--:|:--:|
 :arrow_right: | **Button** 按钮 | ✅ | ✅ |
-:arrow_right: | **Badge** 徽标数 | ✅ | ❎ |
-:arrow_right: | **Alert** 警告提示 | ✅ | ❎ |
-:arrow_right: | **Avatar** 头像 | ❎ | ❎ |
-:arrow_right: | **Checkbox** 多选框 | ✅ | ✅ |
-:arrow_right: | **Radio** 单选框 | ✅ | ✅ |
-:arrow_right: | **Carousel** 走马灯 | ✅ | ❎ |
+:arrow_right: | **FloatButton** 悬浮按钮 | ✅ | ❎ |
+||||
+:arrow_down: | 布局 `1` | 动画 | 禁用 |
 :arrow_right: | **Divider** 分割线 | ❎ | ❎ |
-:arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
-:arrow_right: | **Input** 输入框 | ✅ | ✅ |
-:arrow_right: | **InputNumber** 数字输入框 | ✅ | ✅ |
+||||
+:arrow_down: | 导航 `4` | 动画 | 禁用 |
+:arrow_right: | **Dropdown** 下拉菜单 | ✅ | ✅ |
+:arrow_right: | **Menu** 导航菜单 | ✅ | ❎ |
+:arrow_right: | **Pagination** 分页 | ✅ | ✅ |
+:arrow_right: | **Steps** 步骤条 | ❎ | ❎ |
+||||
+:arrow_down: | 数据录入 `10` | 动画 | 禁用 |
+:arrow_right: | **Checkbox** 多选框 | ✅ | ✅ |
+:arrow_right: | **ColorPicker** 颜色选择器 | ✅ | ✅ |
 :arrow_right: | **DatePicker** 日期选择框 | ✅ | ✅ |
 :arrow_right: | **DatePickerRange** 日期范围选择框 | ✅ | ✅ |
-:arrow_right: | **Menu** 导航菜单 | ✅ | ❎ |
-:arrow_right: | **Panel** 面板 | ✅ | ❎ |
-:arrow_right: | **Progress** 进度条 | ✅ | ❎ |
-:arrow_right: | **Segmented** 分段控制器 | ✅ | ❎ |
+:arrow_right: | **Input** 输入框 | ✅ | ✅ |
+:arrow_right: | **InputNumber** 数字输入框 | ✅ | ✅ |
+:arrow_right: | **Radio** 单选框 | ✅ | ✅ |
 :arrow_right: | **Select** 选择器 | ✅ | ✅ |
 :arrow_right: | **Slider** 滑动输入条 | ✅ | ❎ |
 :arrow_right: | **Switch** 开关 | ✅ | ✅ |
-:arrow_right: | **Spin** 加载中 | ✅ | ❎ |
-:arrow_right: | **Tabs** 标签页 | ✅ | ❎ |
-:arrow_right: | **Tooltip** 文字提示 | ✅ | ❎ |
-:arrow_right: | **Pagination** 分页 | ✅ | ✅ |
-:arrow_right: | **Dropdown** 下拉菜单 | ✅ | ✅ |
-:arrow_right: | **Tree** 树形控件 | ✅ | ✅ |
+||||
+:arrow_down: | 数据展示 `12` | 动画 | 禁用 |
+:arrow_right: | **Avatar** 头像 | ❎ | ❎ |
+:arrow_right: | **Badge** 徽标数 | ✅ | ❎ |
+:arrow_right: | **Panel** 面板 | ✅ | ❎ |
+:arrow_right: | **Carousel** 走马灯 | ✅ | ❎ |
 :arrow_right: | **Popover** 气泡卡片 | ✅ | ❎ |
-:arrow_right: | **Modal** 对话框 | ✅ | ❎ |
+:arrow_right: | **Segmented** 分段控制器 | ✅ | ❎ |
+:arrow_right: | **Tabs** 标签页 | ✅ | ❎ |
+:arrow_right: | **Tab** 标签 | ✅ | ❎ |
+:arrow_right: | **Timeline** 时间轴 | ❎ | ❎ |
+:arrow_right: | **Tooltip** 文字提示 | ✅ | ❎ |
+:arrow_right: | **Tree** 树形控件 | ✅ | ✅ |
+:arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
+||||
+:arrow_down: | 反馈 `6` | 动画 | 禁用 |
+:arrow_right: | **Alert** 警告提示 | ✅ | ❎ |
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
+:arrow_right: | **Modal** 对话框 | ✅ | ❎ |
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |
-:arrow_right: | **Timeline** 时间轴 | ✅ | ❎ |
-:arrow_right: | **Steps** 步骤条 | ✅ | ❎ |
-:arrow_right: | **ColorPicker** 颜色选择器 | ✅ | ✅ |
+:arrow_right: | **Progress** 进度条 | ✅ | ❎ |
+:arrow_right: | **Spin** 加载中 | ✅ | ❎ |
 
 ### 🎨截图
 

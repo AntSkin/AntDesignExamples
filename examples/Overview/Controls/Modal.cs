@@ -43,6 +43,11 @@ namespace Overview.Controls
             button3.Enabled = false;
             AntDesign.Modal.open(new AntDesign.Modal.Config((Form)Parent, "This is a warn message", "Some contents...Some contents...Some contents...Some contents...Some contents...Some contents...Some contents...", AntDesign.TType.Warn)
             {
+                Btns = new AntDesign.Modal.Btn[] { new AntDesign.Modal.Btn("按钮Name", "自定义按钮", AntDesign.TTypeMini.Warn) },
+                OnBtns = btn =>
+                {
+                    MessageBox.Show("触发的Name：" + btn.Name);
+                },
                 OnOk = config =>
                 {
                     Thread.Sleep(1000);
