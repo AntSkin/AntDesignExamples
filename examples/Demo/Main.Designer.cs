@@ -630,6 +630,7 @@ namespace Demo
             btn_min.Name = "btn_min";
             btn_min.Size = new Size(50, 40);
             btn_min.TabIndex = 3;
+            btn_min.Ghost = true;
             btn_min.Click += btn_min_Click;
             // 
             // btn_max
@@ -644,6 +645,7 @@ namespace Demo
             btn_max.Name = "btn_max";
             btn_max.Size = new Size(50, 40);
             btn_max.TabIndex = 2;
+            btn_max.Ghost = true;
             btn_max.Click += btn_max_Click;
             // 
             // btn_close
@@ -659,6 +661,7 @@ namespace Demo
             btn_close.Name = "btn_close";
             btn_close.Size = new Size(58, 40);
             btn_close.TabIndex = 1;
+            btn_close.Ghost = true;
             btn_close.Click += btn_close_Click;
             // 
             // tooltipComponent1

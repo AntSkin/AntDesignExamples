@@ -137,7 +137,7 @@ namespace Overview.Controls
             // button8
             // 
             button8.BorderWidth = 2F;
-            button8.Location = new Point(14, 9);
+            button8.Location = new Point(14, 13);
             button8.Name = "button8";
             button8.Size = new Size(110, 40);
             button8.TabIndex = 1;
