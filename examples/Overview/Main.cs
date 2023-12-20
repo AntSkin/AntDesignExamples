@@ -140,15 +140,29 @@ namespace Overview
                         break;
                     case "FloatButton":
                         FloatButton?.Close();
-                        FloatButton = AntDesign.FloatButton.open(new AntDesign.FloatButton.Config
+                        FloatButton = AntDesign.FloatButton.open(new AntDesign.FloatButton.Config(this, new AntDesign.FloatButton.ConfigBtn[] {
+                            new AntDesign.FloatButton.ConfigBtn("id1", Properties.Resources.img1){
+                                Badge = " ",
+                                Tooltip = "笑死人",
+                            },
+                            new AntDesign.FloatButton.ConfigBtn("id2", "HELP"){
+                                Badge = "9",
+                                Tooltip = "救救我",
+                                Shape = AntDesign.TShape.Default,
+                                Type= AntDesign.TTypeMini.Primary
+                            },
+                            new AntDesign.FloatButton.ConfigBtn("id3", Properties.Resources.close){
+                                Badge = "99+",
+                                Tooltip = "没救了",
+                                Btns = new AntDesign.FloatButton.ConfigBtn[]{
+                                    new AntDesign.FloatButton.ConfigBtn("sub_id1", Properties.Resources.bg1),
+                                    new AntDesign.FloatButton.ConfigBtn("sub_id2", Properties.Resources.bg2)
+                                }
+                            }
+                        }, btn =>
                         {
-                            Badge = "9",
-                            Tooltip = "笑死人",
-                            Text = "HELP",
-                            Shape = AntDesign.TShape.Default,
-                            Form = this,
-                            Icon = Properties.Resources.img1
-                        });
+                            MessageBox.Show("点击了：" + btn.Name);
+                        }));
                         break;
                 }
                 if (control_add != null)
