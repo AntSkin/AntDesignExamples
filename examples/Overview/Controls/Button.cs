@@ -22,6 +22,7 @@ namespace Overview.Controls
         public Button()
         {
             InitializeComponent();
+            button4.Image = Properties.Resources.icon_search.SvgToBmp(false);
         }
         protected override void OnLoad(EventArgs e)
         {
