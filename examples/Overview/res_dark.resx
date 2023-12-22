@@ -543,6 +543,43 @@
     &lt;/g&gt;
 &lt;/svg&gt;</value>
   </data>
+  <data name="Drawer" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;svg width="161px" height="117px" viewBox="0 0 161 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+    &lt;title&gt;O1CN019djdZP1OHwXSRGCOW_!!6000000001681-55-tps-161-117&lt;/title&gt;
+    &lt;g id="组件骨架图更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"&gt;
+        &lt;g id="🎉-5.0-新版---黑" transform="translate(-537.000000, -4310.000000)"&gt;
+            &lt;g id="O1CN019djdZP1OHwXSRGCOW_!!6000000001681-55-tps-161-117" transform="translate(537.000000, 4310.000000)"&gt;
+                &lt;rect id="矩形" stroke="#313131" fill="#141414" x="0.5" y="0.5" width="159.926" height="116" rx="2"&gt;&lt;/rect&gt;
+                &lt;polygon id="路径" fill="#1F1F1F" points="82.853 1 159.853 1 159.853 116 82.853 116"&gt;&lt;/polygon&gt;
+                &lt;line x1="83.416" y1="19.5" x2="159.441" y2="19.5" id="路径" stroke-opacity="0.119400131" stroke="#FFFFFF" stroke-linecap="square"&gt;&lt;/line&gt;
+                &lt;rect id="矩形" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" opacity="0.999255952" x="87.926" y="27" width="32" height="8" rx="1"&gt;&lt;/rect&gt;
+                &lt;rect id="矩形" fill-opacity="0.06" fill="#000000" fill-rule="nonzero" x="123.926" y="69" width="32" height="8" rx="1"&gt;&lt;/rect&gt;
+                &lt;rect id="矩形" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" opacity="0.999255952" x="87.926" y="55" width="68" height="8" rx="1"&gt;&lt;/rect&gt;
+                &lt;rect id="矩形" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" opacity="0.999255952" x="87.926" y="69" width="32" height="8" rx="1"&gt;&lt;/rect&gt;
+                &lt;rect id="矩形" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" opacity="0.999255952" x="87.926" y="83" width="32" height="8" rx="1"&gt;&lt;/rect&gt;
+                &lt;rect id="矩形" fill-opacity="0.15" fill="#FFFFFF" fill-rule="nonzero" opacity="0.999255952" x="87.926" y="41" width="68" height="8" rx="1"&gt;&lt;/rect&gt;
+                &lt;g id="编组" transform="translate(99.000000, 6.000000)" fill="#FFFFFF" fill-opacity="0.88" fill-rule="nonzero"&gt;
+                    &lt;g&gt;
+                        &lt;rect id="矩形" x="0" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份" x="3" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-2" x="6" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-3" x="9" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-4" x="12" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-5" x="15" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-6" x="18" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-7" x="21" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-8" x="24" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                        &lt;rect id="矩形备份-9" x="27" y="0" width="1" height="8"&gt;&lt;/rect&gt;
+                    &lt;/g&gt;
+                &lt;/g&gt;
+                &lt;path d="M91.116,9.925 L92.784,8.258 C92.8574539,8.18482227 92.8576777,8.06595387 92.7845,7.9925 C92.7113223,7.91904613 92.5924539,7.91882227 92.519,7.992 L90.85,9.66 L89.183,7.992 C89.1085487,7.92528736 88.9949085,7.92850703 88.9243538,7.999328 C88.853799,8.07014897 88.8510074,8.18380045 88.918,8.258 L90.585,9.925 L88.918,11.592 C88.8445461,11.6651777 88.8443223,11.7840461 88.9175,11.8575 C88.9906777,11.9309539 89.1095461,11.9311777 89.183,11.858 L90.85,10.19 L92.518,11.858 C92.5530911,11.8932354 92.6007715,11.9130426 92.6505,11.9130426 C92.7002285,11.9130426 92.7479089,11.8932354 92.783,11.858 C92.818296,11.822738 92.8381279,11.774892 92.8381279,11.725 C92.8381279,11.675108 92.818296,11.627262 92.783,11.592 L91.115,9.925 L91.116,9.925 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"&gt;&lt;/path&gt;
+                &lt;rect id="矩形" fill="#1791FF" fill-rule="nonzero" x="139.926" y="6" width="16" height="8" rx="2"&gt;&lt;/rect&gt;
+            &lt;/g&gt;
+        &lt;/g&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;</value>
+  </data>
   <data name="Dropdown" xml:space="preserve">
     <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;svg width="120px" height="96px" viewBox="0 0 120 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;

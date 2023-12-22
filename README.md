@@ -71,6 +71,7 @@ https://ant-design.antgroup.com/components/overview-cn
 ||||
 :arrow_down: | 反馈 `6` | 动画 | 禁用 |
 :arrow_right: | **Alert** 警告提示 | ✅ | ❎ |
+:arrow_right: | **Drawer** 抽屉 | ✅ | ❎ |
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
 :arrow_right: | **Modal** 对话框 | ✅ | ❎ |
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |

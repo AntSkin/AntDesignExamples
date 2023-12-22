@@ -204,6 +204,20 @@ namespace Overview {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;svg width=&quot;162px&quot; height=&quot;117px&quot; viewBox=&quot;0 0 162 117&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+        ///    &lt;title&gt;O1CN019djdZP1OHwXSRGCOW_!!6000000001681-55-tps-161-117&lt;/title&gt;
+        ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
+        ///        &lt;g id=&quot;🎉-5.0-新版&quot; transform=&quot;translate(-537.000000, -4310.000000)&quot;&gt;
+        ///            &lt;g id=&quot;O1CN019djdZP1OHwXSRGCOW_!!6000000001681-55-tps-161-117&quot; transform= [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Drawer {
+            get {
+                return ResourceManager.GetString("Drawer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
         ///&lt;svg width=&quot;120px&quot; height=&quot;96px&quot; viewBox=&quot;0 0 120 96&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
         ///    &lt;title&gt;Dropdown&lt;/title&gt;
         ///    &lt;g id=&quot;组件骨架图更新&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;
