@@ -241,6 +241,15 @@ namespace Overview.Properties {
         }
         
         /// <summary>
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;search&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C21 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string icon_search {
+            get {
+                return ResourceManager.GetString("icon_search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
         internal static System.Drawing.Bitmap img1 {
