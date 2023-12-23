@@ -69,7 +69,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Tree** 树形控件 | ✅ | ✅ |
 :arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
 ||||
-:arrow_down: | 反馈 `6` | 动画 | 禁用 |
+:arrow_down: | 反馈 `7` | 动画 | 禁用 |
 :arrow_right: | **Alert** 警告提示 | ✅ | ❎ |
 :arrow_right: | **Drawer** 抽屉 | ✅ | ❎ |
 :arrow_right: | **Message** 全局提示 | ✅ | ❎ |
