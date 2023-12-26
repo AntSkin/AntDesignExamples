@@ -62,7 +62,7 @@ namespace Overview.Controls
             // input1
             // 
             input1.Location = new Point(18, 6);
-            input1.Max = 10;
+            input1.Maximum = 10;
             input1.Name = "input1";
             input1.Size = new Size(220, 44);
             input1.TabIndex = 0;
@@ -72,11 +72,13 @@ namespace Overview.Controls
             // input2
             // 
             input2.Location = new Point(18, 54);
-            input2.Max = 10;
-            input2.Min = 1;
+            input2.Maximum = 10;
+            input2.Minimum = 1;
             input2.Name = "input2";
             input2.Size = new Size(220, 44);
             input2.TabIndex = 2;
+            input2.Increment = (decimal)0.1;
+            input2.DecimalPlaces = 1;
             input2.Text = "1";
             input2.Value = 1;
             // 
@@ -93,14 +95,15 @@ namespace Overview.Controls
             // 
             input4.Location = new Point(244, 54);
             input4.Name = "input4";
+            input4.ThousandsSeparator = true;
             input4.Radius = 0;
             input4.ReadOnly = true;
             input4.Size = new Size(220, 44);
-            input4.Step = 1000;
+            input4.Increment = 1000;
             input4.TabIndex = 3;
             input4.Text = "10000";
+            input4.Maximum = 1000000;
             input4.Value = 10000;
-            input4.Format += input4_Format;
             // 
             // input5
             // 

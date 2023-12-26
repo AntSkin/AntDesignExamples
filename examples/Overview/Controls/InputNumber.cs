@@ -23,10 +23,5 @@ namespace Overview.Controls
         {
             InitializeComponent();
         }
-
-        private string input4_Format(int value)
-        {
-            return value.ToString("N0");
-        }
     }
 }

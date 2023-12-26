@@ -552,7 +552,7 @@ namespace Overview
             colorPicker3.Location = new Point(552, 189);
             colorPicker3.Name = "colorPicker3";
             colorPicker3.ShowText = true;
-            colorPicker3.Size = new Size(144, 47);
+            colorPicker3.Size = new Size(133, 47);
             colorPicker3.TabIndex = 25;
             colorPicker3.Value = Color.FromArgb(22, 119, 255);
             // 
