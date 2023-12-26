@@ -111,7 +111,7 @@ namespace Overview.Controls
             // 
             // input5
             // 
-            input5.Image = Properties.Resources.close;
+            input5.ImageSvg = Properties.Resources.icon_poweroff;
             input5.Location = new Point(18, 101);
             input5.Name = "input5";
             input5.Radius = 10;
@@ -226,7 +226,7 @@ namespace Overview.Controls
             // 
             button2.BackColor = Color.Transparent;
             button2.Dock = DockStyle.Right;
-            button2.Image = Properties.Resources.search;
+            button2.ImageSvg = Properties.Resources.icon_search;
             button2.JoinLeft = true;
             button2.Location = new Point(170, 0);
             button2.Margins = 6;

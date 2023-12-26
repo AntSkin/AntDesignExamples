@@ -160,7 +160,7 @@ namespace Overview.Controls
             // 
             button1.BackColor = Color.Transparent;
             button1.Dock = DockStyle.Right;
-            button1.Image = Properties.Resources.search;
+            button1.ImageSvg = Properties.Resources.icon_search;
             button1.JoinLeft = true;
             button1.Location = new Point(170, 0);
             button1.Margins = 6;
@@ -196,7 +196,7 @@ namespace Overview.Controls
             // 
             button4.BackColor = Color.Transparent;
             button4.Dock = DockStyle.Right;
-            button4.Image = Properties.Resources.search;
+            button4.ImageSvg = Properties.Resources.icon_search;
             button4.JoinLeft = true;
             button4.Location = new Point(170, 0);
             button4.Margins = 6;

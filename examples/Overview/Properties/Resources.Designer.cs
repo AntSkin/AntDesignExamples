@@ -77,15 +77,6 @@ namespace Overview.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &lt;svg t=&quot;1699408534583&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2463&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M794.737778 284.444444l-56.32-56.888888-223.573334 223.573333L291.84 227.555556l-56.888889 56.888888 223.573333 223.004445-223.573333 223.573333 56.888889 56.32 223.004444-223.573333 223.573334 223.573333 56.32-56.32-223.573334-223.573333L794.737778 284.444444z&quot; p-id=&quot;2464&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
-        /// </summary>
-        internal static string app_close {
-            get {
-                return ResourceManager.GetString("app_close", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查找类似 &lt;svg t=&quot;1699405734548&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2453&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M186.86 493.94h-70.39c-10.79 0-19.42 8.63-19.42 19.42 0 10.79 8.63 19.42 19.42 19.42h70.39c10.79 0 19.42-8.63 19.42-19.42 0-10.79-8.63-19.42-19.42-19.42z m77.86-200.71c7.47 7.47 19.59 7.47 27.39 0 7.47-7.8 7.47-19.92 0-27.39l-45.98-45.98c-7.8-7.8-19.92-7.8-27.39 0-7.8 7.47-7.8 19.76 0 27.39-0.01 0 45.98 45.98 45.98 45.98z m5.64 434.62l-51.63 51.63c-7.8 7. [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string app_dark {
@@ -100,33 +91,6 @@ namespace Overview.Properties {
         internal static string app_light {
             get {
                 return ResourceManager.GetString("app_light", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 &lt;svg t=&quot;1699408499621&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2029&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M746.666667 341.333333v341.333334h-469.333334V341.333333h469.333334m68.266666-85.333333H209.066667a17.066667 17.066667 0 0 0-17.066667 17.066667v477.866666a17.066667 17.066667 0 0 0 17.066667 17.066667h605.866666a17.066667 17.066667 0 0 0 17.066667-17.066667V273.066667a17.066667 17.066667 0 0 0-17.066667-17.066667z&quot; p-id=&quot;2030&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
-        /// </summary>
-        internal static string app_max {
-            get {
-                return ResourceManager.GetString("app_max", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 &lt;svg t=&quot;1699408492863&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;1887&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M207.075556 560h568.888888v113.777778h-568.888888z&quot; p-id=&quot;1888&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
-        /// </summary>
-        internal static string app_min {
-            get {
-                return ResourceManager.GetString("app_min", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 &lt;svg t=&quot;1699408512218&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;2317&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;path d=&quot;M853.333333 228.124444H284.444444v112.64H170.666667v455.111112h568.888889v-112.64h113.777777v-455.111112zM227.555556 738.986667v-284.444445h455.111111v284.444445H227.555556z m568.888888-112.64h-56.888888V340.764444H341.333333v-55.751111h455.111111v341.333334z&quot; p-id=&quot;2318&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
-        /// </summary>
-        internal static string app_restore {
-            get {
-                return ResourceManager.GetString("app_restore", resourceCulture);
             }
         }
         
@@ -201,42 +165,47 @@ namespace Overview.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;radius-bottomleft&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M712 824h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm2-696h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM136 374h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm0-174h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm752 624h-56c- [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap BL {
+        internal static string BL {
             get {
-                object obj = ResourceManager.GetObject("BL", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("BL", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;border-bottom&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M872 808H152c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-720-94h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm0-498h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm0 332h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm0-166h56c4.4 0 8 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap Bottom {
+        internal static string Bottom {
             get {
-                object obj = ResourceManager.GetObject("Bottom", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("Bottom", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;radius-bottomright&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M368 824h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-58-624h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm578 102h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0-174h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM192 824h-5 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap BR {
+        internal static string BR {
             get {
-                object obj = ResourceManager.GetObject("BR", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("BR", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 1024 1024&quot;&gt;&lt;path d=&quot;M923 283.6c-13.4-31.1-32.6-58.9-56.9-82.8-24.3-23.8-52.5-42.4-84-55.5-32.5-13.5-66.9-20.3-102.4-20.3-49.3 0-97.4 13.5-139.2 39-10 6.1-19.5 12.8-28.5 20.1-9-7.3-18.5-14-28.5-20.1-41.8-25.5-89.9-39-139.2-39-35.5 0-69.9 6.8-102.4 20.3-31.4 13-59.7 31.7-84 55.5-24.4 23.9-43.5 51.7-56.9 82.8-13.9 32.3-21 66.6-21 101.9 0 33.3 6.8 68 20.3 103.3 11.3 29.5 27.5 60.1 48.2 91 32.8 48.9 77.9 99.9 133.9 151.6 92.8 85.7 184.7 144.9 188.6 1 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap close {
+        internal static string icon_like {
             get {
-                object obj = ResourceManager.GetObject("close", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("icon_like", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;poweroff&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M705.6 124.9a8 8 0 00-11.6 7.2v64.2c0 5.5 2.9 10.6 7.5 13.6a352.2 352.2 0 0162.2 49.8c32.7 32.8 58.4 70.9 76.3 113.3a355 355 0 0127.9 138.7c0 48.1-9.4 94.8-27.9 138.7a355.92 355.92 0 01-76.3 113.3 353.06 353.06 0 01-113.2 76.4c-43.8 18.6-90.5 28-138.5 28s-94.7-9.4-138.5-28a353.06 353.06 0 01-113.2-76.4A355.92 355.92 0 01184 650.4a355 355 0 01-27.9-138.7c0-48.1 9.4-94.8 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string icon_poweroff {
+            get {
+                return ResourceManager.GetString("icon_poweroff", resourceCulture);
             }
         }
         
@@ -260,62 +229,56 @@ namespace Overview.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;border-left&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M208 144h-56c-4.4 0-8 3.6-8 8v720c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V152c0-4.4-3.6-8-8-8zm166 0h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm498 0h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-332 0h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm166 0h-56c-4.4 0-8  [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap Left {
+        internal static string Left {
             get {
-                object obj = ResourceManager.GetObject("Left", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("Left", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot;&gt;&lt;path d=&quot;M716.3 313.8c19-18.9 19-49.7 0-68.6l-69.9-69.9.1.1c-18.5-18.5-50.3-50.3-95.3-95.2-21.2-20.7-55.5-20.5-76.5.5L80.9 474.2a53.84 53.84 0 000 76.4L474.6 944a54.14 54.14 0 0076.5 0l165.1-165c19-18.9 19-49.7 0-68.6a48.7 48.7 0 00-68.7 0l-125 125.2c-5.2 5.2-13.3 5.2-18.5 0L189.5 521.4c-5.2-5.2-5.2-13.3 0-18.5l314.4-314.2c.4-.4.9-.7 1.3-1.1 5.2-4.1 12.4-3.7 17.2 1.1l125.2 125.1c19 19 49.8 19 68.7 0zM408.6 514.4a106.3 106.2 0 10212.6 0 106.3 106.2 0 10-212.6 0zm536.2-38.6L821.9  [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap Right {
+        internal static string logo {
             get {
-                object obj = ResourceManager.GetObject("Right", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("logo", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;border-right&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M872 144h-56c-4.4 0-8 3.6-8 8v720c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V152c0-4.4-3.6-8-8-8zm-166 0h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-498 0h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm332 0h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-166 0h-56c-4.4 0 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap search {
+        internal static string Right {
             get {
-                object obj = ResourceManager.GetObject("search", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("Right", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;radius-upleft&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M656 200h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm58 624h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM192 650h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 174h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm696-696h-56c-4.4 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap TL {
+        internal static string TL {
             get {
-                object obj = ResourceManager.GetObject("TL", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("TL", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;border-top&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M872 144H152c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM208 310h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 498h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0-332h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 166h-56c-4.4 0-8  [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap Top {
+        internal static string Top {
             get {
-                object obj = ResourceManager.GetObject("Top", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("Top", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        ///   查找类似 &lt;svg viewBox=&quot;64 64 896 896&quot; focusable=&quot;false&quot; data-icon=&quot;radius-upright&quot; width=&quot;1em&quot; height=&quot;1em&quot; fill=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M368 128h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-2 696h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm522-174h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 174h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM192 128h-56c-4. [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static System.Drawing.Bitmap TR {
+        internal static string TR {
             get {
-                object obj = ResourceManager.GetObject("TR", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("TR", resourceCulture);
             }
         }
     }

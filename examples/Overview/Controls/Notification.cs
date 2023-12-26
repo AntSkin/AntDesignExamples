@@ -31,6 +31,14 @@ namespace Overview.Controls
 
         private void button2_Click(object sender, EventArgs e)
         {
+            AntDesign.Notification.open(new AntDesign.Notification.Config((Form)Parent, "Notification " + button2.Text, "Hello, Ant Design!", AntDesign.TType.None, AntDesign.TAlignFrom.TR, Font)
+            {
+                Link = new AntDesign.Notification.ConfigLink("前往查看2", () =>
+                {
+                    MessageBox.Show("点击超链接");
+                })
+            });
+            return;
             AntDesign.Notification.info((Form)Parent, "Notification " + button2.Text, "Hello, Ant Design!", AntDesign.TAlignFrom.TR, Font);
         }
 

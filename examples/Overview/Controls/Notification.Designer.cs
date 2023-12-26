@@ -177,7 +177,7 @@ namespace Overview.Controls
             // button4
             // 
             button4.AutoSize = AntDesign.TAutoSize.Auto;
-            button4.Image = Properties.Resources.BR;
+            button4.ImageSvg = Properties.Resources.BR;
             button4.Location = new Point(169, 69);
             button4.Name = "button4";
             button4.Size = new Size(166, 54);
@@ -189,7 +189,7 @@ namespace Overview.Controls
             // button6
             // 
             button6.AutoSize = AntDesign.TAutoSize.Auto;
-            button6.Image = Properties.Resources.Bottom;
+            button6.ImageSvg = Properties.Resources.Bottom;
             button6.Location = new Point(169, 129);
             button6.Name = "button6";
             button6.Size = new Size(124, 54);
@@ -201,7 +201,7 @@ namespace Overview.Controls
             // button2
             // 
             button2.AutoSize = AntDesign.TAutoSize.Auto;
-            button2.Image = Properties.Resources.TR;
+            button2.ImageSvg = Properties.Resources.TR;
             button2.Location = new Point(169, 9);
             button2.Name = "button2";
             button2.Size = new Size(134, 54);
@@ -213,7 +213,7 @@ namespace Overview.Controls
             // button5
             // 
             button5.AutoSize = AntDesign.TAutoSize.Auto;
-            button5.Image = Properties.Resources.Top;
+            button5.ImageSvg = Properties.Resources.Top;
             button5.Location = new Point(14, 129);
             button5.Name = "button5";
             button5.Size = new Size(92, 54);
@@ -225,7 +225,7 @@ namespace Overview.Controls
             // button3
             // 
             button3.AutoSize = AntDesign.TAutoSize.Auto;
-            button3.Image = Properties.Resources.BL;
+            button3.ImageSvg = Properties.Resources.BL;
             button3.Location = new Point(14, 69);
             button3.Name = "button3";
             button3.Size = new Size(153, 54);
@@ -237,7 +237,7 @@ namespace Overview.Controls
             // button1
             // 
             button1.AutoSize = AntDesign.TAutoSize.Auto;
-            button1.Image = Properties.Resources.TL;
+            button1.ImageSvg = Properties.Resources.TL;
             button1.Location = new Point(14, 9);
             button1.Name = "button1";
             button1.Size = new Size(121, 54);

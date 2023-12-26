@@ -202,7 +202,7 @@ namespace Overview
             // 
             // input7
             // 
-            input7.Image = Properties.Resources.close;
+            input7.ImageSvg = Properties.Resources.icon_poweroff;
             input7.Items.AddRange(new object[] { "321", "321321" });
             input7.List = true;
             input7.Location = new Point(354, 269);
@@ -214,7 +214,7 @@ namespace Overview
             // 
             // input6
             // 
-            input6.Image = Properties.Resources.close;
+            input6.ImageSvg = Properties.Resources.icon_poweroff;
             input6.Location = new Point(186, 269);
             input6.Multiline = true;
             input6.Name = "input6";
@@ -224,7 +224,7 @@ namespace Overview
             // 
             // input4
             // 
-            input4.Image = Properties.Resources.close;
+            input4.ImageSvg = Properties.Resources.icon_poweroff;
             input4.Location = new Point(186, 58);
             input4.Name = "input4";
             input4.PlaceholderText = "水印";
@@ -233,7 +233,7 @@ namespace Overview
             // 
             // input2
             // 
-            input2.Image = Properties.Resources.close;
+            input2.ImageSvg = Properties.Resources.icon_poweroff;
             input2.Location = new Point(186, 12);
             input2.Name = "input2";
             input2.Size = new Size(152, 44);
@@ -256,7 +256,7 @@ namespace Overview
             // button29
             // 
             button29.BorderWidth = 1F;
-            button29.Image = Properties.Resources.search;
+            button29.ImageSvg = Properties.Resources.icon_search;
             button29.Location = new Point(528, 61);
             button29.Name = "button29";
             button29.ShowArrow = true;
@@ -282,7 +282,7 @@ namespace Overview
             // 
             button217.BorderWidth = 1F;
             button217.Ghost = true;
-            button217.Image = Properties.Resources.close;
+            button217.ImageSvg = Properties.Resources.icon_poweroff;
             button217.Location = new Point(528, 208);
             button217.Name = "button217";
             button217.ShowArrow = true;
@@ -319,7 +319,7 @@ namespace Overview
             // button25
             // 
             button25.BorderWidth = 1F;
-            button25.Image = Properties.Resources.search;
+            button25.ImageSvg = Properties.Resources.icon_search;
             button25.Location = new Point(528, 12);
             button25.Name = "button25";
             button25.ShowArrow = true;
@@ -345,7 +345,7 @@ namespace Overview
             // button219
             // 
             button219.Ghost = true;
-            button219.Image = Properties.Resources.close;
+            button219.ImageSvg = Properties.Resources.icon_poweroff;
             button219.IsLink = true;
             button219.Location = new Point(528, 158);
             button219.Name = "button219";
@@ -359,7 +359,7 @@ namespace Overview
             // 
             button24.AutoSize = AntDesign.TAutoSize.Auto;
             button24.BorderWidth = 1F;
-            button24.Image = Properties.Resources.close;
+            button24.ImageSvg = Properties.Resources.icon_poweroff;
             button24.Location = new Point(186, 208);
             button24.Name = "button24";
             button24.ShowArrow = true;
@@ -372,7 +372,7 @@ namespace Overview
             // 
             button215.BorderWidth = 1F;
             button215.Ghost = true;
-            button215.Image = Properties.Resources.close;
+            button215.ImageSvg = Properties.Resources.icon_poweroff;
             button215.IsLink = true;
             button215.Location = new Point(528, 108);
             button215.Name = "button215";
@@ -440,7 +440,7 @@ namespace Overview
             // 
             button23.AutoSize = AntDesign.TAutoSize.Auto;
             button23.BorderWidth = 1F;
-            button23.Image = Properties.Resources.close;
+            button23.ImageSvg = Properties.Resources.icon_poweroff;
             button23.IsLink = true;
             button23.Location = new Point(186, 158);
             button23.Name = "button23";

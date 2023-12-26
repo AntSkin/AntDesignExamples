@@ -128,7 +128,7 @@ namespace Overview.Controls
             // button9
             // 
             button9.AutoSize = AntDesign.TAutoSize.Auto;
-            button9.Image = Properties.Resources.search;
+            button9.ImageSvg = Properties.Resources.icon_search;
             button9.Location = new Point(56, 3);
             button9.Name = "button9";
             button9.Size = new Size(94, 46);
@@ -140,7 +140,7 @@ namespace Overview.Controls
             // button7
             // 
             button7.AutoSize = AntDesign.TAutoSize.Auto;
-            button7.Image = Properties.Resources.close;
+            button7.ImageSvg = Properties.Resources.icon_poweroff;
             button7.Location = new Point(3, 3);
             button7.Name = "button7";
             button7.Shape = AntDesign.TShape.Circle;
@@ -269,7 +269,7 @@ namespace Overview.Controls
             button20.BackActive = Color.FromArgb(147, 51, 234);
             button20.BackHover = Color.FromArgb(147, 51, 234);
             button20.Dock = DockStyle.Left;
-            button20.Image = Properties.Resources.search;
+            button20.ImageSvg = Properties.Resources.icon_search;
             button20.JoinRight = true;
             button20.Location = new Point(0, 0);
             button20.Margins = 0;
@@ -321,7 +321,7 @@ namespace Overview.Controls
             // button25
             // 
             button25.BorderWidth = 1F;
-            button25.Image = Properties.Resources.search;
+            button25.ImageSvg = Properties.Resources.icon_search;
             button25.Location = new Point(161, 3);
             button25.Name = "button25";
             button25.ShowArrow = true;
@@ -336,7 +336,7 @@ namespace Overview.Controls
             // 
             button23.AutoSize = AntDesign.TAutoSize.Auto;
             button23.BorderWidth = 1F;
-            button23.Image = Properties.Resources.close;
+            button23.ImageSvg = Properties.Resources.icon_poweroff;
             button23.IsLink = true;
             button23.Location = new Point(319, 3);
             button23.Name = "button23";
@@ -430,7 +430,7 @@ namespace Overview.Controls
             // 
             button1.AutoSize = AntDesign.TAutoSize.Auto;
             button1.BorderWidth = 1F;
-            button1.Image = Properties.Resources.close;
+            button1.ImageSvg = Properties.Resources.icon_poweroff;
             button1.Location = new Point(156, 3);
             button1.Name = "button1";
             button1.Shape = AntDesign.TShape.Circle;
@@ -444,6 +444,7 @@ namespace Overview.Controls
             button4.BorderWidth = 1F;
             button4.Location = new Point(209, 3);
             button4.Name = "button4";
+            button4.ImageSvg = Properties.Resources.icon_search;
             button4.Size = new Size(67, 46);
             button4.TabIndex = 2;
             button4.Text = "搜索";
@@ -453,7 +454,7 @@ namespace Overview.Controls
             // 
             button26.AutoSize = AntDesign.TAutoSize.Auto;
             button26.BorderWidth = 2F;
-            button26.Image = Properties.Resources.search;
+            button26.ImageSvg = Properties.Resources.icon_search;
             button26.Location = new Point(282, 3);
             button26.Name = "button26";
             button26.Shape = AntDesign.TShape.Circle;
@@ -465,7 +466,7 @@ namespace Overview.Controls
             // button6
             // 
             button6.AutoSize = AntDesign.TAutoSize.Auto;
-            button6.Image = Properties.Resources.search;
+            button6.ImageSvg = Properties.Resources.icon_search;
             button6.Location = new Point(335, 3);
             button6.Name = "button6";
             button6.Size = new Size(94, 46);

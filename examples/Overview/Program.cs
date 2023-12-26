@@ -25,7 +25,6 @@ namespace Overview
         [STAThread]
         static void Main()
         {
-            AntDesign.Config.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main());

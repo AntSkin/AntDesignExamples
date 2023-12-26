@@ -82,7 +82,7 @@ namespace Overview.Controls
             // 
             button7.AutoSize = AntDesign.TAutoSize.Auto;
             button7.ForeColor = Color.White;
-            button7.Image = Properties.Resources.close;
+            button7.ImageSvg = Properties.Resources.icon_poweroff;
             button7.Items.AddRange(new object[] { "菜单1", "菜单2", "菜单3" });
             button7.Location = new Point(386, 3);
             button7.Name = "button7";
@@ -123,7 +123,7 @@ namespace Overview.Controls
             // 
             button4.AutoSize = AntDesign.TAutoSize.Auto;
             button4.DropDownArrow = true;
-            button4.Image = Properties.Resources.BR;
+            button4.ImageSvg = Properties.Resources.BR;
             button4.Items.AddRange(new object[] { "one st menu item", "two nd menu item", "three rd menu item", "four menu item", "five menu item", "six six six menu item" });
             button4.Location = new Point(296, 93);
             button4.Name = "button4";
@@ -137,7 +137,7 @@ namespace Overview.Controls
             // 
             button6.AutoSize = AntDesign.TAutoSize.Auto;
             button6.DropDownArrow = true;
-            button6.Image = Properties.Resources.Bottom;
+            button6.ImageSvg = Properties.Resources.Bottom;
             button6.Items.AddRange(new object[] { "one st menu item", "two nd menu item", "three rd menu item", "four menu item", "five menu item", "six six six menu item" });
             button6.Location = new Point(171, 93);
             button6.Name = "button6";
@@ -151,7 +151,7 @@ namespace Overview.Controls
             // 
             button2.AutoSize = AntDesign.TAutoSize.Auto;
             button2.DropDownArrow = true;
-            button2.Image = Properties.Resources.TR;
+            button2.ImageSvg = Properties.Resources.TR;
             button2.Items.AddRange(new object[] { "one st menu item", "two nd menu item", "three rd menu item", "four menu item", "five menu item", "six six six menu item" });
             button2.Location = new Point(328, 15);
             button2.Name = "button2";
@@ -165,7 +165,7 @@ namespace Overview.Controls
             // 
             button5.AutoSize = AntDesign.TAutoSize.Auto;
             button5.DropDownArrow = true;
-            button5.Image = Properties.Resources.Top;
+            button5.ImageSvg = Properties.Resources.Top;
             button5.Items.AddRange(new object[] { "one st menu item", "two nd menu item", "three rd menu item", "four menu item", "five menu item", "six six six menu item" });
             button5.Location = new Point(187, 15);
             button5.Name = "button5";
@@ -179,7 +179,7 @@ namespace Overview.Controls
             // 
             button3.AutoSize = AntDesign.TAutoSize.Auto;
             button3.DropDownArrow = true;
-            button3.Image = Properties.Resources.BL;
+            button3.ImageSvg = Properties.Resources.BL;
             button3.Items.AddRange(new object[] { "one st menu item", "two nd menu item", "three rd menu item", "four menu item", "five menu item", "six six six menu item" });
             button3.Location = new Point(14, 93);
             button3.Name = "button3";
@@ -192,7 +192,7 @@ namespace Overview.Controls
             // 
             button8.AutoSize = AntDesign.TAutoSize.Auto;
             button8.DropDownArrow = true;
-            button8.Image = Properties.Resources.TL;
+            button8.ImageSvg = Properties.Resources.TL;
             button8.Items.AddRange(new object[] { "one st menu item", "two nd menu item", "three rd menu item", "four menu item", "five menu item", "six six six menu item" });
             button8.Location = new Point(14, 15);
             button8.Name = "button8";
