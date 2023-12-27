@@ -50,6 +50,7 @@ namespace Overview
             divider2 = new AntDesign.Divider();
             flowPanel = new FlowLayoutPanel();
             windowBar = new AntDesign.WindowBar();
+            colorPicker1 = new AntDesign.ColorPicker();
             windowBar.SuspendLayout();
             SuspendLayout();
             // 
@@ -99,16 +100,27 @@ namespace Overview
             // 
             // windowBar
             // 
+            windowBar.Controls.Add(colorPicker1);
             windowBar.Controls.Add(btn_mode);
             windowBar.Controls.Add(btn_back);
             windowBar.Dock = DockStyle.Top;
-            windowBar.IconSvg = Properties.Resources.logo;
+            windowBar.Icon = Properties.Resources.logo;
             windowBar.Location = new Point(0, 0);
             windowBar.Name = "windowBar";
             windowBar.Size = new Size(1300, 40);
             windowBar.SubText = "Overview";
             windowBar.TabIndex = 0;
             windowBar.Text = "Ant Design 5.0";
+            // 
+            // colorPicker1
+            // 
+            colorPicker1.Dock = DockStyle.Right;
+            colorPicker1.Location = new Point(1054, 0);
+            colorPicker1.Name = "colorPicker1";
+            colorPicker1.Padding = new Padding(5);
+            colorPicker1.Size = new Size(40, 40);
+            colorPicker1.TabIndex = 8;
+            colorPicker1.Value = Color.FromArgb(22, 119, 255);
             // 
             // Main
             // 
@@ -132,5 +144,6 @@ namespace Overview
         private FlowLayoutPanel flowPanel;
         private AntDesign.Button btn_back;
         private AntDesign.WindowBar windowBar;
+        private AntDesign.ColorPicker colorPicker1;
     }
 }

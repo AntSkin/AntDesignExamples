@@ -19,6 +19,7 @@ https://ant-design.antgroup.com/components/overview-cn
 - 📦 无边框窗口，拥有原生窗口特性
 - 💎 3D翻转效果
 - 👚 主题配置
+- 🦜 SVG矢量图
 - 👓 DPI适配
 
 ### 🖥支持环境
@@ -43,7 +44,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Pagination** 分页 | ✅ | ✅ |
 :arrow_right: | **Steps** 步骤条 | ❎ | ❎ |
 ||||
-:arrow_down: | 数据录入 `10` | 动画 | 禁用 |
+:arrow_down: | 数据录入 `11` | 动画 | 禁用 |
 :arrow_right: | **Checkbox** 多选框 | ✅ | ✅ |
 :arrow_right: | **ColorPicker** 颜色选择器 | ✅ | ✅ |
 :arrow_right: | **DatePicker** 日期选择框 | ✅ | ✅ |
@@ -51,11 +52,12 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Input** 输入框 | ✅ | ✅ |
 :arrow_right: | **InputNumber** 数字输入框 | ✅ | ✅ |
 :arrow_right: | **Radio** 单选框 | ✅ | ✅ |
+:arrow_right: | **Rate** 评分 | ✅ | ❎ |
 :arrow_right: | **Select** 选择器 | ✅ | ✅ |
 :arrow_right: | **Slider** 滑动输入条 | ✅ | ❎ |
 :arrow_right: | **Switch** 开关 | ✅ | ✅ |
 ||||
-:arrow_down: | 数据展示 `12` | 动画 | 禁用 |
+:arrow_down: | 数据展示 `11` | 动画 | 禁用 |
 :arrow_right: | **Avatar** 头像 | ❎ | ❎ |
 :arrow_right: | **Badge** 徽标数 | ✅ | ❎ |
 :arrow_right: | **Panel** 面板 | ✅ | ❎ |
@@ -67,7 +69,6 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Timeline** 时间轴 | ❎ | ❎ |
 :arrow_right: | **Tooltip** 文字提示 | ✅ | ❎ |
 :arrow_right: | **Tree** 树形控件 | ✅ | ✅ |
-:arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
 ||||
 :arrow_down: | 反馈 `7` | 动画 | 禁用 |
 :arrow_right: | **Alert** 警告提示 | ✅ | ❎ |
@@ -77,6 +78,10 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Notification** 通知提醒框 | ✅ | ❎ |
 :arrow_right: | **Progress** 进度条 | ✅ | ❎ |
 :arrow_right: | **Spin** 加载中 | ✅ | ❎ |
+||||
+:arrow_down: | 其他 `2` | 动画 | 禁用 |
+:arrow_right: | **WindowBar** 窗口栏 | ✅ | ❎ |
+:arrow_right: | **Image3D** 图片3D | ✅ | ❎ |
 
 ### 🎨截图
 
