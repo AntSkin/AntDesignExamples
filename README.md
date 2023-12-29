@@ -65,7 +65,7 @@ https://ant-design.antgroup.com/components/overview-cn
 :arrow_right: | **Popover** 气泡卡片 | ✅ | ❎ |
 :arrow_right: | **Segmented** 分段控制器 | ✅ | ❎ |
 :arrow_right: | **Tabs** 标签页 | ✅ | ❎ |
-:arrow_right: | **Tab** 标签 | ✅ | ❎ |
+:arrow_right: | **Tag** 标签 | ✅ | ❎ |
 :arrow_right: | **Timeline** 时间轴 | ❎ | ❎ |
 :arrow_right: | **Tooltip** 文字提示 | ✅ | ❎ |
 :arrow_right: | **Tree** 树形控件 | ✅ | ✅ |
